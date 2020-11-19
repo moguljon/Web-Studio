@@ -1,7 +1,7 @@
 import React from 'react';
 import './Booking.scss';
-import { Link } from 'react-router-dom';
-import logo from './img/logo.png';
+// import { Link } from 'react-router-dom';
+// import logo from './img/logo.png';
 import {Helmet} from "react-helmet";
 // import Navigation from '../Navigation/Navigation';
 
@@ -12,16 +12,16 @@ const Booking = () => {
          <title>Booking - Web Studios</title>
          <meta name="description" content='Contact Web Stuidos with potential new projects and questions you may have. Thank you for visiting us.' />
       </Helmet>
-      <div className='header__logo-box'>
+      {/* <div className='header__logo-box'>
         <Link to='/'>
           <img src={logo} alt='alt' className='header__logo'/>
         </Link>
-      </div>
+      </div> */}
 
       <div className='row'>
         <div className='book'>
           <div className='book__form'>
-            <form name='contact' netlify netlify-honeypot="bot-field" action='/contact' method='post' className='form'>
+            <form name='contact' netlify='true' netlify-honeypot="bot-field" action='/contact' method='post' className='form'>
 
               <div className='u-margin-bottom-medium'>
                 <h2 className='heading-secondary header-booking'>Contact Us</h2>

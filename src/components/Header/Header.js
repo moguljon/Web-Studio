@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.scss';
-import logo from './img/logo-white.png';
+// import logo from './img/logo-white.png';
 
 
 import { Link } from 'react-router-dom';
@@ -18,12 +18,12 @@ const Header = () => {
       </div> */}
 
      
-
+{/* 
       <div className='header__logo-box'>
         <Link to='/'>
           <img src={logo} alt='alt' className='header__logo'/>
         </Link>
-      </div>
+      </div> */}
       <div className='header__text-box'>
         <h1 className='heading-primary'>
           <span className='heading-primary--main'>Web Studios</span>

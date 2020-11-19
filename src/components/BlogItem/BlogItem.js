@@ -6,9 +6,9 @@ import aws from './img/aws.png';
 import Sidebar from '../Sidebar/Sidebar';
 
 import Newsletter from '../Newsletter/Newsletter';
-import logo from './img/logo.png';
+// import logo from './img/logo.png';
 import resized from './img/resized2.jpeg';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import DifferentBlog from '../DifferntBlog/DifferntBlog';
 import {Helmet} from "react-helmet";
 
@@ -20,11 +20,11 @@ function BlogItem() {
          <meta name="description" content='Techie monthly are articles every month that focuses on the technologies everyone should get into because they are hot, and awesome.' />
         </Helmet>
         <Sidebar />
-        <div className='header__logo-box'>
+        {/* <div className='header__logo-box'>
           <Link to='/'>
             <img src={logo} alt='alt' className='header__logo'/>
           </Link>
-        </div>
+        </div> */}
         <div className='section-blogItem__container--box'>
           <h2 className='section-blogItem__header--two' >Amazing Technologies Right Now  <span role='img' aria-label="Close">💻🚀</span> </h2>
           <img src={resized} className='section-blogItem__image' alt='me' />
