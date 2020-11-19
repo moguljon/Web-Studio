@@ -43,7 +43,7 @@ class Navigation extends Component {
         </Link>
       </div>
         <ul className='nav__list'>
-          <li className='nav__item'>
+          <li className='nav__item home'>
             <Link to='/' className='nav__link dark'>Home</Link>
           </li>
           <li className='nav__item'>
