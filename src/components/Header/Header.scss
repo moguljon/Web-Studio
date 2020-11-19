@@ -15,9 +15,10 @@
   background-attachment: fixed;
   
   @include respond(tab-port) {
-    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    // background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/main-small.jpg);
-    background: url(img/main-small.jpg);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(img/main-small.jpg);
+    background-repeat: no-repeat;
+    height: 90vh;
   }
 
   &__logo-box {
@@ -86,7 +87,7 @@
 
     
   @include respond(phone) {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   }
 
@@ -98,7 +99,7 @@
     animation: moveLeft 1s ease-out;
 
     @include respond(phone) {
-      font-size: 2rem;
+      font-size: 1.6rem;
     }
   }
 }

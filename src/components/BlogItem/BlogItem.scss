@@ -1,9 +1,11 @@
+@import './src/index.scss';
+
 .section-blogItem {
   padding: 15rem 0;
 
-  &__section-blogItem__row {
-    margin: 0 auto;
-  }
+  // &__section-blogItem__row {
+  //   margin: 0 auto;
+  // }
 
   &__image {
     width: 10%;
@@ -20,6 +22,10 @@
     width: 50%;
     margin: 0 auto;
     margin-bottom: 8rem;
+
+    @include respond(phone) {
+      width: 80%;
+    }
   }
 
   &__tags {
