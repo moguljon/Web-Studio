@@ -1,6 +1,7 @@
 @import './src/index.scss';
 
 .bg-video {
+  display: none;
   @include respond(tab-port) {
     display: none;
   }
@@ -8,7 +9,7 @@
 .header {
   position: relative;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/main-small.jpg);
   background-size: cover;
   background-position: center;
   clip-path: polygon(0 0, 100% 0, 100% 77vh, 0 100%);
