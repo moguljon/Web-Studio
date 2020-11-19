@@ -20,7 +20,7 @@ const Journey = () => {
           <Link to='/'>
             <img src={logo} alt='alt' className='header__logo'/>
           </Link>
-        </div>
+      </div>
       <div className='section-blogItem__container--box'>
         <h2 className='section-blogItem__header--two' >How I studied and landed my first interview in 9 months.<span role='img' aria-label="Close"> 💻🤖 </span> </h2>
         <img src={me} className='section-blogItem__image' alt='me' />

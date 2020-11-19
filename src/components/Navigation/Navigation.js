@@ -5,14 +5,10 @@ import { Link } from 'react-router-dom';
 
 import logo from './img/logo.png';
 class Navigation extends Component {
-
-
   render() {
     return(
       <section className='navigaiton'>
-        
         <input type='checkbox' className='navigation__checkbox' id='navi-toggle'></input>
-  
         <label htmlFor='navi-toggle' className='navigation__button'>
           <span className='navigation__icon'>
             &nbsp;
@@ -21,7 +17,6 @@ class Navigation extends Component {
 
   
         <div className='navigation__background'>&nbsp;</div>
-       
         <nav className='navigation__nav'>
         <h2 style={{color: "white", fontSize: '2.2rem', letterSpacing: '2px'}} className='tc'>Web Studios </h2>
           <ul className='navigation__list'>
@@ -42,7 +37,6 @@ class Navigation extends Component {
 
         
       <nav className='nav'>
-        
       <div className='header__logo-box'>
         <Link to='/'>
           <img src={logo} alt='alt' className='header__logo'/>

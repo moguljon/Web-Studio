@@ -17,10 +17,11 @@
   
   @include respond(tab-port) {
     clip-path: polygon(0 0, 100% 0, 100% 45vh, 0 100%);
-    // background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(img/main-small.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(img/main-small.jpg);
     background-repeat: no-repeat;
     height: 55vh;
-    background:  url(img/main-small.jpg);
+    
+  
   }
 
   &__logo-box {
