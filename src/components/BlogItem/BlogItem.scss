@@ -19,12 +19,12 @@
   }
 
   &__box {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     margin-bottom: 8rem;
 
     @include respond(phone) {
-      width: 80%;
+      width: 100%;
     }
   }
 

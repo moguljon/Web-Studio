@@ -21,7 +21,11 @@ class Navigation extends Component {
 
   
         <div className='navigation__background'>&nbsp;</div>
+       
         <nav className='navigation__nav'>
+        <Link to='/'>
+          <img src={logo} alt='alt' className='header__logo'/>
+        </Link>
           <ul className='navigation__list'>
             <li className='navigation__item'>
               <Link to='/' className='navigation__link'><span>01</span> Home</Link>

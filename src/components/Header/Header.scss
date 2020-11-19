@@ -16,9 +16,10 @@
   
   @include respond(tab-port) {
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(img/main-small.jpg);
+    // background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(img/main-small.jpg);
     background-repeat: no-repeat;
     height: 90vh;
+    background:  url(img/main-small.jpg);
   }
 
   &__logo-box {
