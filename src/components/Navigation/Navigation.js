@@ -11,32 +11,32 @@ class Navigation extends Component {
     return(
       <section className='navigaiton'>
         
-        {/* <input type='checkbox' className='navigation__checkbox' id='navi-toggle'></input>
+        <input type='checkbox' className='navigation__checkbox' id='navi-toggle'></input>
   
         <label htmlFor='navi-toggle' className='navigation__button'>
           <span className='navigation__icon'>
             &nbsp;
           </span>
-        </label> */}
+        </label>
 
-{/*   
+  
         <div className='navigation__background'>&nbsp;</div>
         <nav className='navigation__nav'>
           <ul className='navigation__list'>
             <li className='navigation__item'>
-              <a href='/' className='navigation__link'><span>01</span> Home</a>
+              <a href='https://webstudios.io/' className='navigation__link'><span>01</span> Home</a>
             </li> 
             <li className='navigation__item'>
-              <a href='/Work' className='navigation__link'><span>02</span> Projects</a>
+              <a href='https://webstudios.io/work' className='navigation__link'><span>02</span> Projects</a>
             </li>
             <li className='navigation__item'>
-              <a href='/Blog' className='navigation__link'><span>03</span> Blog</a>
+              <a href='https://webstudios.io/blog' className='navigation__link'><span>03</span> Blog</a>
             </li>
             <li className='navigation__item'>
-              <a href='/Booking' className='navigation__link'><span>02</span> Booking</a>
+              <a href='https://webstudios.io/booking' className='navigation__link'><span>02</span> Booking</a>
             </li>           
           </ul>
-        </nav> */}
+        </nav>
 
         
       <nav className='nav'>
