@@ -15,12 +15,19 @@
   clip-path: polygon(0 0, 100% 0, 100% 77vh, 0 100%);
   background-attachment: fixed;
   
-  @include respond(tab-port) {
-    clip-path: polygon(0 0, 100% 0, 100% 45vh, 0 100%);
-    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(img/main-small.jpg);
-    background-repeat: no-repeat;
-    height: 55vh;
+  @include respond(phone) {
+    // clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
+    // background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(img/main-small.jpg);
+    // background-repeat: no-repeat;
+    // height: 65vh;
+
+    clip-path: polygon(0 0, 100% 0, 100% 57vh, 0 100%);
+    // background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(img/main-small.jpg);
+    // background-repeat: no-repeat;
+
+    height: 65vh;
     
+  
   
   }
 
@@ -28,11 +35,6 @@
     position: absolute;
     top: 1rem;
     left: 4rem;
-
-    @include respond(tab-port) {
-      top: 3.2rem;
-      left: 1rem;
-    }
   }
 
   &__logo {

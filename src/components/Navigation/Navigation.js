@@ -8,7 +8,7 @@ class Navigation extends Component {
   render() {
     return(
       <section className='navigaiton'>
-        <input type='checkbox' className='navigation__checkbox' id='navi-toggle'></input>
+        {/* <input type='checkbox' className='navigation__checkbox' id='navi-toggle'></input>
         <label htmlFor='navi-toggle' className='navigation__button'>
           <span className='navigation__icon'>
             &nbsp;
@@ -21,19 +21,19 @@ class Navigation extends Component {
         <h2 style={{color: "white", fontSize: '2.2rem', letterSpacing: '2px'}} className='tc'>Web Studios </h2>
           <ul className='navigation__list'>
             <li className='navigation__item'>
-              <Link to='/' className='navigation__link'><span>01</span> Home</Link>
+              <Link to='/' className='navigation__link'>Home</Link>
             </li> 
             <li className='navigation__item'>
-              <Link to='/work' className='navigation__link'><span>02</span> Projects</Link>
+              <Link to='/work' className='navigation__link'>Projects</Link>
             </li>
             <li className='navigation__item'>
-              <Link to='/blog' className='navigation__link'><span>03</span> Blog</Link>
+              <Link to='/blog' className='navigation__link'>Blog</Link>
             </li>
             <li className='navigation__item'>
-              <Link to='/booking' className='navigation__link'><span>02</span> Booking</Link>
+              <Link to='/booking' className='navigation__link'>Booking</Link>
             </li>           
           </ul>
-        </nav>
+        </nav> */}
 
         
       <nav className='nav'>
@@ -43,11 +43,11 @@ class Navigation extends Component {
         </Link>
       </div>
         <ul className='nav__list'>
-          <li className='nav__item'>
-            <Link to='/' className='nav__link dark'> Home</Link>
+          <li className='nav__item home'>
+            <a href='/' className='nav__link dark'> Home</a>
           </li>
           <li className='nav__item'>
-            <Link to='/work' className='nav__link dark'> Projects</Link>
+            <a href='/work' className='nav__link dark'> Projects</a>
           </li>
           <li className='nav__item'>
             <Link to='/blog' className='nav__link dark'>Blog</Link>
