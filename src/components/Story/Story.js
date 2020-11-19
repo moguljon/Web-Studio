@@ -19,8 +19,10 @@ const Story = () => {
       </div>
       
         <div className='story' style={{display: 'flex'}} >
-          <div className='section-stories__container--one'>
-            <img src={resized} alt='' className='section-stories__image' />`
+          <div className='section-stories__container--one tc'>
+            <img src={resized} alt='' className='section-stories__image' />
+            <p>Jonathan Aguilar</p>
+            <p>Founder</p>
           </div>
           <div className='section-stories__container--two'>   
             <h3 className='heading-teritary u-margin-bottom-small'><span role='img' aria-label='eng'>👋 </span>Hi I'm Jonathan Aguilar</h3>

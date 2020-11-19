@@ -17,9 +17,11 @@ const Courses = () => {
          <meta name="description" content='Course hero monthly gives you an insight on the best courses to get you hired as a software engineer and fast track you to a successful career' />
         </Helmet>
         <Sidebar />
-       <Link to='/'>
-          <img src={logo} alt='alt' className='header__logo'/>
-        </Link>
+        <div className='header__logo-box'>
+          <Link to='/'>
+            <img src={logo} alt='alt' className='header__logo'/>
+          </Link>
+        </div>
         <div className='section-blogItem__container--box'>
           <h2 className='section-blogItem__header--two' >Best Udemy Courses for Web Development <span role='img' aria-label="Close">💻🚀</span> </h2>
           <img src={me} className='section-blogItem__image' alt='me' />
