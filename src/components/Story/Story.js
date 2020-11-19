@@ -1,7 +1,7 @@
 import React from 'react';
 import './Story.scss';
-import Mockup from './img/video2.mp4';
-import Mockup1 from './img/video.webm';
+// import Mockup from './img/video2.mp4';
+// import Mockup1 from './img/video.webm';
 import resized from './img/resized2.jpeg';
 
 const Story = () => {
