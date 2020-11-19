@@ -1,6 +1,6 @@
 import React from 'react';
 import './BlogItem.scss';
-import react1 from './img/React1.jpg';
+import React1 from './img/React1.jpg';
 import sass from './img/sass.png';
 import aws from './img/aws.png';
 import Sidebar from '../Sidebar/Sidebar';
@@ -35,7 +35,7 @@ function BlogItem() {
         </div>
         
         <div className='section-blogItem__box'>
-          <img src={react1} alt='' className='section-blogItem__img'/>
+          <img src={React1} alt='' className='section-blogItem__img'/>
           <p className='credit'>Picture by https://codewithmosh.com/p/mastering-react</p>
           <h3 className='section-blogItem__header--three heading-secondary u-margin-top-large header-courses'>React</h3>
           <p className='section-blogItem__paragraph--one'>
