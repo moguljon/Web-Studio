@@ -1,11 +1,11 @@
 @import './src/index.scss';
 
-.bg-video {
-  display: none;
-  @include respond(tab-port) {
-    display: none;
-  }
-}
+// .bg-video {
+//   display: none;
+//   @include respond(tab-port) {
+//     display: none;
+//   }
+// }
 .header {
   position: relative;
   height: 100vh;
@@ -16,10 +16,10 @@
   background-attachment: fixed;
   
   @include respond(tab-port) {
-    clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 45vh, 0 100%);
     // background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(img/main-small.jpg);
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 60vh;
     background:  url(img/main-small.jpg);
   }
 
