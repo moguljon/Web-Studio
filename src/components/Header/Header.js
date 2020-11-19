@@ -2,8 +2,7 @@ import React from 'react';
 import './Header.scss';
 import logo from './img/logo-white.png';
 
-import Mockup from './img/free.mp4';
-import Mockup1 from './img/video.webm';
+
 import { Link } from 'react-router-dom';
 
 
