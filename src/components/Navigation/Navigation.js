@@ -24,16 +24,16 @@ class Navigation extends Component {
         <nav className='navigation__nav'>
           <ul className='navigation__list'>
             <li className='navigation__item'>
-              <a href='https://webstudios.io/' className='navigation__link'><span>01</span> Home</a>
+              <Link to='/' className='navigation__link'><span>01</span> Home</Link>
             </li> 
             <li className='navigation__item'>
-              <a href='https://webstudios.io/work' className='navigation__link'><span>02</span> Projects</a>
+              <Link to='/work' className='navigation__link'><span>02</span> Projects</Link>
             </li>
             <li className='navigation__item'>
-              <a href='https://webstudios.io/blog' className='navigation__link'><span>03</span> Blog</a>
+              <Link to='/blog' className='navigation__link'><span>03</span> Blog</Link>
             </li>
             <li className='navigation__item'>
-              <a href='https://webstudios.io/booking' className='navigation__link'><span>02</span> Booking</a>
+              <Link to='/booking' className='navigation__link'><span>02</span> Booking</Link>
             </li>           
           </ul>
         </nav>

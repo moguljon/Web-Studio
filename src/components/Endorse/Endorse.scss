@@ -9,6 +9,11 @@
   transition: box-shadow 0.4s ease-in-out 0s;
   margin-top: -30vh;
 
+
+  @include respond(tab-port) {
+    display: none;
+  }
+
   &__paragraph {
     font-size: 2rem;
     margin-bottom: 3rem;
