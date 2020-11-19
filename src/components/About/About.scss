@@ -1,0 +1,178 @@
+@import './src/index.scss';
+
+.row {
+  max-width: $grid-width;
+  margin: 0 auto;
+
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+
+    @include respond(tab-port) {
+      margin-bottom: $gutter-vertical-small;
+    }
+  }
+
+  @include respond(tab-port) {
+   max-width: 50rem;
+  }
+
+  @include clearfix();
+
+  //select all
+  [class^='col-'] {
+    float: left;
+
+    &:not(:last-child) {
+      margin-right: $horrizontal-gutter;
+
+      @include respond(tab-port) {
+        margin-right: 0;
+        margin-bottom: $gutter-vertical-small;
+      }
+    }
+
+    @include respond(tab-port) {
+      width: 100% !important;
+    }
+  }
+
+  .col-1-of-2 {
+    width: calc((100% - #{$horrizontal-gutter}) / 2);
+  }
+}
+
+
+//Section About
+.section-about {
+  background-color: $color-grey;
+  padding: 2rem 0 30rem 0;
+  margin-top: -2vh;
+
+  @include respond(tab-port) {
+    padding: 2rem 0 30rem 0;
+  }
+}
+
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image: linear-gradient(to right, $main-color, $secondary-color);
+  display: inline-block;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+  transition: all .2s;
+  margin-top: 15rem;
+
+  @include respond(tab-port) {
+    font-size: 3rem;
+  }
+
+  @include respond(tab-port) {
+    font-size: 2.5rem;
+  }
+
+  &:hover {
+    transform: skewY(2deg) skewX(15deg) scaleX(1.1);
+    text-shadow: .5rem 1rem 2rem rgba($secondary-color, .2);
+  }
+}
+
+.heading-teritary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
+.btn-text {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    display: inline-block;
+    color: $secondary-color;
+    font-size: $default-font;
+    color: $main-color;
+    border-bottom: 1px solid $main-color;
+    padding: 3px;
+    transition: all .2s;
+  }
+
+  &:hover {
+    color: $color-white;
+    background-color: $main-color;
+    box-shadow: 0 1rem 2rem rgba($secondary-color, .15);
+    transform: translateY(-2px);
+  }
+
+  &:active{
+    box-shadow: 0 .5rem 2rem rgba($secondary-color, .15);
+    transform: translateY(0);
+  }
+}
+
+.composition {
+  position: relative;
+  &__photo {
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba($secondary-color, .4);
+    border-radius: 2px;
+    position: absolute;
+    z-index: 10;
+    transition: all .2s;
+
+    @include respond(tab-port) {
+      float: left;
+      position: relative;
+      width: 33.33333333%;
+      box-shadow: 0 1.5rem 3rem rgba($secondary-color, .2);
+    }
+
+    &--p1 {
+      left: 0;
+      top: -2rem;
+
+      @include respond(tab-port) {
+        top: 0;
+        transform: scale(1.2);
+      }
+    }
+
+    &--p2 {
+      right: -1rem;
+      top: 2rem;
+
+      @include respond(tab-port) {
+        top: 0;
+        transform: scale(1.5);
+        z-index: 100;
+      }
+    }
+
+    &--p3 {
+      left: 20%;
+      top: 3rem;
+
+      @include respond(tab-port) {
+        top: 1rem;
+        left:  0;
+        transform: scale(1.1);
+      }
+    }
+
+    &:hover {
+      outline: 1.5rem solid $main-color;
+      transform: scale(1.15);
+      box-shadow: 0 2.5rem 4rem rgba($secondary-color, .5);
+      z-index: 20;
+    }
+  }
+}

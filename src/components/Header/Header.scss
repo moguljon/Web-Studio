@@ -1,0 +1,107 @@
+@import './src/index.scss';
+
+.header {
+  position: relative;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+  // background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/main-small.jpg);
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 77vh, 0 100%);
+  background-attachment: fixed;
+  
+  @include respond(tab-port) {
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  }
+
+  &__logo-box {
+    position: absolute;
+    top: 1rem;
+    left: 4rem;
+
+    @include respond(tab-port) {
+      top: 3.5rem;
+    }
+  }
+
+  &__logo {
+    height: 7.5rem;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+// .nav {
+//   text-decoration: none;
+//   &__list {
+//     display: flex;
+//     justify-content: flex-end;
+//     list-style: none;
+//   }
+
+
+//   &__link:link,
+//   &__link:visited {
+//     text-decoration: none;
+//     color: $color-white;
+//     font-size: 2.2rem;
+//     margin: 3rem 4rem 0 0;
+//     padding-top: 4rem;
+//     transition: all .3s;
+//     display: inline-block;
+//     border-bottom: 2px solid transparent;
+//   }
+
+//   &__link:hover {
+//     border-bottom: 2px solid $main-color;
+//   }
+// }
+
+
+
+
+.heading-primary {
+  color: $color-white;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+
+  backface-visibility: hidden;
+
+
+  &--main {
+    display: block;
+    font-size: 4.3rem;
+    font-weight: 400;
+    letter-spacing: 2rem;
+    animation: moveRight 1s ease-out;
+
+    
+  @include respond(phone) {
+    font-size: 2.4rem;
+    letter-spacing: 1rem;
+  }
+  }
+
+  &--secondary {
+    display: block;
+    font-weight: 300;
+    letter-spacing: .7rem;
+    font-size: 2rem;
+    animation: moveLeft 1s ease-out;
+
+    @include respond(phone) {
+      font-size: 1.4rem;
+      letter-spacing: .4rem;
+    }
+  }
+}
+
+
+
+

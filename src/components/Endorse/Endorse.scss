@@ -1,0 +1,23 @@
+@import './src/index.scss';
+
+.section-endorse {
+  color: #000;
+  padding: 25rem 0 12rem 0;
+  background: rgb(255, 255, 255);
+  border-top: 1px solid rgba(0, 0, 0, 3.06);
+  box-shadow: rgba(19, 15, 235, 0.1) 2px 4px 15px 0px;
+  transition: box-shadow 0.4s ease-in-out 0s;
+  margin-top: -30vh;
+
+  &__paragraph {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: rgb(95, 95, 95);
+  }
+
+  &__image {
+    color: $color-white;
+  }
+}
+
+

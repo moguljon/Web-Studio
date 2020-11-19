@@ -1,0 +1,63 @@
+@import './src/index.scss';
+
+.sidebar {
+  position: fixed;
+  width: 6rem;
+  transition: all 0.3s ease;
+  box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4);
+  color: #fff;
+  margin-top: 4rem;
+}
+
+.sidebar .item {
+  height: 5.5rem;
+  position:relative;
+}
+.sidebar .item .link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  transition: all .3s linear;
+}
+
+.sidebar .item:nth-child(1) a{
+  background: #4267B2;
+}
+
+.sidebar .item:nth-child(2) a{
+  background: #1DA1F2;
+}
+
+.sidebar .item:nth-child(3) a{
+  background: #E1306C;
+}
+
+.sidebar .item:nth-child(4) a{
+  background: #2867B2;
+}
+
+.sidebar .item:nth-child(5) a{
+  background: #333;
+}
+
+.sidebar .item:nth-child(6) a{
+  background: #ff0000;
+}
+
+.sidebar .item .link i{
+  position:absolute;
+  top: 1.7rem;
+  left: 2rem;
+  font-size: 2rem;
+}
+
+.link {
+  transition: all 1s;
+}
+
+.link:hover {
+  z-index: 1;
+  transform: translateY(-6px) scale(1.1);
+  box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
+}

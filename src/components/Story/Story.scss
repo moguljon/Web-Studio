@@ -1,0 +1,90 @@
+@import './src/index.scss';
+
+.section-stories {
+  padding: 0 0 16rem 0;
+  position: relative;
+
+  @include respond(tab-port) {
+   padding: 0 0 15rem 0;
+   
+  }
+
+  &__image {
+    width: 80%;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid rgb(245, 23, 103);
+
+    @include respond(tab-port) {
+      width: 100%;
+      
+      
+     }
+  }
+
+  &__container--two {
+    @include respond(tab-port) {
+      margin-left: 2rem;
+     }
+  }
+}
+
+.story {
+  margin: 0 auto;
+  //75% for mobile or less
+  width: 95%;
+  background-color: $color-white;
+  box-shadow: 0 3rem 6rem rgba($color-white, .1);
+  padding: 10rem;
+  border-radius: 3px;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  position: relative;
+  font-weight: 300;
+
+
+  @include respond(tab-port) {
+    width: 100%;
+    padding: 5rem;
+    //75% for mobile or less
+    box-shadow: 0 3rem 6rem rgba($color-white, .1);
+  }
+
+
+
+  &__shape {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    shape-outside: circle(50% at 50% 50%);
+
+    clip-path: circle(50% at 50% 50%);
+    transform: translateX(-3rem);
+  }
+
+  &__img {
+    height: 100%;
+  }
+}
+
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: .3; 
+  overflow: hidden;
+
+  &__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+  }
+
+}
+
+

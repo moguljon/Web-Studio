@@ -1,0 +1,82 @@
+@import './src/index.scss';
+
+.section-blog {
+  padding: 18rem 0 0 0;
+  // background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/resources.png');
+  background-position: center;
+  background-size: cover;
+  color: #333;
+  // height: 95vh;
+
+  &__tag {
+    border: 1px solid $other-color4;
+    display: inline-block;
+    padding: .4rem;
+    background-color: $other-color4;
+    color: $color-white;
+    margin: 1rem 0 1rem 0;
+    border-radius: 2px;
+  }
+
+  &__tag--two {
+    background-color: $other-color2;
+    border: 1px solid $other-color2;
+  }
+
+  &__tag--three {
+    background-color: $other-color5;
+    border: 1px solid $other-color6;
+  }
+  
+  &__box {
+    color: $color-white;
+    margin: 0;
+    text-align: center;
+  }
+
+  &__header--one {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    margin-top: 5rem;
+  }
+
+&__header--three {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+  &__paragraph {
+    font-size: 1.2rem;
+  }
+
+  &__other {
+    padding: 6rem 0;
+  }
+
+  &__card {
+    border: 1px solid #333;
+    height: 45rem;
+    padding: 2rem;
+    transition: all 0.5s ease;
+    border-radius: 0.3rem;
+    box-shadow: 0 1.5rem 3rem rgba($secondary-color, .15);
+
+
+    @include respond(tab-port) {
+      height: 53rem;
+    }
+
+    &:hover {
+      transform: translateY(-2rem);
+      opacity: 0.8;
+      
+    }
+  }
+}
+
+a:link,
+a:visited {
+  color: #000;
+}
