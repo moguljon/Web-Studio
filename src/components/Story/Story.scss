@@ -3,10 +3,10 @@
 .section-stories {
   padding: 0 0 16rem 0;
   position: relative;
+  background-color: #f7f7f7;
 
   @include respond(tab-port) {
    padding: 0 0 15rem 0;
-   
   }
 
   &__image {

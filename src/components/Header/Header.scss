@@ -16,7 +16,8 @@
   
   @include respond(tab-port) {
     clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/main-small.jpg);
+    // background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/main-small.jpg);
+    background: url(img/main-small.jpg);
   }
 
   &__logo-box {
@@ -36,7 +37,7 @@
 
   &__text-box {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -69,14 +70,10 @@
 //   }
 // }
 
-
-
-
 .heading-primary {
   color: $color-white;
   text-transform: uppercase;
   margin-bottom: 3rem;
-
   backface-visibility: hidden;
 
 
@@ -89,8 +86,7 @@
 
     
   @include respond(phone) {
-    font-size: 2.4rem;
-    letter-spacing: 1rem;
+    font-size: 3rem;
   }
   }
 
@@ -102,8 +98,7 @@
     animation: moveLeft 1s ease-out;
 
     @include respond(phone) {
-      font-size: 1.4rem;
-      letter-spacing: .4rem;
+      font-size: 2rem;
     }
   }
 }
