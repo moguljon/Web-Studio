@@ -8,21 +8,20 @@ import image4 from './img/logo-wordpress.png';
 const Endorse = () => { 
   return(
     <section className='section-endorse tc'>
-      <p className='section-endorse__paragraph'>We are proud being able to use these technologies and custom code to build apps:</p>
-      <div className='row tc'>
+      {/* <p className='section-endorse__paragraph'>We are proud being able to use these technologies and custom code to build apps:</p> */}
+      <div>
         
-        <div className='col-1-of-4'>
+        
           <img src={image1} alt='' className='section-endorse__image' />
-        </div>
-        <div className='col-1-of-4'>
+        
+       
           <img  src={image2} alt='' className='section-endorse__image' />
-        </div>
-        <div className='col-1-of-4'>
+     
+        
           <img  src={image3} alt='' className='section-endorse__image' />
-        </div>
-        <div className='col-1-of-4'>
+     
           <img src={image4} alt='' className='section-endorse__image' />
-        </div>
+       
       </div>
     </section>
   )
