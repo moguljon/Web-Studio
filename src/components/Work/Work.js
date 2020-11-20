@@ -5,8 +5,10 @@ import {Helmet} from "react-helmet";
 // import logo from './img/logo.png';
 import test from './img/test.jpg';
 import omnifood from './img/omnifood.jpg';
-import football from './img/football.jpg';
-
+import screenshot from './img/screenshot.png';
+import screenshot3 from './img/screenshot3.png';
+import screenshot5 from './img/screenshot5.png';
+import robots from './img/robots.png';
 
 const Work = () => {
 
@@ -52,11 +54,43 @@ const Work = () => {
             </div>
          </div>
           <div className='container'>
-            <img src={football} alt='mogul' className='image' />
+            <img src={robots} alt='mogul' className='image' />
 
             <div className='overlay overLeft'>
               <div className='text'>
-                <a href='https://moguljon.com/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
+                <a href='https://moguljon.github.io/robofriends-2.0/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
+              </div>
+            </div>
+         </div>
+        </div>
+      </div>
+     
+      <div align='center'>
+        <div>
+          <div className='container'>
+            <img src={screenshot5} alt='mogul' className='image' />
+            <div className='overlay overLeft'>
+              <div className='text'>
+                <a href='https://newsmedia.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
+              </div>
+             
+            </div>
+         </div>
+          <div className='container'>
+            <img src={screenshot3} alt='omnifood' className='image' />
+
+            <div className='overlay overLeft'>
+              <div className='text'>
+                <a href='https://portfoliojj.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
+              </div>
+            </div>
+         </div>
+          <div className='container'>
+            <img src={screenshot} alt='mogul' className='image' />
+
+            <div className='overlay overLeft'>
+              <div className='text'>
+                <a href='https://jonathanaguilarportfolio.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
               </div>
             </div>
          </div>
