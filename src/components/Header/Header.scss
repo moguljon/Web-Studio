@@ -24,8 +24,8 @@
     // background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(img/main-small.jpg);
     // background-repeat: no-repeat;
     // height: 65vh;
+    height: 90vh;
     background: #f7f7f7;
-    height: 85vh;
     clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
 
     // clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
@@ -51,6 +51,8 @@
     text-align: center;
 
     @include respond(phone) {
+      top: 50%;
+      left: 50%;
       width: 90%;
       text-align: left;
     }

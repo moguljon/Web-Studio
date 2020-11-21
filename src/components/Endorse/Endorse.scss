@@ -43,6 +43,7 @@
 
     @include respond(phone) {
       width: 20%;
+      margin-left: 2.2rem;
     }
   }
 }
