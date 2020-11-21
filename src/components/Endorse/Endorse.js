@@ -8,8 +8,9 @@ import image4 from './img/logo-wordpress.png';
 const Endorse = () => { 
   return(
     <section className='section-endorse tc'>
-      {/* <p className='section-endorse__paragraph'>We are proud being able to use these technologies and custom code to build apps:</p> */}
+      <p className='section-endorse__paragraph'>We are proud being able to use these technologies and custom code to build apps:</p>
       <div>
+       
         
         
           <img src={image1} alt='' className='section-endorse__image' />

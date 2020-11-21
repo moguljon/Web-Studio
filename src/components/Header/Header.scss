@@ -14,6 +14,10 @@
   background-position: center;
   clip-path: polygon(0 0, 100% 0, 100% 77vh, 0 100%);
   background-attachment: fixed;
+
+  @include respond(tab-port) {
+    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+  }
   
   @include respond(phone) {
     // clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
@@ -21,7 +25,7 @@
     // background-repeat: no-repeat;
     // height: 65vh;
     background: #f7f7f7;
-    height: 80vh;
+    height: 85vh;
     clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
 
     // clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);

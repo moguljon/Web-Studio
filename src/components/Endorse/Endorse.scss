@@ -9,6 +9,9 @@
   transition: box-shadow 0.4s ease-in-out 0s;
   margin-top: -30vh;
 
+  @include respond(tab-port) {
+    padding: 32rem 0 25rem 0;
+  }
 
   @include respond(phone) {
     background: #fff;
@@ -22,10 +25,25 @@
     font-size: 2rem;
     margin-bottom: 3rem;
     color: rgb(95, 95, 95);
+
+    @include respond(phone) {
+      font-size: 1.4rem;
+    }
   }
 
   &__image {
     color: $color-white;
+    margin-left: 6rem;
+    width: 17%;
+
+    @include respond(tab-port) {
+      margin-left: 0;
+      width: 20%;
+    }
+
+    @include respond(phone) {
+      width: 20%;
+    }
   }
 }
 
