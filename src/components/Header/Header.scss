@@ -21,6 +21,7 @@
     // background-repeat: no-repeat;
     // height: 65vh;
     background: #f7f7f7;
+    height: 80vh;
     clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
 
     // clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
@@ -48,9 +49,6 @@
     @include respond(phone) {
       width: 90%;
       text-align: left;
-      top: 46%;
-      left: 50%;
-    transform: translate(-50%, -50%);
     }
   }
 }

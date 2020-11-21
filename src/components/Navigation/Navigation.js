@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './Navigation.scss';
-
 import { Link } from 'react-router-dom';
-
 import logo from './img/logo.png';
 class Navigation extends Component {
   render() {
@@ -57,8 +55,6 @@ class Navigation extends Component {
           </li>
         </ul>
       </nav>
-     
-
       </section>
     )
   }
