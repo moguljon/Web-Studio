@@ -17,10 +17,7 @@
   @include respond(phone) {
     font-size: 2rem;
     font-weight: bold;
-    
-   
   }
-  
 }
 
 &:hover {
@@ -32,7 +29,7 @@
 &:focus {
   outline: none;
   transform: translateY(.3rem);
-  border-radius: 100rem;
+  border-radius: 2px;
 }
 
 &::after {
@@ -57,12 +54,12 @@
 .btn--main {
   background-color: $main-color;
   color: $color-white;
-  border-radius: 100rem;
+  border-radius: 2px;
 }
 
 .btn--main::after {
   background-color: $main-color;
-  border-radius: 100rem;
+  border-radius: 2px;
 }
 
 .btn--white {
@@ -82,7 +79,6 @@
 }
 
 .mobile-btn {
-
   @include respond(phone) {
     margin-top: 3rem;
     width: 88%;
@@ -90,8 +86,6 @@
     border-radius: 2px;
     text-align: center;
     margin-left: 3.3rem;
-    
-   
   }
 }
 
@@ -104,6 +98,5 @@
    font-size: 2rem;
    text-align: center;
     
-   
   }
 }
