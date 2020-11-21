@@ -11,6 +11,12 @@
     width: 10%;
     border-radius: 50%;
     box-shadow: 0 1rem 2rem rgba(#000, .15);
+
+    
+    @include respond(tab-port) {
+      width: 23%;
+      
+    }
   }
 
   &__container--box {
