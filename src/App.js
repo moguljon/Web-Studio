@@ -25,6 +25,8 @@ import Moguljon from './components/Moguljon/moguljon';
 import Courses from './components/Courses/Courses';
 
 function App() {
+
+  
     return (
       <div>
       <Helmet>
