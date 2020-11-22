@@ -1,8 +1,9 @@
 @import './src/index.scss';
 
 .section-book {
-  padding: 17rem 0;
+  padding: 25rem 0;
   background-image: linear-gradient(to right bottom, $main-color, $other-color4);
+
 }
 
 .book {
@@ -82,4 +83,13 @@
 
 .header-booking {
   margin-top: 5rem;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
 }

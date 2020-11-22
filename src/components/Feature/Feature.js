@@ -3,6 +3,7 @@ import { MdDone } from "react-icons/md";
 import { MdPhonelinkRing } from "react-icons/md";
 import { MdLocalAirport } from "react-icons/md";
 import { MdLocalGroceryStore } from "react-icons/md";
+import Particles from 'react-particles-js';
 
 
 import './Feature.scss';
@@ -10,6 +11,26 @@ import './Feature.scss';
 const Feature = () => {
   return(
     <section className='section-features'>
+       <Particles className='particles'
+    params={{
+	    "particles": {
+	        "number": {
+	            "value": 70
+	        },
+	        "size": {
+	            "value": 5
+	        }
+	    },
+	    "interactivity": {
+	        "events": {
+	            "onhover": {
+	                "enable": true,
+	                "mode": "repulse"
+	            }
+	        }
+	    }
+	}} />
+      
 
       <div className='row'>
         <div className='col-1-of-4'>
