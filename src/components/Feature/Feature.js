@@ -15,10 +15,10 @@ const Feature = () => {
     params={{
 	    "particles": {
 	        "number": {
-	            "value": 70
+	            "value": 50
 	        },
 	        "size": {
-	            "value": 5
+	            "value": 3
 	        }
 	    },
 	    "interactivity": {

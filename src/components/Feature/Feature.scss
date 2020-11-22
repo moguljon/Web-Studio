@@ -1,11 +1,9 @@
 @import './src/index.scss';
 
 .section-features {
-
   padding: 20rem 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/main-small.jpg);
   background-size: cover;
-
   transform: skewY(-7deg);
   margin-top: -10rem;
   & > * {

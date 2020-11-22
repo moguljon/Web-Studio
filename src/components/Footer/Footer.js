@@ -5,6 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return(
     <footer className='footer'>
+      
       <div className='footer__logo-box'>
         <p className='footer__paragraph'><strong>COPYRIGHT © {currentYear}, WEB STUDIOS.</strong></p>
         <p>Created by MogulJon</p>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import logo from './img/logo.png';
 import {Helmet} from "react-helmet";
 // import Navigation from '../Navigation/Navigation';
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 
 
 
@@ -12,7 +12,7 @@ class Booking extends Component {
   render() {
     return(
     <section className='section-book'>
-     <Particles className='particles'
+     {/* <Particles className='particles'
     params={{
 	    "particles": {
 	        "number": {
@@ -30,7 +30,7 @@ class Booking extends Component {
 	            }
 	        }
 	    }
-	}} />
+	}} /> */}
       <Helmet>
          <title>Booking - Web Studios</title>
          <meta name="description" content='Contact Web Stuidos with potential new projects and questions you may have. Thank you for visiting us.' />
