@@ -26,9 +26,7 @@ class Navigation extends Component {
   
         <div className='navigation__background'>&nbsp;</div>
         <nav className='navigation__nav'>
-          <p style={{color: '#fff', fontSize: '1.7rem'}}>Web Studios &copy;</p>
           <ul className='navigation__list'>
-
             <li className='navigation__item'>
                <a className='navigation__link' href='/'>Home</a>
               {/* <Link to='/' className='navigation__link'>Home</Link> */}
