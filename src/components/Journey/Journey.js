@@ -5,8 +5,8 @@ import journey from './img/journey.jpg';
 import Sidebar from '../Sidebar/Sidebar';
 import OtherRealted from '../OtherRelated/OtherRelated';
 import {Helmet} from "react-helmet";
-// import logo from './img/logo.png';
-// import { Link } from 'react-router-dom';
+import logo from './img/logo.png';
+import { Link } from 'react-router-dom';
 
 const Journey = () => {
   return(
@@ -16,11 +16,11 @@ const Journey = () => {
          <meta name="description" content='Journey updates monthly focuses updates the founder of Web Stuios is going through as it tries to get a Job in software engineering.' />
        </Helmet>
        <Sidebar />
-      {/* <div className='header__logo-box'>
+      <div className='header__logo-box'>
           <Link to='/'>
             <img src={logo} alt='alt' className='header__logo'/>
           </Link>
-      </div> */}
+      </div>
       <div className='section-blogItem__container--box'>
         <h2 className='section-blogItem__header--two' >How I studied and landed my first interview in 9 months.<span role='img' aria-label="Close"> 💻🤖 </span> </h2>
         <img src={me} className='section-blogItem__image' alt='me' />

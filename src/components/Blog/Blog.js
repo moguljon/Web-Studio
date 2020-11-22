@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './Blog.scss';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import resources from './img/resized.jpeg';
 import {Helmet} from "react-helmet"; 
-// import logo from './img/logo.png';
+import logo from './img/logo.png';
 import Newsletter from '../Newsletter/Newsletter';
 import SearchField from '../SearchField/SearchField';
 import CardList from '../CardList/CardList';
@@ -17,11 +17,11 @@ class Blog extends Component {
          <title>Blog - Web Studios</title>
          <meta name="description" content='Welcome to our amazing blog. Here you will find rants, opinions and input on tech. Furtheremore, we have amazing guest writers. Join us as we will be transitioning to YouTube.' />
       </Helmet>
-      {/* <div className='header__logo-box'>
+      <div className='header__logo-box'>
         <Link to='/'>
           <img src={logo} alt='alt' className='header__logo'/>
         </Link>
-      </div> */}
+      </div>
         <div className='row border'>
           <div className='col-1-of-2'>
             <img src={resources} alt='blog' /> 

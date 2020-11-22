@@ -24,7 +24,6 @@
     // background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(img/main-small.jpg);
     // background-repeat: no-repeat;
     // height: 65vh;
-    height: 90vh;
     background: #f7f7f7;
     clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
 
@@ -37,6 +36,11 @@
     position: absolute;
     top: 1rem;
     left: 4rem;
+
+    @include respond(phone) {
+      top: 3.5rem;
+      left: 4rem;
+    }
   }
 
   &__logo {
@@ -51,7 +55,7 @@
     text-align: center;
 
     @include respond(phone) {
-      top: 50%;
+      top: 56%;
       left: 50%;
       width: 90%;
       text-align: left;
@@ -138,3 +142,5 @@
     display: inline-block;
   }
 }
+
+

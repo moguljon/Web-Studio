@@ -10,6 +10,7 @@ class Navigation extends Component {
   render() {
     return(
       <section className='navigaiton'>
+        
         <input type='checkbox' className='navigation__checkbox' id='navi-toggle'></input>
         <label htmlFor='navi-toggle' className='navigation__button'>
           <span className='navigation__icon'>
@@ -20,21 +21,23 @@ class Navigation extends Component {
   
         <div className='navigation__background'>&nbsp;</div>
         <nav className='navigation__nav'>
-        <h2 style={{color: "white", fontSize: '2.2rem', letterSpacing: '2px'}} className='tc'>Web Studios </h2>
           <ul className='navigation__list'>
 
             <li className='navigation__item'>
-               <a className='navigation__link' href='/booking'>booking</a>
+               <a className='navigation__link' href='/'>Home</a>
               {/* <Link to='/' className='navigation__link'>Home</Link> */}
             </li> 
             <li className='navigation__item'>
-              <Link to='/work' className='navigation__link'>Projects</Link>
+              <a className='navigation__link' href='/work'>Work</a>
+              {/* <Link to='/work' className='navigation__link'>Projects</Link> */}
             </li>
             <li className='navigation__item'>
-              <Link to='/blog' className='navigation__link'>Blog</Link>
+              <a className='navigation__link' href='/blog'>Blog</a>
+              {/* <Link to='/blog' className='navigation__link'>Blog</Link> */}
             </li>
             <li className='navigation__item'>
-              <Link to='/booking' className='navigation__link'>Booking</Link>
+              <a className='navigation__link' href='/booking'>Booking</a>
+              {/* <Link to='/booking' className='navigation__link'>Booking</Link> */}
             </li>  
           </ul>
         </nav>

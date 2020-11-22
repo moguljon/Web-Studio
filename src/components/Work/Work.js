@@ -1,8 +1,8 @@
 import React from 'react';
 import './Work.scss';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
-// import logo from './img/logo.png';
+import logo from './img/logo.png';
 import test from './img/test.jpg';
 import omnifood from './img/omnifood.jpg';
 import screenshot from './img/screenshot.png';
@@ -19,11 +19,11 @@ const Work = () => {
          <meta name="description" content='Our work speaks for itself, we have created amazing websites that clients will love and you are able to see what work we do before you give us a try.' />
       </Helmet>
 
-      {/* <div className='header__logo-box'>
+      <div className='header__logo-box'>
         <Link to='/'>
           <img src={logo} alt='alt' className='header__logo'/>
         </Link>
-      </div> */}
+      </div>
       
       <div className='section-work__box'>
         <h1 className='section-work__header--one'>
