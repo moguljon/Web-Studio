@@ -2,15 +2,21 @@ import React, { Component } from 'react';
 import './Navigation.scss';
 import { Link } from 'react-router-dom';
 import logo from './img/logo.png';
-// import netlifyIdentity from 'netlify-identity-widget';
+import logo2 from './img/logo-white.png';
+import netlifyIdentity from 'netlify-identity-widget';
 
 
-// netlifyIdentity.init();
+netlifyIdentity.init();
 class Navigation extends Component {
   render() {
+    const handleClick = () => {
+      netlifyIdentity.open();
+      netlifyIdentity.on('login', (user) => {
+        console.log('welcome user', user);
+      });
+    }
     return(
       <section className='navigaiton'>
-        
         <input type='checkbox' className='navigation__checkbox' id='navi-toggle'></input>
         <label htmlFor='navi-toggle' className='navigation__button'>
           <span className='navigation__icon'>
@@ -21,6 +27,7 @@ class Navigation extends Component {
   
         <div className='navigation__background'>&nbsp;</div>
         <nav className='navigation__nav'>
+          <p style={{color: '#fff', fontSize: '1.7rem'}}>Web Studios &copy;</p>
           <ul className='navigation__list'>
 
             <li className='navigation__item'>
@@ -39,6 +46,7 @@ class Navigation extends Component {
               <a className='navigation__link' href='/booking'>Booking</a>
               {/* <Link to='/booking' className='navigation__link'>Booking</Link> */}
             </li>  
+            <button style={{color: '$other-color4'}} className='btn btn--main'  onClick={handleClick}>Sign Up</button>
           </ul>
         </nav>
 
@@ -64,8 +72,9 @@ class Navigation extends Component {
           <li className='nav__item'>
             <Link to='/booking' className='nav__link dark'> Booking</Link>
           </li>
+         
         </ul>
-        
+
       </nav>
       </section>
     )

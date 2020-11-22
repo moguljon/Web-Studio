@@ -1,6 +1,5 @@
 @import './src/index.scss';
 
-
 .nav {
  text-decoration: none;
  background-color: #f7f7f7;
@@ -71,6 +70,7 @@
       display: inline-block;
       top: 4rem;
       right: 4rem;
+      
     }
   }
 
@@ -82,7 +82,7 @@
     position: fixed;
     top: 6.5rem;
     right: 6.5rem;
-    background-image: radial-gradient($other-color3, $other-color4);
+    background-image: radial-gradient(#000, $other-color3);
     z-index: 1000;
     transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
 
@@ -122,6 +122,11 @@
     list-style: none;
     text-align: center;
     width: 100%;
+
+    @include respond(phone) {
+      top: 45%;
+      left: 50%;
+    }
   }
 
   &__item {
@@ -131,6 +136,7 @@
   &__link {
     &:link,
     &:visited {
+      font-family: 'Clarkson',Helvetica,sans-serif;
       display: inline-block;
       font-size: 3rem;
       font-weight: 300;
@@ -215,6 +221,6 @@
 
 .home {
   @include respond(phone) {
-          display: none;
-         }
+    display: none;
+  }
 }
