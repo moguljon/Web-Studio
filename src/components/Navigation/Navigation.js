@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './Navigation.scss';
 import { Link } from 'react-router-dom';
 import logo from './img/logo.png';
-import logo2 from './img/logo-white.png';
 import netlifyIdentity from 'netlify-identity-widget';
 
 
