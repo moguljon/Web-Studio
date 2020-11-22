@@ -49,7 +49,7 @@ const Blog = () => {
           </div>
           <div className='col-1-of-3'>
             <article className='section-blog__card'>
-              <Link to='/blog/journey'>
+              <Link to='/blog/courses'>
                 <img src={udemy} alt='mountains' className='section-blog__image' />
               </Link>
               <h3 className='section-blog__header--three'>Best Udemy Courses for Web Development </h3>
