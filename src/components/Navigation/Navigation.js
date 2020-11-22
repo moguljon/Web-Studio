@@ -42,7 +42,7 @@ class Navigation extends Component {
             <li className='navigation__item'>
               <Link to='/booking' className='navigation__link'>Booking</Link>
             </li>  
-            <button className='btn-netlify' style={{margin: '2rem 3rem 4rem'}} className='btn btn--main' onClick={handleClick} >Signin</button>         
+            {/* <button className='btn-netlify' style={{margin: '2rem 3rem 4rem'}} className='btn btn--main' onClick={handleClick} >Signin</button>          */}
           </ul>
         </nav>
 
