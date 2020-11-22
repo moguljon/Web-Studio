@@ -21,7 +21,7 @@ const Booking = () => {
       <div className='row'>
         <div className='book'>
           <div className='book__form'>
-            <form name='contact' netlify='true' netlify-honeypot="bot-field" action='/booking/sucess' method='post' className='form'>
+            <form name='contact' netlify='true' netlify-honeypot="bot-field" action='/booking' method='post' className='form'>
               <input type='hidden' name='form-name' value='booking' />
               <div className='u-margin-bottom-medium'>  
                 <h2 className='heading-secondary header-booking'>Contact Us</h2>
