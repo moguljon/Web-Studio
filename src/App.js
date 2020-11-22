@@ -23,6 +23,7 @@ import {Helmet} from "react-helmet";
 import Endrose from './components/Endorse/Endorse';
 import Moguljon from './components/Moguljon/moguljon';
 import Courses from './components/Courses/Courses';
+import Success from './components/Success/Success';
 
 function App() {
 
@@ -52,6 +53,7 @@ function App() {
         <Route exact path='/privacy' component={Privacy} />
         <Route exact path='/work/moguljon' component={Moguljon} />
         <Route exact path='/blog/courses' component={Courses} />
+        <Route exact path='/booking/success' component={Success} />
         <Social />
         <Footer />
       </Router>

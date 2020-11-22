@@ -1,0 +1,46 @@
+@import './src/index.scss';
+
+.section-success {
+  background-image: radial-gradient(#000, $other-color3);
+  padding: 20rem 0 30rem 0;
+  position: relative;
+  &__card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  &__card {
+    border: 2px solid grey;
+    color: #000;
+    padding: 2rem;
+    background: #f7f7f7;
+    border-radius: 5px;
+
+    @include respond(phone) {
+      width: 70%;
+      padding: 5rem;
+    }
+   
+  }
+
+  &__header--two {
+    font-size: 8rem;
+    
+  }
+
+  &__paragraph {
+    font-size: 3rem;
+  }
+
+  &__text {
+    color: rgb(35, 35, 68);
+    font-size: 1.2rem;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

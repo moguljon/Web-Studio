@@ -71,9 +71,7 @@ class Navigation extends Component {
           <li className='nav__item'>
             <Link to='/booking' className='nav__link dark'> Booking</Link>
           </li>
-         
         </ul>
-
       </nav>
       </section>
     )
