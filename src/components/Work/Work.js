@@ -3,12 +3,9 @@ import './Work.scss';
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
 import logo from './img/logo.png';
-import test from './img/test.jpg';
-import omnifood from './img/omnifood.jpg';
-import screenshot from './img/screenshot.png';
-import screenshot3 from './img/screenshot3.png';
-import screenshot5 from './img/screenshot5.png';
-import robots from './img/robots.png';
+import omni from './img/omnifood.jpg';
+import mogul from './img/mogul.jpg';
+import newsgrid from './img/newsgrid.jpg';
 
 const Work = () => {
 
@@ -36,16 +33,16 @@ const Work = () => {
       <div align='center'>
         <div>
           <div className='container'>
-            <img src={test} alt='mogul' className='image' />
+            <img src={omni} alt='mogul' className='image' />
             <div className='overlay overLeft'>
               <div className='text'>
-                <a href='https://moguljon.com/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
+                <a href='https://omnifoodeats.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
               </div>
              
             </div>
          </div>
           <div className='container'>
-            <img src={omnifood} alt='omnifood' className='image' />
+            <img src={mogul} alt='omnifood' className='image' />
 
             <div className='overlay overLeft'>
               <div className='text'>
@@ -54,18 +51,18 @@ const Work = () => {
             </div>
          </div>
           <div className='container'>
-            <img src={robots} alt='mogul' className='image' />
+            <img src={newsgrid} alt='mogul' className='image' />
 
             <div className='overlay overLeft'>
               <div className='text'>
-                <a href='https://moguljon.github.io/robofriends-2.0/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
+                <a href='https://newsmedia.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
               </div>
             </div>
          </div>
         </div>
       </div>
      
-      <div align='center'>
+      {/* <div align='center'>
         <div>
           <div className='container'>
             <img src={screenshot5} alt='mogul' className='image' />
@@ -77,7 +74,7 @@ const Work = () => {
             </div>
          </div>
           <div className='container'>
-            <img src={screenshot3} alt='omnifood' className='image' />
+            <img src={omni} alt='omnifood' className='image' />
 
             <div className='overlay overLeft'>
               <div className='text'>
@@ -96,7 +93,7 @@ const Work = () => {
          </div>
         </div>
       </div>
-     
+      */}
 
     </section>
   )
