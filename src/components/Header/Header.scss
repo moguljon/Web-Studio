@@ -33,7 +33,8 @@
   }
 
   &__logo-box {
-    position: absolute;
+    position: fixed;
+    z-index: 100;
     top: 1rem;
     left: 4rem;
 

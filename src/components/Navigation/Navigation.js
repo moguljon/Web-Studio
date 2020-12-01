@@ -17,6 +17,7 @@ class Navigation extends Component {
     return(
       <section className='navigaiton'>
         <input type='checkbox' className='navigation__checkbox' id='navi-toggle'></input>
+      
         <label htmlFor='navi-toggle' className='navigation__button'>
           <span className='navigation__icon'>
             &nbsp;
@@ -26,6 +27,7 @@ class Navigation extends Component {
   
         <div className='navigation__background'>&nbsp;</div>
         <nav className='navigation__nav'>
+          
           <ul className='navigation__list'>
             <li className='navigation__item'>
                <a className='navigation__link' href='/'>Home</a>

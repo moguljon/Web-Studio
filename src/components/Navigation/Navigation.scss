@@ -45,6 +45,7 @@
 .navigation {
   display: none;
 
+
   @include respond(phone) {
    display: inline-block;
   }
@@ -71,6 +72,7 @@
       top: 4rem;
       right: 4rem;
       
+      
     }
   }
 
@@ -91,12 +93,12 @@
       display: inline-block;
       top: 4.5rem;
       right: 4.5rem;
+      
     }
   }
 
   &__nav {
-     display: none;
-    display: inline-block;
+    display: none;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -122,8 +124,9 @@
     list-style: none;
     text-align: center;
     width: 100%;
+    
 
-    @include respond(phone) {
+      @include respond(phone) {
       top: 45%;
       left: 50%;
     }
@@ -147,6 +150,7 @@
       background-image: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
       background-size: 300%;
       transition: all .4s;
+      
 
       span {
         margin-right: 1rem;
