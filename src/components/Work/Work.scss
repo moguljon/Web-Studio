@@ -3,9 +3,11 @@
 .section-work {
   padding: 14rem  0;
   color: #000;
+  
 
   &__box {
     padding: 0 4rem 0 4rem;
+    
   }
 
   &__header--one {
@@ -44,4 +46,8 @@
 .work-paragraph {
   font-size: 1.3rem;
   margin-bottom: 2rem;
+}
+
+.work-images {
+  box-shadow:  0 1rem 3rem rgba(0, 0, 0, .3);
 }

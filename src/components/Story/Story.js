@@ -14,6 +14,7 @@ const Story = () => {
           Your browser is not supported
         </video>
       </div> */}
+      
       <div className='u-center-text u-margin-bottom-big'>
         <h2 className='heading-secondary'>From the founder</h2>
       </div>

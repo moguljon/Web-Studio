@@ -57,14 +57,14 @@ const Work = () => {
     <div className='row'>
       <h2 className='work-header-two'>Ux Design</h2>
         <div className='col-1-of-2'>
-          <img src={other} alt='' width='100%' />
+          <img src={other} alt='' className='work-images' width='100%' />
           <h3 className='work-header'>Trillo - Hotel Inspired Website </h3>
           <p className='work-paragraph'>Trillo is a demo homepage that would allow customers to book flights, rent cars, and look at reviews. With Eye catching design it is sure to catch the eye of customers.
           </p>
           <a href='https://trilloinn.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--grey'>View</a>
         </div>
         <div className='col-1-of-2'>
-          <img src={robtos} alt='' width='100%' />
+          <img src={robtos} alt='' className='work-images' width='100%' />
           <h3 className='work-header'>Omnifood </h3>
           <p className='work-paragraph'>A website built with a modern framework called React. It has a search bar that allows you to filter based on a name you search for.
           </p>
