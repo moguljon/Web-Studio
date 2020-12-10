@@ -43,13 +43,13 @@ const Work = () => {
           <div className='col-1-of-3'>
             <img src={mogul} alt='mogul' className='work-images' width='100%' />
             <h3 className='work-header'>Moguljon</h3>
-            <p className='work-paragraph'>The permier website E-commerce website for woman's clothing.</p>
+            <p className='work-paragraph'>The permier E-commerce website for woman's clothing.</p>
             <a href='https://moguljon.com/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
           </div>
           <div className='col-1-of-3'>
             <img src={newsgrid} alt='mogul' className='work-images' width='100%' />
             <h3 className='work-header'>Newsgrid</h3>
-            <p className='work-paragraph'>A news media inspired. Meant to look for the latest sports news of the day.</p>
+            <p className='work-paragraph'>A news media inspired website. A platform that would showcase the latest sports news of the day.</p>
             <a href='https://newsmedia.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
           </div>
       </div>
@@ -66,7 +66,7 @@ const Work = () => {
         <div className='col-1-of-2'>
           <img src={robtos} alt='' width='100%' />
           <h3 className='work-header'>Omnifood </h3>
-          <p className='work-paragraph'>A website build with a modern framework called React. It has a functioning search bar that allows you to filer based on names.
+          <p className='work-paragraph'>A website built with a modern framework called React. It has a search bar that allows you to filter based on a name you search for.
           </p>
           
           <a href='https://moguljon.github.io/robofriends-2.0/' target='_blank'  rel='noopener noreferrer' className='btn btn--grey'>View</a>
