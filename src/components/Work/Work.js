@@ -69,7 +69,7 @@ const Work = () => {
           <p className='work-paragraph'>A website built with a modern framework called React. It has a search bar that allows you to filter based on a name you search for.
           </p>
           
-          <a href='https://moguljon.github.io/robofriends-2.0/' target='_blank'  rel='noopener noreferrer' className='btn btn--grey'>View</a>
+          <a href='https://moguljon.github.io/robofriends/' target='_blank'  rel='noopener noreferrer' className='btn btn--grey'>View</a>
         </div>
     </div>
     </section>
