@@ -67,6 +67,12 @@
   color: $secondary-color;
 }
 
+.btn--grey {
+  background-color: rgb(177, 174, 174);
+  color: #fff !important;
+  border-radius: 2px;
+}
+
 .btn--white::after {
   background-color: $color-white;
 }

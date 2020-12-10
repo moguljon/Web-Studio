@@ -30,7 +30,7 @@ const Header = () => {
         <p className='mobile'>
           The home of a creative platform use to build and scale websites, apps, and designs for you. Whether you are looking to create an online presence or you need help improving it we got you covered. We carefully curate a game plan to see it through so that you can grow..
         </p>
-        <Link to='/Work' className='btn btn--main btn--animated mobile-btn'>Discover Projects</Link>
+        <Link to='/Work' className='btn btn--main btn--animated mobile-btn'>Discover Portfolio</Link>
         <Link to='/blog' className='mobile-blog'>View All Our Blog</Link>
       </div>
   

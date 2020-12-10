@@ -6,9 +6,11 @@ import logo from './img/logo.png';
 import omni from './img/omnifood.jpg';
 import mogul from './img/mogul.jpg';
 import newsgrid from './img/newsgrid.jpg';
+import other from './img/other.jpg';
+import robtos from './img/robofriends.jpg';
+
 
 const Work = () => {
-
   return(
     <section className='section-work'>
       <Helmet>
@@ -30,71 +32,46 @@ const Work = () => {
         <p className='section-work__paragraph'>based in New York</p>
       </div>
 
-      <div align='center'>
-        <div>
-          <div className='container'>
-            <img src={omni} alt='mogul' className='image' />
-            <div className='overlay overLeft'>
-              <div className='text'>
-                <a href='https://omnifoodeats.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
-              </div>
-             
-            </div>
-         </div>
-          <div className='container'>
-            <img src={mogul} alt='omnifood' className='image' />
-
-            <div className='overlay overLeft'>
-              <div className='text'>
-                <a href='https://moguljon.com/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
-              </div>
-            </div>
-         </div>
-          <div className='container'>
-            <img src={newsgrid} alt='mogul' className='image' />
-
-            <div className='overlay overLeft'>
-              <div className='text'>
-                <a href='https://newsmedia.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
-              </div>
-            </div>
-         </div>
-        </div>
+      <div className='row'>
+        <h2 className='work-header-two'>Websites</h2>
+          <div className='col-1-of-3'>
+            <img src={omni} alt='mogul' className='work-images' width='100%' />
+            <h3 className='work-header'>Omnifood Restaurant</h3>
+            <p className='work-paragraph'>Goobye fast good, hello healthy eating</p>
+            <a href='https://omnifoodeats.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
+          </div>
+          <div className='col-1-of-3'>
+            <img src={mogul} alt='mogul' className='work-images' width='100%' />
+            <h3 className='work-header'>Moguljon</h3>
+            <p className='work-paragraph'>The permier website E-commerce website for woman's clothing.</p>
+            <a href='https://moguljon.com/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
+          </div>
+          <div className='col-1-of-3'>
+            <img src={newsgrid} alt='mogul' className='work-images' width='100%' />
+            <h3 className='work-header'>Newsgrid</h3>
+            <p className='work-paragraph'>A news media inspired. Meant to look for the latest sports news of the day.</p>
+            <a href='https://newsmedia.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
+          </div>
       </div>
      
-      {/* <div align='center'>
-        <div>
-          <div className='container'>
-            <img src={screenshot5} alt='mogul' className='image' />
-            <div className='overlay overLeft'>
-              <div className='text'>
-                <a href='https://newsmedia.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
-              </div>
-             
-            </div>
-         </div>
-          <div className='container'>
-            <img src={omni} alt='omnifood' className='image' />
-
-            <div className='overlay overLeft'>
-              <div className='text'>
-                <a href='https://portfoliojj.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
-              </div>
-            </div>
-         </div>
-          <div className='container'>
-            <img src={screenshot} alt='mogul' className='image' />
-
-            <div className='overlay overLeft'>
-              <div className='text'>
-                <a href='https://jonathanaguilarportfolio.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
-              </div>
-            </div>
-         </div>
+    <div className='row'>
+      <h2 className='work-header-two'>Ux Design</h2>
+        <div className='col-1-of-2'>
+          <img src={other} alt='' width='100%' />
+          <h3 className='work-header'>Trillo - Hotel Inspired Website </h3>
+          <p className='work-paragraph'>Trillo is a demo homepage that would allow customers to book flights, rent cars, and look at reviews. With Eye catching design it is sure to catch the eye of customers.
+          </p>
+          <a href='https://trilloinn.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--grey'>View</a>
         </div>
-      </div>
-      */}
-
+        <div className='col-1-of-2'>
+          <img src={robtos} alt='' width='100%' />
+          <h3 className='work-header'>Omnifood </h3>
+          <p className='work-paragraph'>A website build with a modern framework called React. It has a functioning search bar that allows you to filer based on names.
+          </p>
+          
+          <a href='https://moguljon.github.io/robofriends-2.0/' target='_blank'  rel='noopener noreferrer' className='btn btn--grey'>View</a>
+        </div>
+    </div>
     </section>
   )
 }
