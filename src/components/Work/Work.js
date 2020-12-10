@@ -37,7 +37,7 @@ const Work = () => {
           <div className='col-1-of-3'>
             <img src={omni} alt='mogul' className='work-images' width='100%' />
             <h3 className='work-header'>Omnifood Restaurant</h3>
-            <p className='work-paragraph'>Goobye fast good, hello healthy eating</p>
+            <p className='work-paragraph'>Goobye fast food, hello healthy eating.</p>
             <a href='https://omnifoodeats.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
           </div>
           <div className='col-1-of-3'>
