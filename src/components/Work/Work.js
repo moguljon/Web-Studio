@@ -38,21 +38,21 @@ const Work = () => {
         <h2 className='work-header-two'><span className='products'>Websites</span></h2>
           <div className='col-1-of-3'>
             <img src={omni} alt='mogul' className='work-images' width='100%' />
-            <h3 className='work-header'>Omnifood Restaurant</h3>
-            <p className='work-paragraph'>Goobye fast food, hello healthy eating.</p>
-            <a href='https://omnifoodeats.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
+            <h3 className='work-header'>Omnifood Restaurant <span className='omnifood'>Built with React</span></h3>
+            <p className='work-paragraph'>Goobye fast food, hello healthy eating. Welcome to Omnifood for all your healthy eats.</p>
+            <a href='https://omnifoodeats.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--grey'>View</a>
           </div>
           <div className='col-1-of-3'>
             <img src={mogul} alt='mogul' className='work-images' width='100%' />
-            <h3 className='work-header'>Moguljon</h3>
+            <h3 className='work-header'>Moguljon <span className='moguljon'>Built with Shopify</span></h3>
             <p className='work-paragraph'>The permier E-commerce website for woman's clothing.</p>
-            <a href='https://moguljon.com/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
+            <a href='https://moguljon.com/' target='_blank'  rel='noopener noreferrer' className='btn btn--grey'>View</a>
           </div>
           <div className='col-1-of-3'>
             <img src={newsgrid} alt='mogul' className='work-images' width='100%' />
-            <h3 className='work-header'>Newsgrid</h3>
+            <h3 className='work-header'>Newsgrid <span className='newsgrid'>Built with CSS</span></h3>
             <p className='work-paragraph'>A news media inspired website. A platform that would showcase the latest sports news of the day.</p>
-            <a href='https://newsmedia.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
+            <a href='https://newsmedia.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--grey'>View</a>
           </div>
       </div>
      
@@ -90,7 +90,7 @@ const Work = () => {
         <img src={blue} alt='' className='product-photo' />
       </div>
     </div>
-    <a href='https://moguljon.com/collections' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
+    <a href='https://moguljon.com/collections' target='_blank'  rel='noopener noreferrer' className='btn btn--grey'>View</a>
     </section>
   )
 }
