@@ -8,6 +8,9 @@ import mogul from './img/mogul.jpg';
 import newsgrid from './img/newsgrid.jpg';
 import other from './img/other.jpg';
 import robtos from './img/robofriends.jpg';
+import blue from './img/blue.jpg';
+import J from './img/J.JPG';
+import design from './img/design2.jpg';
 
 
 const Work = () => {
@@ -26,14 +29,13 @@ const Work = () => {
       
       <div className='section-work__box'>
         <h1 className='section-work__header--one'>
-          <span className='section-work__one'><strong>Web Studios</strong></span>
-          <span className='section-work__two'>.io</span>
+          <span className='section-work__one'><strong>Web Studios <span className='section-work__two'>.io</span></strong></span>
         </h1>
         <p className='section-work__paragraph'>based in New York</p>
       </div>
 
       <div className='row'>
-        <h2 className='work-header-two'>Websites</h2>
+        <h2 className='work-header-two'><span className='products'>Websites</span></h2>
           <div className='col-1-of-3'>
             <img src={omni} alt='mogul' className='work-images' width='100%' />
             <h3 className='work-header'>Omnifood Restaurant</h3>
@@ -54,8 +56,8 @@ const Work = () => {
           </div>
       </div>
      
-    <div className='row'>
-      <h2 className='work-header-two'>Ux Design</h2>
+    <div className='row mt'>
+      <h2 className='work-header-two'><span className='products-ux'>UX Design</span></h2>
         <div className='col-1-of-2'>
           <img src={other} alt='' className='work-images' width='100%' />
           <h3 className='work-header'>Trillo - Hotel Inspired Website </h3>
@@ -72,6 +74,23 @@ const Work = () => {
           <a href='https://moguljon.github.io/robofriends/' target='_blank'  rel='noopener noreferrer' className='btn btn--grey'>View</a>
         </div>
     </div>
+
+    <div className='row top mt'>
+      <h2 className='work-header-two'><span className='products'>Products Design</span></h2>
+      <p className='work-paragraph'>
+      This is clothing design for woman including swimwear, active wear, and t-shirts. Exlusively sole a www.moguljon.com
+      </p>
+      <div className='col-1-of-3'>
+        <img src={design} alt='' className='product-photo' />
+      </div>
+      <div className='col-1-of-3'>
+        <img src={J} alt='' className='product-photo' />
+      </div>
+      <div className='col-1-of-3'>
+        <img src={blue} alt='' className='product-photo' />
+      </div>
+    </div>
+    <a href='https://moguljon.com/collections' target='_blank'  rel='noopener noreferrer' className='btn btn--main'>View</a>
     </section>
   )
 }

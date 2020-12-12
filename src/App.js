@@ -23,39 +23,37 @@ import {Helmet} from "react-helmet";
 import Endrose from './components/Endorse/Endorse';
 import Moguljon from './components/Moguljon/moguljon';
 import Courses from './components/Courses/Courses';
-// import Success from './components/Success/Success';
 
 function App() {
     return (
-      <div>
-      <Helmet>
-         <title>Web Studios | Let Us Create Your Next Website.</title>
-         <meta name="description" content='We create stunning web apps for business owners large or small that need a wow factors to attract potential clients.' />
-      </Helmet>
-      <Router>
-       <ScrollToTop />
-       <Navigation />
-        <Route exact path='/' component={Header} /> 
-        <Route exact path='/' component={Endrose} /> 
-        <Route exact path='/' component={About} />
-        <Route exact path='/' component={Feature} />
-        <Route exact path='/' component={Prices} />
-        <Route exact path='/' component={Story} />
-        <Route exact path='/' component={HeaderBlog} />  
-        <Route exact path='/newsletter' component={Newsletter} />  
-        <Route exact path='/booking' component={Booking} />
-        <Route exact path='/work' component={Work} />
-        <Route exact path='/blog' component={Blog} />
-        <Route exact path='/blog/technologies' component={BlogItem} />
-        <Route exact path='/blog/journey' component={Journey} />
-        <Route exact path='/privacy' component={Privacy} />
-        <Route exact path='/work/moguljon' component={Moguljon} />
-        <Route exact path='/blog/courses' component={Courses} />
-        {/* <Route exact path='/booking/success' component={Success} /> */}
-        <Social />
-        <Footer />
-      </Router>
-      </div>
+        <div>
+        <Helmet>
+          <title>Web Studios | Let Us Create Your Next Website.</title>
+          <meta name="description" content='We create stunning web apps for business owners large or small that need a wow factors to attract potential clients.' />
+        </Helmet>
+        <Router>
+        <ScrollToTop />
+        <Navigation />
+          <Route exact path='/' component={Header} /> 
+          <Route exact path='/' component={Endrose} /> 
+          <Route exact path='/' component={About} />
+          <Route exact path='/' component={Feature} />
+          <Route exact path='/' component={Prices} />
+          <Route exact path='/' component={Story} />
+          <Route exact path='/' component={HeaderBlog} />  
+          <Route exact path='/newsletter' component={Newsletter} />  
+          <Route exact path='/booking' component={Booking} />
+          <Route exact path='/work' component={Work} />
+          <Route exact path='/blog' component={Blog} />
+          <Route exact path='/blog/technologies' component={BlogItem} />
+          <Route exact path='/blog/journey' component={Journey} />
+          <Route exact path='/privacy' component={Privacy} />
+          <Route exact path='/work/moguljon' component={Moguljon} />
+          <Route exact path='/blog/courses' component={Courses} />
+          <Social />
+          <Footer />
+        </Router>
+        </div>
     );
   } 
 
