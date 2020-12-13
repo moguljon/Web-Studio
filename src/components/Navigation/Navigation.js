@@ -2,18 +2,10 @@ import React, { Component } from 'react';
 import './Navigation.scss';
 import { Link } from 'react-router-dom';
 import logo from './img/logo.png';
-import netlifyIdentity from 'netlify-identity-widget';
 
 
-netlifyIdentity.init();
 class Navigation extends Component {
   render() {
-    const handleClick = () => {
-      netlifyIdentity.open();
-      netlifyIdentity.on('login', (user) => {
-        console.log('welcome user', user);
-      });
-    }
     return(
       <section className='navigaiton'>
         <input type='checkbox' className='navigation__checkbox' id='navi-toggle'></input>
@@ -45,7 +37,6 @@ class Navigation extends Component {
               <a className='navigation__link' href='/booking'>Booking</a>
               {/* <Link to='/booking' className='navigation__link'>Booking</Link> */}
             </li>  
-            <button style={{color: '$other-color4'}} className='btn btn--main'  onClick={handleClick}>Sign Up</button>
           </ul>
         </nav>
 
