@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.scss';
 import Navigation from './components/Navigation/Navigation';
 import Header from './components/Header/Header';
@@ -23,8 +23,17 @@ import {Helmet} from "react-helmet";
 import Endrose from './components/Endorse/Endorse';
 import Moguljon from './components/Moguljon/moguljon';
 import Courses from './components/Courses/Courses';
+import ReactGa from 'react-ga';
 
 function App() {
+
+  useEffect(() => {
+    ReactGa.initialize('G-Q3EQSE5TGD')
+
+    //To report page view 
+    ReactGa.pageview(window.location.pathname + window.location.search)
+  }, [])
+
     return (
         <div>
         <Helmet>
