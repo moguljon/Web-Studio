@@ -12,7 +12,7 @@ const Social = () => {
         <img src={logo} alt='' style={{width: '8%'}} className='section-social__box--image'/>
       </div>
       <div className='icons-box'>
-        <a href='https://www.instagram.com/moguljon/' target='_blank' className='icons' rel="noopener noreferrer"  >
+        <a href='https://www.instagram.com/webstudios.io/' target='_blank' className='icons' rel="noopener noreferrer"  >
         <IoLogoInstagram className='icons-other' target='_blank' /> 
         </a>
         <a href='https://github.com/moguljon' target='_blank ' className='icons' rel="noopener noreferrer"  >
