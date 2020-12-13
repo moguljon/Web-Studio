@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './App.scss';
 import Navigation from './components/Navigation/Navigation';
 import Header from './components/Header/Header';
@@ -21,19 +21,9 @@ import Journey from './components/Journey/Journey';
 import Privacy from './components/Privacy/Privacy';
 import {Helmet} from "react-helmet";
 import Endrose from './components/Endorse/Endorse';
-import Moguljon from './components/Moguljon/moguljon';
 import Courses from './components/Courses/Courses';
-import ReactGa from 'react-ga';
 
 function App() {
-
-
-  useEffect(() => {
-    ReactGa.initialize('G-91H9CRQ0XV')
-       //to report page view
-       ReactGa.pageview(window.location.pathname + window.location.search)
-
-  }, [])
     return (
         <div>
         <Helmet>
@@ -57,7 +47,6 @@ function App() {
           <Route exact path='/blog/technologies' component={BlogItem} />
           <Route exact path='/blog/journey' component={Journey} />
           <Route exact path='/privacy' component={Privacy} />
-          <Route exact path='/work/moguljon' component={Moguljon} />
           <Route exact path='/blog/courses' component={Courses} />
           <Social />
           <Footer />

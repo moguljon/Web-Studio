@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.scss';
 import logo from './img/logo.png';
 import { Link } from 'react-router-dom';
+import Particles from 'react-particles-js';
 
 
 const Header = () => {
@@ -14,6 +15,26 @@ const Header = () => {
           Your browser is not supported
         </video>
       </div> */}
+
+<Particles className='particles'
+    params={{
+	    "particles": {
+	        "number": {
+	            "value": 50
+	        },
+	        "size": {
+	            "value": 3
+	        }
+	    },
+	    "interactivity": {
+	        "events": {
+	            "onhover": {
+	                "enable": true,
+	                "mode": "repulse"
+	            }
+	        }
+	    }
+	}} />
 
      
  

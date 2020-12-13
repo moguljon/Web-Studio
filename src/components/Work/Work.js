@@ -17,7 +17,7 @@ const Work = () => {
   return(
     <section className='section-work'>
       <Helmet>
-         <title>Work - Web Studios</title>
+         <title>Projects - Web Studios</title>
          <meta name="description" content='Our work speaks for itself, we have created amazing websites that clients will love and you are able to see what work we do before you give us a try.' />
       </Helmet>
 
@@ -77,6 +77,7 @@ const Work = () => {
 
     <div className='row top mt'>
       <h2 className='work-header-two'><span className='products'>Products Design</span></h2>
+      <a href='https://moguljon.com/collections' target='_blank'  rel='noopener noreferrer' className='btn btn--grey mb5'>View All</a>
       <p className='work-paragraph'>
       This is clothing design for woman including swimwear, active wear, and t-shirts. Exlusively sole a www.moguljon.com
       </p>
@@ -88,9 +89,10 @@ const Work = () => {
       </div>
       <div className='col-1-of-3'>
         <img src={blue} alt='' className='product-photo' />
+        
       </div>
     </div>
-    <a href='https://moguljon.com/collections' target='_blank'  rel='noopener noreferrer' className='btn btn--grey'>View</a>
+    
     </section>
   )
 }
