@@ -67,7 +67,7 @@ const Work = () => {
         </div>
         <div className='col-1-of-2'>
           <img src={robtos} alt='' className='work-images' width='100%' />
-          <h3 className='work-header'>Omnifood </h3>
+          <h3 className='work-header'>Robofriends</h3>
           <p className='work-paragraph'>A website built with a modern framework called React. It has a search bar that allows you to filter based on a name you search for.
           </p>
           
@@ -77,7 +77,6 @@ const Work = () => {
 
     <div className='row top mt'>
       <h2 className='work-header-two'><span className='products'>Products Design</span></h2>
-      <a href='https://moguljon.com/collections' target='_blank'  rel='noopener noreferrer' className='btn btn--grey mb5'>View All</a>
       <p className='work-paragraph'>
       This is clothing design for woman including swimwear, active wear, and t-shirts. Exlusively sole a www.moguljon.com
       </p>
@@ -89,9 +88,9 @@ const Work = () => {
       </div>
       <div className='col-1-of-3'>
         <img src={blue} alt='' className='product-photo' />
-        
       </div>
     </div>
+    <a href='https://moguljon.com/collections' target='_blank'  rel='noopener noreferrer' className='btn btn--grey mb5'>View All</a>
     
     </section>
   )
