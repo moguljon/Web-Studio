@@ -5,7 +5,7 @@ import journey from './img/journey.jpg';
 import Sidebar from '../Sidebar/Sidebar';
 import OtherRealted from '../OtherRelated/OtherRelated';
 import {Helmet} from "react-helmet";
-import logo from './img/logo.png';
+import logo from './img/logo_transparent.png';
 import { Link } from 'react-router-dom';
 
 const Journey = () => {

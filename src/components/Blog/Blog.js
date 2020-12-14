@@ -3,7 +3,7 @@ import './Blog.scss';
 import { Link } from 'react-router-dom';
 import resources from './img/resized.jpeg';
 import {Helmet} from "react-helmet"; 
-import logo from './img/logo.png';
+import logo from './img/logo_transparent.png';
 import Newsletter from '../Newsletter/Newsletter';
 import SearchField from '../SearchField/SearchField';
 import CardList from '../CardList/CardList';

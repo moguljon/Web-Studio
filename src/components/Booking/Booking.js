@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Booking.scss';
 import { Link } from 'react-router-dom';
-import logo from './img/logo.png';
+import logo from './img/logo_transparent.png';
 import {Helmet} from "react-helmet";
 // import Navigation from '../Navigation/Navigation';
 // import Particles from 'react-particles-js';

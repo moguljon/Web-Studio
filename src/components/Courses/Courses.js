@@ -5,7 +5,7 @@ import './Courses.scss';
 import Newsletter from '../Newsletter/Newsletter';
 import RelatedBlog from '../RelatedBlog/RelatedBlog';
 import {Helmet} from "react-helmet";
-import logo from './img/logo.png';
+import logo from './img/logo_transparent.png';
 import { Link } from 'react-router-dom';
 
 

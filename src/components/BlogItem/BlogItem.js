@@ -6,7 +6,7 @@ import aws from './img/aws.png';
 import Sidebar from '../Sidebar/Sidebar';
 
 import Newsletter from '../Newsletter/Newsletter';
-import logo from './img/logo.png';
+import logo from './img/logo_transparent.png';
 import resized from './img/resized2.jpeg';
 import { Link } from 'react-router-dom';
 import DifferentBlog from '../DifferntBlog/DifferntBlog';

@@ -2,7 +2,7 @@ import React from 'react';
 import './Work.scss';
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
-import logo from './img/logo.png';
+import logo from './img/logo_transparent.png';
 import omni from './img/omnifood.jpg';
 import mogul from './img/mogul.jpg';
 import newsgrid from './img/newsgrid.jpg';
