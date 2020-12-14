@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../Card/Card'
+import CardList from '../CardList/CardList';
 import './HeaderBlog.scss';
 
 const Blog = () => {
@@ -8,7 +8,7 @@ const Blog = () => {
       <div className='u-center-text'>
         <h2 className='heading-secondary'>Feature Blog</h2>
       </div>
-      <Card />
+      <CardList />
     </section>
   )
 }
