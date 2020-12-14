@@ -16,6 +16,7 @@
     color: $color-white;
     margin: 1rem 0 1rem 0;
     border-radius: 2px;
+    border:none;
   }
 
   &__tag--two {
@@ -56,12 +57,11 @@
   }
 
   &__card {
-    border: 1px solid #333;
     height: 45rem;
     padding: 2rem;
     transition: all 0.5s ease;
-    border-radius: 0.3rem;
-    box-shadow: 0 1.5rem 3rem rgba($secondary-color, .15);
+    border-radius: 1rem;
+    box-shadow: 0 2.5rem 4rem rgba($secondary-color, .15);
 
 
     @include respond(tab-port) {
