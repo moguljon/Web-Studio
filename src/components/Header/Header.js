@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.scss';
 import logo from './img/logo.png';
 import { Link } from 'react-router-dom';
-// import Particles from 'react-particles-js';
+import Particles from 'react-particles-js';
 
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
         </video>
       </div> */}
 
-{/* <Particles className='particles'
+<Particles className='particles'
     params={{
 	    "particles": {
 	        "number": {
@@ -34,10 +34,8 @@ const Header = () => {
 	            }
 	        }
 	    }
-	}} /> */}
+	}} />
 
-     
- 
       <div className='header__logo-box'>
         <Link to='/' className='mobile-logo'>
           <img src={logo} alt='alt' className='header__logo'/>

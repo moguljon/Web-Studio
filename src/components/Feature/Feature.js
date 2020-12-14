@@ -12,25 +12,24 @@ const Feature = () => {
   return(
     <section className='section-features'>
        <Particles className='particles'
-    params={{
-	    "particles": {
-	        "number": {
-	            "value": 50
-	        },
-	        "size": {
-	            "value": 3
-	        }
-	    },
-	    "interactivity": {
-	        "events": {
-	            "onhover": {
-	                "enable": true,
-	                "mode": "repulse"
-	            }
-	        }
-	    }
-	}} />
-      
+          params={{
+            "particles": {
+                "number": {
+                    "value": 50
+                },
+                "size": {
+                    "value": 3
+                }
+            },
+            "interactivity": {
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    }
+                }
+            }
+        }} />
 
       <div className='row'>
         <div className='col-1-of-4'>
