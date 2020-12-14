@@ -16,7 +16,8 @@
     color: $color-white;
     margin: 1rem 0 1rem 0;
     border-radius: 2px;
-    border:none;
+    
+
   }
 
   &__tag--two {
@@ -65,7 +66,9 @@
 
 
     @include respond(tab-port) {
-      height: 53rem;
+      height: 48rem;
+      width: 44rem;
+     
     }
 
     &:hover {
