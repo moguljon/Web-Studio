@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './img/logo.png';
+import logo from './img/logo_transparent.png';
 import './Social.scss';
 import { IoLogoInstagram } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";

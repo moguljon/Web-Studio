@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Navigation.scss';
 import { Link } from 'react-router-dom';
-import logo from './img/logo.png';
+import logo from './img/logo_transparent.png';
 
 
 class Navigation extends Component {
