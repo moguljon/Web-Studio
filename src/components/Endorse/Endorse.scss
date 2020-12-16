@@ -37,12 +37,13 @@
     box-shadow: rgba(19, 15, 235, 0.1) 2px 4px 25px 0px;
 
     @include respond(tab-port) {
-      margin-left: 0;
+      margin-left: 2rem;
+      padding: 2rem;
       width: 20%;
     }
 
     @include respond(phone) {
-      width: 20%;
+      width: 21%;
       margin: 0 1rem 0 1rem;
     }
   }
