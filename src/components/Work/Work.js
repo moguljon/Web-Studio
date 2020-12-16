@@ -78,7 +78,7 @@ const Work = () => {
     <div className='row top mt'>
       <h2 className='work-header-two'><span className='products'>Products Design</span></h2>
       <p className='work-paragraph'>
-      This is clothing design for woman including swimwear, active wear, and t-shirts. Exlusively sole a www.moguljon.com
+      Clothing design for women including swimwear, active wear, and t-shirts. Exlusively sold at www.moguljon.com.
       </p>
       <div className='col-1-of-3'>
         <img src={A} alt='' className='product-photo' />
