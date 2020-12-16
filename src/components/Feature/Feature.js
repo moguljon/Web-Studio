@@ -56,7 +56,7 @@ const Feature = () => {
         <div className='col-1-of-4'>
           <div className='feature-box'>
             <MdLocalGroceryStore className='feature-box__icon'/>
-            <h3 className='heading-teritary u-margin-bottom-small'>Many Plaforms</h3>
+            <h3 className='heading-teritary u-margin-bottom-small'>Flexible</h3>
             <p className='feature-box__text'>We are able to build your next project with Shopify or Sqaurespace if you would like to use that instead.</p>
           </div>
         </div>
