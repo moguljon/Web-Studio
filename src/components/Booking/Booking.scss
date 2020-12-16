@@ -7,7 +7,7 @@
 }
 
 .book {
-  background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white, .9) 100%), url('img/nat-4.jpg');
+  background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white, .8) 100%), url('img/sky.png');
   background-size: cover;
   background-position: center;
 
@@ -18,7 +18,7 @@
   }
 
   @include respond(tab-port) {
-    background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white, .9) 100%), url('img/nat-4.jpg');
+    background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white, .9) 100%), url('img/sky.png');
     background-size: cover;
     background-position: center;
   }

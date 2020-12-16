@@ -8,13 +8,12 @@
 // }
 .header {
   position: relative;
-  height: 100vh;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/main-small.jpg);
-  background-size: cover;
-  background-position: center;
+  min-height: 100vh;
+  background-image:linear-gradient(rgba(69, 69, 104, 0.5), rgba(0, 0, 0, 0.8)), url(img/sky.png);
+  background-position: left;
+  background-size: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 77vh, 0 100%);
   background-attachment: fixed;
-
   @include respond(tab-port) {
     clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
   }
@@ -103,8 +102,7 @@
 
   &--main {
     display: block;
-    font-size: 4.3rem;
-    font-weight: 400;
+    font-size: 5.3rem;
     letter-spacing: 2rem;
     animation: moveRight 1s ease-out;
 

@@ -44,7 +44,7 @@ const Header = () => {
       <div className='header__text-box'>
         <h1 className='heading-primary'>
           <span className='heading-primary--main tc'>Web Studios</span>
-          <span className='heading-primary--secondary'>For your web needs</span>
+          <span className='heading-primary--secondary'>Creating Unique Web Experiences</span>
         </h1>
         <p className='mobile'>
           The home of a creative platform use to build and scale websites, apps, and designs for you. Whether you are looking to create an online presence or you need help improving it we got you covered. We carefully curate a game plan to see it through so that you can grow..

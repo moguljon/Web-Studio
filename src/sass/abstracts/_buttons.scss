@@ -13,6 +13,7 @@
   font-size: 1.5rem;
   border: none;
   cursor: pointer;
+  border-radius: 100rem;
 
   @include respond(phone) {
     font-size: 2rem;
@@ -22,6 +23,7 @@
 
 &:hover {
   transform: translateY(-.3rem);
+
   //box-shadow for lighter background is great!
 }
 
@@ -29,7 +31,6 @@
 &:focus {
   outline: none;
   transform: translateY(.3rem);
-  border-radius: 2px;
 }
 
 &::after {
@@ -52,29 +53,44 @@
 }
 
 .btn--main {
-  background-color: $main-color;
-  color: $color-white;
-  border-radius: 2px;
+  background-image: linear-gradient(to bottom left, #fff, #f7f7f7);
+  color: black !important;
+
+  @include respond(phone) {
+    background-image: linear-gradient(to bottom right, $main-color, $other-color4);
+    color: #fff !important;
+    
+  }
 }
 
 .btn--main::after {
-  background-color: $main-color;
-  border-radius: 2px;
+  background-color: white;
+  border-radius: 100rem;
+
+  @include respond(phone) {
+    background-image: linear-gradient(to bottom right, $main-color, $other-color4);
+  }
 }
 
 .btn--white {
   background-color: $color-white;
   color: $secondary-color;
+  border-radius: 100rem;
+
 }
 
 .btn--grey {
-  background-color: rgb(177, 174, 174);
+  background-image: linear-gradient(to bottom right, rgb(5, 5, 5), #7c7c7c);
   color: #fff !important;
   border-radius: 2px;
+  border-radius: 100rem;
+
 }
 
 .btn--white::after {
   background-color: $color-white;
+  border-radius: 100rem;
+
 }
 
 .btn--animated {
@@ -87,7 +103,7 @@
 .mobile-btn {
   @include respond(phone) {
     margin-top: 3rem;
-    width: 88%;
+    width: 80%;
     text-align: center;
     border-radius: 2px;
     text-align: center;

@@ -3,8 +3,6 @@
 .section-endorse {
   color: #000;
   padding: 25rem 0 12rem 0;
-
-  box-shadow: rgba(19, 15, 235, 0.1) 2px 4px 15px 0px;
   transition: box-shadow 0.4s ease-in-out 0s;
   margin-top: -25vh;
 
@@ -22,6 +20,7 @@
 
   &__paragraph {
     font-size: 2rem;
+    font-weight: bolder;
     margin-bottom: 3rem;
     color: rgb(95, 95, 95);
 
@@ -31,9 +30,11 @@
   }
 
   &__image {
-    color: $color-white;
     margin-left: 6rem;
-    width: 12%;
+    width: 16%;
+    border-radius: 10px;
+    padding: 4rem;
+    box-shadow: rgba(19, 15, 235, 0.1) 2px 4px 25px 0px;
 
     @include respond(tab-port) {
       margin-left: 0;

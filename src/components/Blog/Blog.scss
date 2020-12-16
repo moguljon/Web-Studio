@@ -5,31 +5,10 @@
   // background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/resources.png');
   background-position: center;
   background-size: cover;
-  color: #333;
   // height: 95vh;
 
-  &__tag {
-    border: 1px solid $other-color4;
-    display: inline-block;
-    padding: .4rem;
-    background-color: $other-color4;
-    color: $color-white;
-    margin: 1rem 0 1rem 0;
-    border-radius: 2px;
-  }
-
-  &__tag--two {
-    background-color: $other-color2;
-    border: 1px solid $other-color2;
-  }
-
-  &__tag--three {
-    background-color: $other-color5;
-    border: 1px solid $other-color6;
-  }
-  
   &__box {
-    color: $color-white;
+    color: #f7f7f7;
     margin: 0;
     text-align: center;
   }
