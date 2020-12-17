@@ -1,7 +1,7 @@
 import React from 'react';
 import './Work.scss';
 import { Link } from 'react-router-dom';
-import {Helmet} from "react-helmet";
+// import {Helmet} from "react-helmet";
 import logo from './img/logo_transparent.png';
 import omi from './img/omni-removed.png';
 import mm from './img/mm.png';
@@ -10,10 +10,10 @@ import nn from './img/nn.png';
 const Work = () => {
   return(
     <section className='section-work'>
-   `   <Helmet>
+   {/* `   <Helmet>
          <title>Projects - Web Studios</title>
          <meta name="description" content='Our work speaks for itself, we have created amazing websites that clients will love and you are able to see what work we do before you give us a try.' />
-      </Helmet>
+      </Helmet> */}
 
       <div className='header__logo-box'>
         <Link to='/'>
