@@ -6,6 +6,8 @@ import omi from './img/omni-removed.png';
 import mm from './img/mm.png';
 import nn from './img/nn.png';
 import {Helmet} from "react-helmet";
+import logo from './img/logo_transparent.png';
+import { Link } from 'react-router-dom';
 
 const Moguljon = () => {
   return(
@@ -14,6 +16,11 @@ const Moguljon = () => {
          <title>Portfolio - Web Studios</title>
          <meta name="description" content='Our work speaks for itself, we have created amazing websites that clients will love and you are able to see what work we do before you give us a try.' />
       </Helmet>
+      <div className='header__logo-box'>
+          <Link to='/'>
+            <img src={logo} alt='alt' className='header__logo'/>
+          </Link>
+      </div>
       <div className='section-work__box tc'>
         <div className='u-center-text'>
           <h2 className='heading-secondary'>Our Latest Works</h2>

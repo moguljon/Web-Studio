@@ -10,12 +10,12 @@ const About = () => {
   return(
       <section className='section-about'>
         <div className='u-center-text u-margin-bottom-big'>
-          <h2 className='heading-secondary'>Let Us Create your next website</h2>
+          <h2 className='heading-secondary'>What We Do</h2>
         </div>
         <div className='row'>
           <div className='col-1-of-2'>
            <h3 className='heading-teritary u-margin-bottom-small'>
-             Simpe.Efficient.Scalable.Apps.
+             We create Simple, fast, and scalable apps.
            </h3>
            <p className='paragraph'>We help grow organizations by building web base application and give them the online presence they have been looking for.</p>
            <h3 className='heading-teritary u-margin-bottom-small'>

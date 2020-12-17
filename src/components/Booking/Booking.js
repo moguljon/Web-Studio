@@ -1,47 +1,17 @@
 import React, { Component } from 'react';
 import './Booking.scss';
-import { Link } from 'react-router-dom';
-import logo from './img/logo_transparent.png';
 import {Helmet} from "react-helmet";
-// import Navigation from '../Navigation/Navigation';
-// import Particles from 'react-particles-js';
-
-
 
 class Booking extends Component {
   render() {
     return(
     <section className='section-book'>
-     {/* <Particles className='particles'
-    params={{
-	    "particles": {
-	        "number": {
-	            "value": 50
-	        },
-	        "size": {
-	            "value": 4
-	        }
-	    },
-	    "interactivity": {
-	        "events": {
-	            "onhover": {
-	                "enable": true,
-	                "mode": "repulse"
-	            }
-	        }
-	    }
-	}} /> */}
+    
       <Helmet>
          <title>Booking - Web Studios</title>
          <meta name="description" content='Contact Web Stuidos with potential new projects and questions you may have. Thank you for visiting us.' />
       </Helmet>
    
-      <div className='header__logo-box'>
-        <Link to='/'>
-          <img src={logo} alt='alt' className='header__logo'/>
-        </Link>
-      </div>
-
       <div className='row'>
         <div className='book'>
           <div className='book__form'>
