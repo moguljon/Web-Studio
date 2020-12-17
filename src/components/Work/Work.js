@@ -3,21 +3,14 @@ import './Work.scss';
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
 import logo from './img/logo_transparent.png';
-import omni from './img/omnifood.jpg';
-import mogul from './img/mogul.jpg';
-import newsgrid from './img/newsgrid.jpg';
-import other from './img/other.jpg';
-import robtos from './img/robofriends.jpg';
-import k from './img/krystel.jpg';
-import J from './img/J.JPG';
-import A from './img/A.png';
-import img from './img/hero-girl.png';
-
+import omi from './img/omni-removed.png';
+import mm from './img/mm.png';
+import nn from './img/nn.png';
 
 const Work = () => {
   return(
     <section className='section-work'>
-      <Helmet>
+   `   <Helmet>
          <title>Projects - Web Studios</title>
          <meta name="description" content='Our work speaks for itself, we have created amazing websites that clients will love and you are able to see what work we do before you give us a try.' />
       </Helmet>
@@ -28,73 +21,48 @@ const Work = () => {
         </Link>
       </div>
       
-      <div className='section-work__box'>
-        <h1 className='section-work__header--one'>
-          <span className='section-work__one'><strong>Web Studios <span className='section-work__two'>.io</span></strong></span>
-        </h1>
+      <div className='section-work__box tc'>
+        <div className='u-center-text'>
+          <h2 className='heading-secondary'>Our Latest Works</h2>
+        </div>
         <p className='section-work__paragraph'>based in New York</p>
       </div>
-
-      <div className='row'>
-        <h2 className='work-header-two'><span className='products'>Websites</span></h2>
-          <div className='col-1-of-3'>
-            <img src={omni} alt='mogul' className='work-images' width='100%' />
-            <h3 className='work-header'>Omnifood Restaurant - Built With React</h3>
-            <p className='work-paragraph'>Goobye fast food, hello healthy eating. Welcome to Omnifood for all your healthy eats.</p>
-            <a href='https://omnifoodeats.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--grey'>View</a>
-          </div>
-          <div className='col-1-of-3'>
-            <img src={mogul} alt='mogul' className='work-images' width='100%' />
-            <h3 className='work-header'>Moguljon - Built With Shopify</h3>
-            <p className='work-paragraph'>The permier E-commerce website for woman's clothing.</p>
-            <a href='https://moguljon.com/' target='_blank'  rel='noopener noreferrer' className='btn btn--grey'>View</a>
-          </div>
-          <div className='col-1-of-3'>
-            <img src={newsgrid} alt='mogul' className='work-images' width='100%' />
-            <h3 className='work-header'>Newsgrid - Built With CSS</h3>
-            <p className='work-paragraph'>A news media inspired website. A platform that would showcase the latest sports news of the day.</p>
-            <a href='https://newsmedia.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--grey'>View</a>
-          </div>
-      </div>
-     
-    <div className='row mt'>
-      <h2 className='work-header-two'><span className='products'>UX Design</span></h2>
-        <div className='col-1-of-2'>
-          <img src={other} alt='' className='work-images' width='100%' />
-          <h3 className='work-header'>Trillo - Hotel Inspired Website </h3>
-          <p className='work-paragraph'>Trillo is a demo homepage that would allow customers to book flights, rent cars, and look at reviews. With Eye catching design it is sure to catch the eye of customers.
-          </p>
-          <a href='https://trilloinn.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn btn--grey'>View</a>
-        </div>
-        <div className='col-1-of-2'>
-          <img src={robtos} alt='' className='work-images' width='100%' />
-          <h3 className='work-header'>Robofriends</h3>
-          <p className='work-paragraph'>A website built with a modern framework called React. It has a search bar that allows you to filter based on a name you search for.
-          </p>
-          
-          <a href='https://moguljon.github.io/robofriends/' target='_blank'  rel='noopener noreferrer' className='btn btn--grey'>View</a>
-        </div>
-    </div>
-
-    <div className='row top mt'>
-      <h2 className='work-header-two'><span className='products'>Products Design</span></h2>
-      <p className='work-paragraph'>
-      Clothing design for women including swimwear, active wear, and t-shirts. Exlusively sold at www.moguljon.com.
-      </p>
-      <div className='col-1-of-3'>
-        <img src={A} alt='' className='product-photo' />
-      </div>
-      <div className='col-1-of-3'>
-        <img src={J} alt='' className='product-photo' />
-      </div>
-      <div className='col-1-of-3'>
-        <img src={k} alt='' className='product-photo' />
-      </div>
-    </div>
-    <a href='https://moguljon.com/collections' target='_blank'  rel='noopener noreferrer' className='btn btn--grey mb5'>View All</a>
-    
-
-  
+     <div className='work tc'>
+       <div className='work__img-container'>
+        <img src={mm} alt='' className='work__img' width='500px' />
+       </div>
+       <div className='work__content'>
+         <h3 className='work__header-three'>MogulJon, Website for Women Clothing</h3>
+         <p className='work__paragraph'>Product, Web Design</p>
+         <div className='work__btn-container'>
+          <a href='https://moguljon.com/' target='__blank' className='work__btn btn buttons'>View Project</a>
+         </div>
+       </div>
+     </div>
+     <div className='tc other-work'>
+       <div className='work__img-container other-container'>
+        <img src={omi} alt='' className='work__img' width='500px' />
+       </div>
+       <div className='work__content'>
+         <h3 className='work__header-three'>Beautiful React Application With Modern Design and Layout</h3>
+         <p className='work__paragraph'>Development, Web Design</p>
+         <div className='work__btn-container'>
+          <a href='https://omnifoodeats.netlify.app/' target='__blank' className='work__btn btn buttons'>View Project</a>
+         </div>
+       </div>
+     </div>
+     <div className='work tc'>
+       <div className='work__img-container'>
+        <img src={nn} alt='' className='work__img' width='500px' />
+       </div>
+       <div className='work__content'>
+         <h3 className='work__header-three'>Newsgrid, A Sports Related Website Meant for News Articles</h3>
+         <p className='work__paragraph'>Development, Web Design</p>
+         <div className='work__btn-container'>
+         <a href='https://newsmedia.netlify.app/' target='__blank' className='work__btn btn buttons'>View Project</a>
+         </div>
+       </div>
+     </div>
     </section>
   )
 }

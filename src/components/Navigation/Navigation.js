@@ -26,7 +26,7 @@ class Navigation extends Component {
               {/* <Link to='/' className='navigation__link'>Home</Link> */}
             </li> 
             <li className='navigation__item'>
-              <a className='navigation__link' href='/work'>Portfolio</a>
+              <a className='navigation__link' href='/portfolio'>Portfolio</a>
               {/* <Link to='/work' className='navigation__link'>Projects</Link> */}
             </li>
             <li className='navigation__item'>
@@ -54,7 +54,7 @@ class Navigation extends Component {
             <Link to='/' className='nav__link dark'>Home</Link>
           </li>
           <li className='nav__item'>
-            <Link to='/work' className='nav__link dark'>Portfolio</Link>
+            <Link to='/portfolio' className='nav__link dark'>Portfolio</Link>
           </li>
           <li className='nav__item'>
             <Link to='/blog' className='nav__link dark'>Blog</Link>

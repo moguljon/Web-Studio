@@ -65,7 +65,6 @@ class Booking extends Component {
               <div className='form__group u-margin-top-small'>
               <button type='submit' className='btn btn--main'>Send Away &rarr;</button>
               </div>
-
               </div>
             </form>
           </div>

@@ -8,15 +8,16 @@
 // }
 .header {
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
   background-image:linear-gradient(rgba(69, 69, 104, 0.5), rgba(0, 0, 0, 0.8)), url(img/skyooo.jpg);
   background-position: left;
   background-size: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 77vh, 0 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  
   @include respond(tab-port) {
-    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+    background-repeat: repeat;
     
   }
   

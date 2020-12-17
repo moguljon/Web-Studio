@@ -22,6 +22,8 @@ import Privacy from './components/Privacy/Privacy';
 import {Helmet} from "react-helmet";
 import Endrose from './components/Endorse/Endorse';
 import Courses from './components/Courses/Courses';
+import Moguljon from './components/Moguljon/moguljon';
+
 
 function App() {
     return (
@@ -39,7 +41,8 @@ function App() {
           <Route exact path='/' component={Feature} />
           <Route exact path='/' component={Prices} />
           <Route exact path='/' component={Story} />
-          <Route exact path='/' component={HeaderBlog} />  
+          {/* <Route exact path='/' component={HeaderBlog} />  */}
+          <Route exact path='/' component={Work} /> 
           <Route exact path='/newsletter' component={Newsletter} />  
           <Route exact path='/booking' component={Booking} />
           <Route exact path='/work' component={Work} />
@@ -48,6 +51,7 @@ function App() {
           <Route exact path='/blog/journey' component={Journey} />
           <Route exact path='/privacy' component={Privacy} />
           <Route exact path='/blog/courses' component={Courses} />
+          <Route exact path='/portfolio' component={Moguljon} />
           <Social />
           <Footer />
         </Router>
