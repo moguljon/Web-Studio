@@ -8,7 +8,7 @@ import Prices from './components/Prices/Prices';
 import Story from './components/Story/Story';
 import Booking from './components/Booking/Booking';
 import Footer from './components/Footer/Footer';
-import HeaderBlog from './components/HeaderBlog/HeaderBlog';
+// import HeaderBlog from './components/HeaderBlog/HeaderBlog';
 import Blog from './components/Blog/Blog';
 import ScrollToTop from './components/ScrollToTop';
 import Work from './components/Work/Work';
