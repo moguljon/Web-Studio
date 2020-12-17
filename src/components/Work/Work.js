@@ -11,6 +11,7 @@ import robtos from './img/robofriends.jpg';
 import k from './img/krystel.jpg';
 import J from './img/J.JPG';
 import A from './img/A.png';
+import img from './img/hero-girl.png';
 
 
 const Work = () => {
@@ -92,6 +93,8 @@ const Work = () => {
     </div>
     <a href='https://moguljon.com/collections' target='_blank'  rel='noopener noreferrer' className='btn btn--grey mb5'>View All</a>
     
+
+  
     </section>
   )
 }

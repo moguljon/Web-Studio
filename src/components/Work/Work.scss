@@ -2,12 +2,12 @@
 
 .section-work {
   padding: 18rem 0;
-  color: #000;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: #333;
   align-items: center;
-  
+
 
   &__box {
     padding: 0 4rem 0 4rem;
@@ -51,9 +51,15 @@
   margin-bottom: 2rem;
 }
 
-.work-images {
-  box-shadow:  0 1rem 3rem rgba(0, 0, 0, .3);
+.other {
+  display: flex;
+
 }
+
+.work-images {
+  box-shadow:  0 1rem 3rem rgba(0, 0, 0, .3); 
+}
+
 
 .top {
   margin-top: 2rem;
@@ -95,3 +101,6 @@
   border: 1px solid #F0F8FF;
   background-color: #F0F8FF;
 }
+
+
+
