@@ -10,18 +10,18 @@ const Card = () => {
   return(
     <div className='section-blog__other'>
       <div className='row'>
-      <div className='col-1-of-3'>
-        <article className='section-blog__card'>
-          <a href='https://webstudios.medium.com/how-i-studied-and-landed-two-interviews-in-9-months-e58e2aea9e3' target='_blank' rel="noopener noreferrer">
-            <img src={programming} alt='journey' className='section-blog__image' />
-          </a>
-          <h3 className='section-blog__header--three'>How I self-studied web development and landed my first interview in 9 months. <span role="img" aria-label='a tag'>💻</span></h3>
-          <p className='section-blog__paragraph'>
-          I want to first say that I have a bachelors degree in Information systems, 
-          so in school you get to learn about Java as well..<a href='https://webstudios.medium.com/how-i-studied-and-landed-two-interviews-in-9-months-e58e2aea9e3' target='_blank' rel="noopener noreferrer">Read more</a>
-          </p>
-        </article>
-      </div> 
+        <div className='col-1-of-3'>
+          <article className='section-blog__card'>
+            <a href='https://webstudios.medium.com/how-i-studied-and-landed-two-interviews-in-9-months-e58e2aea9e3' target='_blank' rel="noopener noreferrer">
+              <img src={programming} alt='journey' className='section-blog__image' />
+            </a>
+            <h3 className='section-blog__header--three'>How I self-studied web development and landed my first interview in 9 months. <span role="img" aria-label='a tag'>💻</span></h3>
+            <p className='section-blog__paragraph'>
+            I want to first say that I have a bachelors degree in Information systems, 
+            so in school you get to learn about Java as well..<a href='https://webstudios.medium.com/how-i-studied-and-landed-two-interviews-in-9-months-e58e2aea9e3' target='_blank' rel="noopener noreferrer">Read more</a>
+            </p>
+          </article>
+        </div> 
       <div className='col-1-of-3'>
         <article className='section-blog__card'>
           <a href='https://webstudios.medium.com/amazing-technologies-right-now-ff1c46f84e9f' target='_blank' rel="noopener noreferrer">

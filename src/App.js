@@ -15,7 +15,6 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import 'tachyons';
 import Newsletter from './components/Newsletter/Newsletter';
 import Social from  './components/Social/Social';
-import Privacy from './components/Privacy/Privacy';
 import {Helmet} from "react-helmet";
 import Endrose from './components/Endorse/Endorse';
 import Moguljon from './components/Moguljon/moguljon';
@@ -42,7 +41,6 @@ function App() {
           <Route exact path='/booking' component={Booking} />
           <Route exact path='/work' component={Work} />
           <Route exact path='/blog' component={Blog} />
-          <Route exact path='/privacy' component={Privacy} />
           <Route exact path='/portfolio' component={Moguljon} />
           <Social />
           <Footer />

@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 import resources from './img/resized.jpeg';
 import {Helmet} from "react-helmet"; 
 import logo from './img/logo_transparent.png';
-import Newsletter from '../Newsletter/Newsletter';
-import SearchField from '../SearchField/SearchField';
 import CardList from '../CardList/CardList';
 
 class Blog extends Component {
@@ -32,13 +30,10 @@ class Blog extends Component {
             <p className='section-blog__paragraph'>Here we also give you an insight on our platform and how were are able to leverage technology to your benefit. That is, how we can create an application for you that you would love but also that will bring profit.</p>  
           </div>
         </div>
-
-       <Newsletter />
         <div className='section-work__box section-blog__box'>
           <h1 className='heading-secondary section-work__header section-blog__header--one'>Latest Blogs</h1>
         </div>
         </section>
-        <SearchField/>
         <CardList />
       </div>
     )
