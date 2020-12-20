@@ -23,7 +23,7 @@ const Work = () => {
       
       <div className='section-work__box tc'>
         <div className='u-center-text'>
-          <h2 className='heading-secondary'>Our Latest Works</h2>
+          <h2 className='heading-secondary'>Our Works</h2>
         </div>
         <p className='section-work__paragraph'>based in New York</p>
       </div>

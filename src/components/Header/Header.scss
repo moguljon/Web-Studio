@@ -19,7 +19,6 @@
   @include respond(tab-port) {
     background-image: url(img/skyooo.jpg);
     height: 60vh;
-    
   }
   
   @include respond(phone) {
@@ -134,8 +133,6 @@
     }
   }
 }
-
-
 
 .mobile {
   display: none;

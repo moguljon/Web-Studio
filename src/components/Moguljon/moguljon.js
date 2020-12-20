@@ -23,10 +23,11 @@ const Moguljon = () => {
       </div>
       <div className='section-work__box tc'>
         <div className='u-center-text'>
-          <h2 className='heading-secondary'>Our Latest Works</h2>
+          <h2 className='heading-secondary'>Our Works</h2>
         </div>
         <p className='section-work__paragraph'>based in New York</p>
       </div>
+      <h2 className='work-header-two tc'><span className='products'>Websites</span></h2>
      <div className='work tc'>
        <div className='work__img-container'>
         <img src={mm} alt='' className='work__img' width='500px' />
