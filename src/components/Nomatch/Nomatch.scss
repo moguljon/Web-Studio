@@ -1,0 +1,17 @@
+.nomatch {
+    padding: 13rem 0;
+    background-image: url(img/earth.jpg);
+    color: #f7f7f7;
+
+    &__header {
+        font-size: 7rem;
+    }
+
+    &__paragraph {
+        font-size: 2rem;
+    }
+
+    &__img {
+        width: 25%;
+    }
+}

@@ -23,7 +23,6 @@
 
 &:hover {
   transform: translateY(-.3rem);
-
   //box-shadow for lighter background is great!
 }
 
@@ -59,7 +58,6 @@
   @include respond(phone) {
     background-image: linear-gradient(to bottom right, $main-color, $other-color4);
     color: #fff !important;
-    
   }
 }
 
