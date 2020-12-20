@@ -1,13 +1,16 @@
 import React from 'react';
+import './SearchField.scss';
+import { BsSearch } from "react-icons/bs";
 
-const SearchField = ( { onSearchChange }) => {
+
+const SearchField = ({ onSearchChange }) => {
   return(
     <section className='section-searchfield tc'>
       <input 
         onChange={onSearchChange}
-        className='pa3 ba b--blue bg-lightest-blue' 
+        className='section-searchfield__input' 
         type='text' 
-        placeholder='search..'/>
+        placeholder='search title..'/><BsSearch size={20} style={{marginLeft: '-3rem'}} className='icon-input' />
     </section>
   )
 }

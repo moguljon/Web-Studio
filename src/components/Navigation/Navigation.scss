@@ -10,6 +10,7 @@
 //  z-index: 12;
 
  height: 10rem;
+ 
  @include respond(phone) {
     display: none;
 }

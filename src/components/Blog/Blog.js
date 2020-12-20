@@ -5,9 +5,28 @@ import resources from './img/resized.jpeg';
 import {Helmet} from "react-helmet"; 
 import logo from './img/logo_transparent.png';
 import CardList from '../CardList/CardList';
+import { searching } from '../searching/searching';
+import Searhfield from '../SearchField/SearchField';
 
 class Blog extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      searching: searching,
+      searchField: ''
+    }
+  }
+
+  onSearchChange = (event) => {
+    this.setState({searchField: event.target.value});
+  }
+
   render() {
+    const { searching, searchField } = this.state;
+    const filterBlogs = searching.filter(filterBlog => {
+      return filterBlog.title.toLowerCase().includes(searchField.toLowerCase())
+    });
     return(
     <div className='whole-section'>
       <section className='section-blog'>
@@ -34,7 +53,8 @@ class Blog extends Component {
           <h1 className='heading-secondary section-work__header section-blog__header--one'>Latest Blogs</h1>
         </div>
         </section>
-        <CardList />
+        <Searhfield onSearchChange={this.onSearchChange} />
+        <CardList searching={filterBlogs} />
       </div>
     )
   }

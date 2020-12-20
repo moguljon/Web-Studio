@@ -1,0 +1,24 @@
+@import './src/index.scss';
+
+.section-searchfield {
+
+    &__input {
+        padding: 1.6rem;
+        border: none;
+        background-color: #f7f7f7;
+        width: 35%;
+        border-radius: 8px;
+
+        @include respond(phone) {
+            width: 60%;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__icon {
+        width: 80%;
+    }
+}

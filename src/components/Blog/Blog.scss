@@ -11,8 +11,8 @@
     color: #f7f7f7;
     margin: 0;
     text-align: center;
+    
   }
-
   &__header--one {
     font-size: 2.4rem;
     text-transform: uppercase;
@@ -40,9 +40,13 @@
     transition: all 0.5s ease;
     border-radius: 1rem;
     box-shadow: 0 2.5rem 4rem rgba($secondary-color, .15);
-
+   
     @include respond(tab-port) {
-      height: 48rem;
+      height: 46rem;
+    }
+
+    @include respond(phone) {
+      height: 60rem;
     }
 
     &:hover {
@@ -56,4 +60,24 @@
 a:link,
 a:visited {
   color: #333;
+}
+
+.grid-columns {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2.4rem;
+  padding: 0 0 18rem 0;
+
+  @include respond(tab-port) {
+    width: 85vw;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include respond(phone) {
+    grid-template-columns: 1fr;
+    width: 90vw;
+    
+  }
 }
