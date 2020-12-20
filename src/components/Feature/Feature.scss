@@ -5,13 +5,9 @@
   background-image:linear-gradient(rgba(69, 69, 104, 0.5), rgba(0, 0, 0, 0.8)), url(img/skyooo.jpg);
   background-size: cover;
   background-position: right;
-  transform: skewY(-7deg);
+  transform: skewY(0deg);
   margin-top: -10rem;
   position: relative;
-
-  & > * {
-    transform: skewY(7deg);
-  }
 }
 
 .feature-box {
