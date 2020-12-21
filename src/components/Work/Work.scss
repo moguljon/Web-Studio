@@ -7,7 +7,7 @@
   font-family: sans-serif;
 
   @include respond(tab-port) {
-    padding: 18rem 8rem;
+    padding: 18rem 0rem;
   }
 
   &__box {
@@ -68,7 +68,6 @@
 .work-images {
   box-shadow:  0 1rem 3rem rgba(0, 0, 0, .3); 
 }
-
 
 .top {
   margin-top: 2rem;
@@ -163,7 +162,6 @@
 
     @include respond(tab-port) {
       width: 100%;
-      
     }
   }
 
