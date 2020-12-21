@@ -2,12 +2,12 @@
 
 .section-endorse {
   color: #000;
-  padding: 25rem 0 12rem 0;
+  padding: 12rem 0 12rem 0;
   transition: box-shadow 0.4s ease-in-out 0s;
-  margin-top: -25vh;
+  
 
   @include respond(tab-port) {
-    padding: 32rem 0 25rem 0;
+    padding: 10rem 0 25rem 0;
   }
 
   @include respond(phone) {
