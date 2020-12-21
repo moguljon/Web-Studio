@@ -13,7 +13,7 @@ const About = () => {
          <div className='u-center-text u-margin-bottom-big'>
           <h2 className='heading-secondary'>What We Do</h2>
         </div>
-        <div className='row'>
+        <div className='row2'>
           <div className='col-1-of-3'>
             <div className='section-about__container'>
               <ion-icon name="albums-outline" className='icon1' size='large'  ></ion-icon>

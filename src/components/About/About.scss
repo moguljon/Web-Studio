@@ -41,6 +41,48 @@
   }
 }
 
+//second row 
+.row2 {
+  max-width: $grid-width;
+  margin: 0 auto;
+
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+
+    @include respond(tab-port) {
+      margin-bottom: $gutter-vertical-small;
+    }
+  }
+
+  @include respond(tab-port) {
+   max-width: 50rem;
+  }
+
+  @include clearfix();
+
+  //select all
+  [class^='col-'] {
+    float: left;
+
+    &:not(:last-child) {
+      margin-right: $horrizontal-gutter;
+
+      @include respond(tab-port) {
+        margin-right: 0;
+        margin-bottom: $gutter-vertical-small;
+      }
+    }
+
+    @include respond(tab-port) {
+      width: 50% !important;
+    }
+  }
+
+  .col-1-of-2 {
+    width: calc((100% - #{$horrizontal-gutter}) / 2);
+  }
+}
+
 
 //Section About
 .section-about {
