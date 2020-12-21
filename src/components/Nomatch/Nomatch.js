@@ -10,8 +10,6 @@ const Nomatch = () => {
             <Link to='/' className='btn btn--main tc' style={{marginBottom: '4rem'}}> Take me Home</Link>
             <p className='nomatch__paragraph'>It seems like the page that are looking for does not exist.</p>
             <img src={nomatch} className='nomatch__img' alt='' />
-            
-
         </section>
     )
 }

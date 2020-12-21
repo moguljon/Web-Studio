@@ -55,6 +55,7 @@
   background-image: linear-gradient(to bottom left, #fff, #f7f7f7);
   color: black !important;
 
+  
   @include respond(phone) {
     background-image: linear-gradient(to bottom right, $main-color, $other-color4);
     color: #fff !important;
