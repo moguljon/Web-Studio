@@ -17,14 +17,14 @@ const About = () => {
           <div className='col-1-of-2'>
             <div className='section-about__container'>
               <ion-icon name="albums-outline" className='icon1' size='large'  ></ion-icon>
-              <h2 className='section-about__header--two'>Creative Development</h2>
-              <p className='section-about__paragraph'>We offer </p>
+              <h2 className='section-about__header--two'>Design</h2>
+              <p className='section-about__paragraph'>We create digital assets that for your business needs. </p>
             </div>
           </div>
           <div className='col-1-of-2'>
             <div className='section-about__container'>
               <ion-icon name="bulb-outline" className='section-about__color' size='large'  ></ion-icon>
-              <h2 className='section-about__header--two'>Branding</h2>
+              <h2 className='section-about__header--two'>Development</h2>
               <p className='section-about__paragraph'>Character Design, Icon Set, Illustration Guide, Illustration Set</p>
             </div>
           </div>

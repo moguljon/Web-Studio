@@ -3,7 +3,6 @@ import Header from '../Header/Header';
 import Endrose from '../Endorse/Endorse';
 import About from '../About/About';
 import Feature from '../Feature/Feature';
-import Prices from '../Prices/Prices';
 import Story from '../Story/Story';
 import Work from '../Work/Work';
 
