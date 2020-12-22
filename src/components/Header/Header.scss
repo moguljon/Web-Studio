@@ -155,5 +155,9 @@
   right: 0;
   bottom: 0;
   z-index: -1;
+}
 
+.some-container {
+  display: flex;
+  margin-right: 1rem;
 }

@@ -14,6 +14,7 @@ import {Helmet} from "react-helmet";
 import Moguljon from './components/Moguljon/moguljon';
 import Nomatch from './components/Nomatch/Nomatch';
 import Home from './components/Home/Home';
+import Privacy from './components/Privacy/Privacy';
 
 function App() {
     return (
@@ -32,6 +33,7 @@ function App() {
           <Route exact path='/work' component={Work} />
           <Route exact path='/blog' component={Blog} />
           <Route exact path='/portfolio' component={Moguljon} />
+          <Route exact path='/privacy' component={Privacy} />
           <Route component={Nomatch} />
         </Switch>
           <Social />

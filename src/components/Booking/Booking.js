@@ -49,7 +49,7 @@ class Booking extends Component {
         </div>
       </div> */}
       <h1 className='booking-header'>Contacts US</h1>
-      <p className='booking-paragraph'>Contact us for any questions or inquiries regarding projects. Please allow us some time to get back to you.</p>
+      <p className='booking-paragraph'>Contact us for any questions or inquiries regarding projects. We love to work with you. Please allow us some time to get back to you.</p>
       <div className='contact-section'>
         <form name='contact' netlify='true' netlify-honeypot="bot-field" action='/booking' method='post' className='contact-form'>
           <input type='hidden' name='form-name' value='booking' />

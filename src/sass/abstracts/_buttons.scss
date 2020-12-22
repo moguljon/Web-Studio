@@ -52,18 +52,18 @@
 }
 
 .btn--main {
-  background-image: linear-gradient(to bottom left, #fff, #f7f7f7);
-  color: black !important;
+  background-image: linear-gradient(to bottom left, $other-color3, $other-color4);
+  color: white;
 
   
   @include respond(phone) {
     background-image: linear-gradient(to bottom right, $main-color, $other-color4);
-    color: #fff !important;
+    
   }
 }
 
 .btn--main::after {
-  background-color: white;
+  background-image: linear-gradient(to bottom left, $other-color3, $other-color4);
   border-radius: 100rem;
 
   @include respond(phone) {

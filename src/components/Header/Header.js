@@ -45,7 +45,7 @@ const Header = () => {
       <div className='header__text-box'>
         <h1 className='heading-primary'>
           <span className='heading-primary--main tc'>Web Studios</span>
-          <span className='heading-primary--secondary'>Web of Tomorrow</span>
+          <span className='heading-primary--secondary'>Creating Experiences on the Web</span>
         </h1>
         
         

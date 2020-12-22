@@ -7,7 +7,7 @@ import {Helmet} from "react-helmet";
 import logo from './img/logo_transparent.png';
 import { Link } from 'react-router-dom';
 import robofriends from './img/robofriends.png';
-// import trillo from './img/trillo.png';
+import trillo from './img/trillo.png';
 import portfolio3 from './img/portfolio3.png';
 
 const Moguljon = () => {
@@ -67,7 +67,7 @@ const Moguljon = () => {
        </div>
      </div>
 
-     <h2 className='work-header-two tc'><span className='products'>UI Design</span></h2>
+     <h2 className='work-header-two tc'><span className='products'>Design</span></h2>
 
      <div className='tc other-work'>
        <div className='work__img-container--2'>
@@ -94,6 +94,20 @@ const Moguljon = () => {
          </div>
        </div>
      </div>
+     <div className='tc other-work'>
+       <div className='work__img-container--2'>
+        <img src={trillo} alt='' className='work__img' width='500px' />
+       </div>
+       <div className='work__content'>
+         <h3 className='work__header-three'>A demo hotel homepage.</h3>
+         <p className='work__paragraph'>React Development, Web Design</p>
+         <div className='work__btn-container'>
+          <a href='https://trilloinn.netlify.app/' target='__blank' className='work__btn--2 btn'>View Project</a>
+         </div>
+      </div>
+     </div>
+
+
     </section>
   )
 }
