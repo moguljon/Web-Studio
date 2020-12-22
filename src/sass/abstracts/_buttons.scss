@@ -53,7 +53,7 @@
 
 .btn--main {
   background-image: linear-gradient(to bottom left, $other-color3, $other-color4);
-  color: white;
+  color: white !important;
 
   
   @include respond(phone) {
