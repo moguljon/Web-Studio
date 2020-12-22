@@ -12,7 +12,7 @@ class Booking extends Component {
          <meta name="description" content='Contact Web Stuidos with potential new projects and questions you may have. Thank you for visiting us.' />
       </Helmet>
    
-      <div className='row'>
+      {/* <div className='row'>
         <div className='book'>
           <div className='book__form'>
             <form name='contact' netlify='true' netlify-honeypot="bot-field" action='/booking' method='post' className='form'>
@@ -39,8 +39,25 @@ class Booking extends Component {
             </form>
           </div>
         </div>
-      </div>
+      </div> */}
+      <h1 className='booking-header'>Contacts US</h1>
+      <p className='booking-paragraph'>Contact us for any questions or inquiries regarding projects. Please Allow sometime to get back to you.</p>
+      <div className='contact-section'>
 
+        <form name='contact' netlify='true' netlify-honeypot="bot-field" action='/booking' method='post' className='contact-form'>
+          <input type='hidden' name='form-name' id='name' value='booking' />
+
+          <label htmlFor='fullname' className='label'>Name</label>
+          <input required name='fullname' id='fullname' type='text' className='contact-form-text' />
+
+          <label htmlFor='email' className='label'>Email</label>
+          <input required type='email' name='email' id='email' className='contact-form-text' />
+
+          <label htmlFor='message' className='label'>Message</label>
+          <textarea required id='message' name='message' className='contact-form-text'></textarea>
+          <button type='submit' className='btn btn--grey'>Send Away &rarr;</button>
+        </form>
+      </div>
     </section>
   )
   }

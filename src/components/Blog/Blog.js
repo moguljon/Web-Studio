@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Blog.scss';
 import { Link } from 'react-router-dom';
-import resources from './img/resized.jpeg';
+import team from './img/remote-team.png';
 import {Helmet} from "react-helmet"; 
 import logo from './img/logo_transparent.png';
 import CardList from '../CardList/CardList';
@@ -41,10 +41,10 @@ class Blog extends Component {
       </div>
         <div className='row border'>
           <div className='col-1-of-2'>
-            <img src={resources} alt='blog' /> 
+            <img src={team} alt='blog' /> 
           </div>
           <div className='col-1-of-2 border-around'>
-            <h1 className='section-blog__header--one'>Welcome to web studios blog</h1>
+            <h1 className='section-blog__header--one'>Web Studios Blog</h1>
             <p className='section-blog__paragraph'>Here you will find the latest input, takes, and rants as it relates to web development. Please contact me if you have any questions. Web studis is an interactive platform that makes your online presence viable while also educating you in this space. </p>
             <p className='section-blog__paragraph'>Here we also give you an insight on our platform and how were are able to leverage technology to your benefit. That is, how we can create an application for you that you would love but also that will bring profit.</p>  
           </div>

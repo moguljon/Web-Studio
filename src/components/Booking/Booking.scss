@@ -1,96 +1,144 @@
 @import './src/index.scss';
 
 .section-book {
-  padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, $main-color, $other-color4);
+  padding: 26rem 0;
+  color: #000;
+ 
 }
 
-.book {
-  background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white, .8) 100%), url('img/sky.png');
-  background-size: cover;
-  background-position: center;
+// .book {
+//   background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white, .8) 100%), url('img/sky.png');
+//   background-size: cover;
+//   background-position: center;
   
 
 
-  // @include respond(tab-land) {
-  //   background-image: linear-gradient(105deg, rgba($color-white, .9) 0%, rgba($color-white, .9) 65%, transparent 65%);
-  //   background-size: cover;
-  // }
+//   // @include respond(tab-land) {
+//   //   background-image: linear-gradient(105deg, rgba($color-white, .9) 0%, rgba($color-white, .9) 65%, transparent 65%);
+//   //   background-size: cover;
+//   // }
 
-  @include respond(tab-port) {
-    background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white, .9) 100%), url('img/sky.png');
-    background-size: cover;
-    background-position: center;
-  }
+//   @include respond(tab-port) {
+//     background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white, .9) 100%), url('img/sky.png');
+//     background-size: cover;
+//     background-position: center;
+//   }
 
-  &__form {
-    width: 100%;
-    padding: 0 6rem 6rem 6rem;
+//   &__form {
+//     width: 100%;
+//     padding: 0 6rem 6rem 6rem;
     
-    @include respond(tab-land) {
+//     @include respond(tab-land) {
       
       
-    }
-    @include respond(tab-port) {
-      width: 100%;
-    }
-  }
+//     }
+//     @include respond(tab-port) {
+//       width: 100%;
+//     }
+//   }
+// }
+
+// .form {
+//   font-family: inherit;
+
+//   &__group:not(:last-child) {
+//     margin-bottom: 2rem;
+//   }
+
+//   &__input {
+//     font-size: 1.5rem;
+//     padding: 1.5rem 2rem;
+//     border-radius: 2px;
+//     background-color: rgba(#c5c5c5, .5);
+//     border: none;
+//     border-bottom: 3px solid transparent;
+//     width: 90%;
+//     display: block;
+//     color: $secondary-color;
+//     transition: all .2s;
+
+//     &:focus {
+//       outline: none;
+//       box-shadow: 0 1rem 2rem rgba(#555, .5);
+//       border-bottom: 3px solid $main-color;
+//     }
+
+//     &::-webkit-input-placeholder {
+//       color: $color-white;
+//     }
+//   }
+
+//   &__label {
+//     font-size: 1.2rem;
+//     font-weight: 700;
+//     margin-left: 2rem;
+//     margin-top: .7rem;
+//     display: block;
+//   }
+// }
+
+
+// .book-paragraph {
+//   font-size: 1.4rem;
+// }
+
+// .header-booking {
+//   margin-top: 5rem;
+// }
+
+// .particles {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   z-index: -1;
+
+// }
+
+.contact-section {
+  
 }
 
-.form {
-  font-family: inherit;
-
-  &__group:not(:last-child) {
-    margin-bottom: 2rem;
-  }
-
-  &__input {
-    font-size: 1.5rem;
-    padding: 1.5rem 2rem;
-    border-radius: 2px;
-    background-color: rgba(#c5c5c5, .5);
-    border: none;
-    border-bottom: 3px solid transparent;
-    width: 90%;
-    display: block;
-    color: $secondary-color;
-    transition: all .2s;
-
-    &:focus {
-      outline: none;
-      box-shadow: 0 1rem 2rem rgba(#555, .5);
-      border-bottom: 3px solid $main-color;
-    }
-
-    &::-webkit-input-placeholder {
-      color: $color-white;
-    }
-  }
-
-  &__label {
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin-left: 2rem;
-    margin-top: .7rem;
-    display: block;
-  }
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 10rem;
+  overflow: hidden;
+  box-shadow: 0 1.5rem 4rem rgba($secondary-color, .15);
 }
 
+.contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 2.5rem 0;
+  border: 0;
+  background:#f7f7f7;
+  padding: 20px 40px;
+  outline: none;
+  transition: 0.5s;
+  
+}  
 
-.book-paragraph {
+textarea.contact-form-text {
+  resize: none;
+  height: 120px;
+}
+
+.label {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.booking-header {
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.booking-paragraph {
+  text-align: center;
   font-size: 1.4rem;
-}
-
-.header-booking {
-  margin-top: 5rem;
-}
-
-.particles {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-
+  margin-bottom: 4rem;
 }
