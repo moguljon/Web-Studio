@@ -3,7 +3,7 @@ export const searching = [
         id: 1,
         title: 'How I self-studied web development and landed my first interview in 9 months',
         img: 'https://i.ibb.co/8NQ9zdk/programming.jpg',
-        paragraph: 'I want to first say that I have a bachelors degree in Information systems, so in school you get to learn about Java as well..',
+        paragraph: 'I want to first say that I have a bachelors degree in Information systems, so in school you get to learn about..',
         link: 'https://webstudios.medium.com/how-i-studied-and-landed-two-interviews-in-9-months-e58e2aea9e3'
     },
     {

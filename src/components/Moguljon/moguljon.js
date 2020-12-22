@@ -7,7 +7,8 @@ import {Helmet} from "react-helmet";
 import logo from './img/logo_transparent.png';
 import { Link } from 'react-router-dom';
 import robofriends from './img/robofriends.png';
-import trillo from './img/trillo.png';
+// import trillo from './img/trillo.png';
+import portfolio3 from './img/portfolio3.png';
 
 const Moguljon = () => {
   return(
@@ -83,13 +84,13 @@ const Moguljon = () => {
 
      <div className='work tc'>
        <div className='work__img-container--2'>
-        <img src={trillo} alt='' className='work__img' width='500px' />
+        <img src={portfolio3} alt='' className='work__img' width='500px' />
        </div>
        <div className='work__content'>
-         <h3 className='work__header-three'>A fantastic home screen demo page for a hotel website.</h3>
+         <h3 className='work__header-three'>A fantastic single page portfolio website example.</h3>
          <p className='work__paragraph'>Development, Web Design</p>
          <div className='work__btn-container'>
-         <a href='https://trilloinn.netlify.app/' target='__blank' className='work__btn--2 btn'>View Project</a>
+         <a href='https://jonathanaguilarportfolio.netlify.app/' target='__blank' className='work__btn--2 btn'>View Project</a>
          </div>
        </div>
      </div>

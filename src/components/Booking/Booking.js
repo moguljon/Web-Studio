@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Booking.scss';
 import {Helmet} from "react-helmet";
+import { Link } from 'react-router-dom';
+import logo from './img/logo_transparent.png';
 
 
 class Booking extends Component {
@@ -12,6 +14,11 @@ class Booking extends Component {
          <title>Booking - Web Studios</title>
          <meta name="description" content='Contact Web Stuidos with potential new projects and questions you may have. Thank you for visiting us.' />
       </Helmet>
+      <div className='header__logo-box'>
+        <Link to='/'>
+          <img src={logo} alt='alt' className='header__logo'/>
+        </Link>
+      </div>
    
       {/* <div className='row'>
         <div className='book'>
@@ -42,7 +49,7 @@ class Booking extends Component {
         </div>
       </div> */}
       <h1 className='booking-header'>Contacts US</h1>
-      <p className='booking-paragraph'>Contact us for any questions or inquiries regarding projects. Please Allow sometime to get back to you.</p>
+      <p className='booking-paragraph'>Contact us for any questions or inquiries regarding projects. Please allow us some time to get back to you.</p>
       <div className='contact-section'>
         <form name='contact' netlify='true' netlify-honeypot="bot-field" action='/booking' method='post' className='contact-form'>
           <input type='hidden' name='form-name' value='booking' />
@@ -62,7 +69,6 @@ class Booking extends Component {
     </section>
   )
   }
-  
 }
 
 export default Booking;
