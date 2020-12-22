@@ -14,25 +14,18 @@ const About = () => {
           <h2 className='heading-secondary'>What We Do</h2>
         </div>
         <div className='row2'>
-          <div className='col-1-of-3'>
+          <div className='col-1-of-2'>
             <div className='section-about__container'>
               <ion-icon name="albums-outline" className='icon1' size='large'  ></ion-icon>
-              <h2 className='section-about__header--two'>UI/UX</h2>
-              <p className='section-about__paragraph'>Landing Pages, User Flow, Wireframing, Prototyping, Mobile App Design, Web App</p>
+              <h2 className='section-about__header--two'>Creative Development</h2>
+              <p className='section-about__paragraph'>We offer </p>
             </div>
           </div>
-          <div className='col-1-of-3'>
+          <div className='col-1-of-2'>
             <div className='section-about__container'>
               <ion-icon name="bulb-outline" className='section-about__color' size='large'  ></ion-icon>
               <h2 className='section-about__header--two'>Branding</h2>
               <p className='section-about__paragraph'>Character Design, Icon Set, Illustration Guide, Illustration Set</p>
-            </div>
-          </div>
-          <div className='col-1-of-3'>
-            <div className='section-about__container'>
-              <ion-icon name="bag-check-outline" size='large'  ></ion-icon>
-              <h2 className='section-about__header--two'>Development</h2>
-              <p className='section-about__paragraph'>HTML/CSS, JavaScript Animation, Shopify, Responsive Website</p>
             </div>
           </div>
         </div>

@@ -14,7 +14,7 @@ const Home = () => {
             <Endrose />
             <About />
             <Feature />
-            <Prices />
+            {/* <Prices /> */}
             <Story />
             <Work />
         </div>
