@@ -7,11 +7,7 @@
   font-family: sans-serif;
 
   @include respond(tab-port) {
-    padding: 18rem 12rem;
-  }
-
-  @include respond(phone) {
-    padding: 18rem 0;
+    padding: 12rem;
   }
 
   &__box {
