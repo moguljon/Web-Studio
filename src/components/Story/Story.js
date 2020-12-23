@@ -19,15 +19,13 @@ const Story = () => {
         <h2 className='heading-secondary'>From the founder</h2>
       </div>
       
-        <div className='story' style={{display: 'flex'}} >
+        <div className='story' >
           <div className='section-stories__container--one tc'>
             <img src={resized} alt='' className='section-stories__image' />
-            <p>Jonathan Aguilar</p>
-            <p>Founder</p>
           </div>
           <div className='section-stories__container--two'>   
-            <h3 className='heading-teritary u-margin-bottom-small'><span role='img' aria-label='eng'>👋 </span>Hi I'm Jonathan Aguilar</h3>
-            <p>Hello, I am Jonathan Aguilar I make your big idea come to life so if you need a web presence or social media presence I can incorporate what I have learned through my experience in the technology space and use my knowledge to build your next big idea. I am a self taught web developer from the ground up and I know first hand how hard it is when you have no guidance but you do not have to feel that way as I will work with you every step of the way to build your idea. </p>
+            <h3 className='heading-teritary u-margin-bottom-small tc'><span role='img' aria-label='eng'>👋 </span>Hi I'm Jonathan Aguilar</h3>
+            <p >Hello, I am Jonathan Aguilar I make your big idea come to life so if you need a web presence or social media presence I can incorporate what I have learned through my experience in the technology space and use my knowledge to build your next big idea. I am a self taught web developer from the ground up and I know first hand how hard it is when you have no guidance but you do not have to feel that way as I will work with you every step of the way to build your idea. </p>
             <p>Cheers,</p>
             <p>Jonathan Aguilar</p>
           </div>
