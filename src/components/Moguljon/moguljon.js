@@ -34,7 +34,6 @@ const Moguljon = () => {
         <img src={mm} alt='' className='work__img' width='500px' />
        </div>
        <div className='work__content'>
-         
          <h3 className='work__header-three'>MogulJon, Website for Women Clothing</h3>
          <p className='work__paragraph'>Product, Web Design</p>
          <div className='work__btn-container'>

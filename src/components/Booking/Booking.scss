@@ -85,19 +85,82 @@
 //   margin-top: 5rem;
 // }
 
-
 .contact-section {
-  
+  display: flex;
+  height: 60rem;;
+  max-width: 100rem;
+  margin: auto;
+  box-shadow: 0 2.5rem 4rem rgba($secondary-color, .5);
+  border-radius: 2rem;
+
+  @include respond(tab-port) {
+    flex-direction: column;
+    height: 115rem;
+  }
 }
+
+.side-section {
+  flex: 0 0 50%;
+  background: #f7f7f7;
+  background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white, .8) 100%), url('img/sky.png');
+
+  &__paragraph {
+    font-size: 1.4rem;
+    color: grey;
+  }
+
+  &__container1 {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 0 4rem 0 4rem;
+
+    @include respond(tab-port) {
+     justify-content: center;
+     
+    }
+  }
+
+  &__icon {
+    font-size: 6rem;
+    color: $main-color;
+    padding: 1rem; 
+    display: flex;
+    align-items: center;
+  }
+
+  &__header-three {
+    font-size: 1.2rem;
+  }
+
+  &__email {
+    color: grey;
+    font-size: 1.5rem;
+  }
+}
+
 
 .contact-form {
-  max-width: 600px;
-  margin: auto;
-  padding: 10rem;
-  overflow: hidden;
-  box-shadow: 0 2.5rem 4rem rgba($secondary-color, .5);
+  flex: 1;
+  background: white;
+  padding: 5rem;
   
+
+  
+  // max-width: 600px;
+  // margin: auto;
+  // padding: 10rem;
+  // overflow: hidden;
+  // box-shadow: 0 2.5rem 4rem rgba($secondary-color, .5);
+  // display: flex;
 }
+
+
+
+
+
+
+
 
 .contact-form-text {
   display: block;
@@ -132,4 +195,8 @@ textarea.contact-form-text {
   text-align: center;
   font-size: 1.4rem;
   margin-bottom: 4rem;
+}
+
+.sizing {
+  font-size: 2rem;
 }
