@@ -20,40 +20,9 @@ class Booking extends Component {
           <img src={logo} alt='alt' className='header__logo'/>
         </Link>
       </div>
-   
-      {/* <div className='row'>
-        <div className='book'>
-          <div className='book__form'>
-            <form name='contact' netlify='true' netlify-honeypot="bot-field" action='/booking' method='post' className='form'>
-              
-              <input type='hidden' name='form-name' value='booking' />
-              <div className='u-margin-bottom-medium'>  
-                <h2 className='heading-secondary header-booking'>Contact Us</h2>
-                <p className='book-paragraph'>Thank you for choosing Web Studios, please for all inquaries simply write your name and email so that we can contact you on there and assist you for your needs. Please allow a few hours to get in touch, furtheremore, if you need assistance right away please contact use via Instagram, right below.</p>
-              </div>
-
-              <div className='form__group'>
-                <input type='text' className='form__input' id='name' name='name' required />
-                <label className='form__label' htmlFor='name'>Full Name</label>
-              </div>
-
-              <div className='form__group'>
-                <input type='email' className='form__input' id='email' name='email' required />
-                <label className='form__label' htmlFor='email'>Email</label>
-
-              <div className='form__group u-margin-top-small'>
-              <button type='submit' className='btn btn--main'>Send Away &rarr;</button>
-              </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div> */}
-      {/* <h1 className='booking-header'>Contacts US</h1>
-      <p className='booking-paragraph'>Contact us for any questions or inquiries regarding projects. We love to work with you. Please allow us some time to get back to you.</p> */}
       <div className='contact-section'>
         <div className='side-section'>
-        <div className='tc'>
+        <div className='tc tr'>
           <h2 className='heading-secondary2 u-margin-top-small '>Contact Us</h2>
           <p className='side-section__paragraph'>Contact us for any questions or inquaries regarding projects.</p>
           <div className='side-section__container1'>
