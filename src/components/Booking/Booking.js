@@ -23,7 +23,7 @@ class Booking extends Component {
       <div className='contact-section'>
         <div className='side-section'>
         <div className='tc tr'>
-          <h2 className='heading-secondary2 u-margin-top-small '>Contact Us</h2>
+          <h2 className='heading-secondary2 u-margin-top-small '>Contact Us!</h2>
           <p className='side-section__paragraph'>Contact us for any questions or inquaries regarding projects.</p>
           <div className='side-section__container1'>
             <div className='side-section__container2'>
@@ -53,11 +53,11 @@ class Booking extends Component {
         </div>
         <form name='contact' netlify='true' netlify-honeypot="bot-field" action='/booking' method='post' className='contact-form'>
           <input type='hidden' name='form-name' value='booking' />
-          <label className='label' htmlFor='fullname'>Name</label>
+          <label className='label' htmlFor='fullname'>Name <span className='asterisk'>*</span></label>
           <input type='text' className='contact-form-text' name='fullname' id='fullname' required />
-          <label className='label' htmlFor='email'>Email</label>
+          <label className='label' htmlFor='email'>Email  <span className='asterisk'>*</span></label>
           <input type='email' className='contact-form-text' name='email' id='email' required />
-          <label htmlFor='message' className='label'>Message</label>
+          <label htmlFor='message' className='label'>Message  <span className='asterisk'>*</span></label>
           <textarea className='contact-form-text' id='message' name='message' required></textarea>
           <button type='submit' className='btn btn--grey'>Send Away &rarr;</button>
         </form>

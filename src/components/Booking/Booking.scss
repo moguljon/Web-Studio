@@ -23,7 +23,7 @@
   flex: 0 0 50%;
   background: #f7f7f7;
   background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white, .8) 100%), url('img/sky.png');
-
+  background-size: cover;
   &__paragraph {
     font-size: 1.4rem;
     color: grey;
@@ -82,6 +82,7 @@ textarea.contact-form-text {
 .label {
   font-size: 2rem;
   font-weight: bolder;
+  color: grey;
 }
 
 .booking-header {
@@ -98,4 +99,8 @@ textarea.contact-form-text {
 
 .sizing {
   font-size: 2rem;
+}
+
+.asterisk {
+  color: red;
 }
