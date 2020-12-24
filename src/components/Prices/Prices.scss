@@ -1,195 +1,243 @@
 @import './src/index.scss';
 
 .section-tours {
-  perspective-origin: 150rem;
+  // perspective-origin: 150rem;
 
-  background-color: $color-grey;
-  margin-top: -10rem;
-  padding: 12rem 0 12rem 0;
+  // background-color: $color-grey;
+  // margin-top: -10rem;
+  padding: 12rem 0;
+  color: black;
 }
 
-.card {
-  perspective: 150rem;
-  position: relative;
-  height: 52rem;
+// .card {
+//   perspective: 150rem;
+//   position: relative;
+//   height: 52rem;
  
- &__side {
-  height: 52rem;
-  transition: all .8s ease;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  backface-visibility: hidden;
-  border-radius: 3px;
-  overflow: hidden;
-  box-shadow: 0 1.5rem 4rem rgba($secondary-color, .15);
+//  &__side {
+//   height: 52rem;
+//   transition: all .8s ease;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   backface-visibility: hidden;
+//   border-radius: 3px;
+//   overflow: hidden;
+//   box-shadow: 0 1.5rem 4rem rgba($secondary-color, .15);
 
-  &--front {
-    background-color: $color-white;
-  }
+//   &--front {
+//     background-color: $color-white;
+//   }
 
-  &--back {
-    transform: rotateY(-180deg);
+//   &--back {
+//     transform: rotateY(-180deg);
 
-    &-1 {
-      background: linear-gradient(to right bottom, $other-color3, $other-color4);
-    }
+//     &-1 {
+//       background: linear-gradient(to right bottom, $other-color3, $other-color4);
+//     }
 
-    &-2 {
-      background: linear-gradient(to right bottom, $other-color5, $other-color6);
-    }
+//     &-2 {
+//       background: linear-gradient(to right bottom, $other-color5, $other-color6);
+//     }
 
-    &-3 {
-      background: linear-gradient(to right bottom, $other-color, $other-color2);
-    }
-  }
- }
+//     &-3 {
+//       background: linear-gradient(to right bottom, $other-color, $other-color2);
+//     }
+//   }
+//  }
 
- &:hover &__side--front {
-   transform: rotateY(180deg);
- }
+//  &:hover &__side--front {
+//    transform: rotateY(180deg);
+//  }
 
- &:hover &__side--back {
-   transform: rotateY(0);
- }
+//  &:hover &__side--back {
+//    transform: rotateY(0);
+//  }
 
- &__picture {
-   background-size: cover;
-   background-position: center;;
-   height: 23rem;
-   background-blend-mode: screen;
-   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-   border-top-left-radius: 3px;
-   border-bottom-right-radius: 3px;
+//  &__picture {
+//    background-size: cover;
+//    background-position: center;;
+//    height: 23rem;
+//    background-blend-mode: screen;
+//    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+//    border-top-left-radius: 3px;
+//    border-bottom-right-radius: 3px;
    
-   &--1 {
-    background-image: linear-gradient(to right bottom, $other-color3, $other-color4), url(img/hero-guy-2.png);
-   }
-   &--2 {
-    background-image: linear-gradient(to right bottom, $other-color6, $other-color5), url(img/hero-guy-1.png);
-   }
-   &--3 {
-    background-image: linear-gradient(to right bottom, $other-color2, $other-color), url(img/1.png);
-   }
- }
+//    &--1 {
+//     background-image: linear-gradient(to right bottom, $other-color3, $other-color4), url(img/hero-guy-2.png);
+//    }
+//    &--2 {
+//     background-image: linear-gradient(to right bottom, $other-color6, $other-color5), url(img/hero-guy-1.png);
+//    }
+//    &--3 {
+//     background-image: linear-gradient(to right bottom, $other-color2, $other-color), url(img/1.png);
+//    }
+//  }
 
- &__heading {
-   font-size: 2.8rem;
-   font-weight: 300;
-   text-transform: uppercase;
-   color: #fff;
-   position: absolute;
-   top: 12rem;
-   right: 2rem;
-   text-align: center;
-   width: 75%;
- }
+//  &__heading {
+//    font-size: 2.8rem;
+//    font-weight: 300;
+//    text-transform: uppercase;
+//    color: #fff;
+//    position: absolute;
+//    top: 12rem;
+//    right: 2rem;
+//    text-align: center;
+//    width: 75%;
+//  }
 
- &__heading-span {
-  padding: 1rem 1.5rem;
-  box-decoration-break: clone;
+//  &__heading-span {
+//   padding: 1rem 1.5rem;
+//   box-decoration-break: clone;
 
-   &--1 {
-    background-image: linear-gradient(to right bottom, rgba($other-color4, .85), rgba($other-color3, .85));
-   }
-   &--2 {
-    background-image: linear-gradient(to right bottom, rgba($other-color6, .85), rgba($other-color5, .85));
-   }
-   &--3 {
-    background-image: linear-gradient(to right bottom, rgba($other-color2, .85), rgba($other-color, .85));
-   }
- }
+//    &--1 {
+//     background-image: linear-gradient(to right bottom, rgba($other-color4, .85), rgba($other-color3, .85));
+//    }
+//    &--2 {
+//     background-image: linear-gradient(to right bottom, rgba($other-color6, .85), rgba($other-color5, .85));
+//    }
+//    &--3 {
+//     background-image: linear-gradient(to right bottom, rgba($other-color2, .85), rgba($other-color, .85));
+//    }
+//  }
 
- &__details {
-  text-align: center;
-  padding: 3rem;
-   ul {
-     list-style: none;
-     li {
-      font-size: 1.5rem;
-      padding: 1rem;
+//  &__details {
+//   text-align: center;
+//   padding: 3rem;
+//    ul {
+//      list-style: none;
+//      li {
+//       font-size: 1.5rem;
+//       padding: 1rem;
 
-      &:not(:last-child) {
-        border-bottom: 1px solid $color-grey;
-      }
-     }
-   }
- }
+//       &:not(:last-child) {
+//         border-bottom: 1px solid $color-grey;
+//       }
+//      }
+//    }
+//  }
 
- &__cta {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   width: 90%;
-   text-align: center;
+//  &__cta {
+//    position: absolute;
+//    top: 50%;
+//    left: 50%;
+//    transform: translate(-50%, -50%);
+//    width: 90%;
+//    text-align: center;
   
- }
+//  }
 
- &__price-box {
-  text-align: center;
-  color: $color-white;
-  margin-bottom:8rem;
- }
+//  &__price-box {
+//   text-align: center;
+//   color: $color-white;
+//   margin-bottom:8rem;
+//  }
 
- &__price-only {
-   font-size: 1.4rem;
-   text-transform: uppercase;
- }
+//  &__price-only {
+//    font-size: 1.4rem;
+//    text-transform: uppercase;
+//  }
 
- &__price-value {
-  font-size: 6rem;
-  font-weight: 100;
- }
-
-
+//  &__price-value {
+//   font-size: 6rem;
+//   font-weight: 100;
+//  }
 
 
 
- @include respond(tab-port) {
-  height: auto;
-  border-radius: 3px;
-  background-color: $color-white;
-  box-shadow: 0 1.5rem 4rem rgba(#000, .15);
+
+
+//  @include respond(tab-port) {
+//   height: auto;
+//   border-radius: 3px;
+//   background-color: $color-white;
+//   box-shadow: 0 1.5rem 4rem rgba(#000, .15);
  
- &__side {
-  height: auto;
-  position: relative;
-  box-shadow: none;
+//  &__side {
+//   height: auto;
+//   position: relative;
+//   box-shadow: none;
 
-  &--back {
-    transform: rotateY(0);
-    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
-  }
- }
+//   &--back {
+//     transform: rotateY(0);
+//     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+//   }
+//  }
 
- &:hover &__side--front {
-   transform: rotateY(0);
- }
+//  &:hover &__side--front {
+//    transform: rotateY(0);
+//  }
 
- &__details {
-   padding: 1rem 3rem;
- }
+//  &__details {
+//    padding: 1rem 3rem;
+//  }
 
- &__cta {
-   position: relative;
-   top: 0;
-   left: 0;
-   transform: translate(0);
-   width: 100%;
-   padding: 7rem 4rem 4rem 4rem;
+//  &__cta {
+//    position: relative;
+//    top: 0;
+//    left: 0;
+//    transform: translate(0);
+//    width: 100%;
+//    padding: 7rem 4rem 4rem 4rem;
   
- }
+//  }
 
- &__price-box {
-  margin-bottom: 3rem;
- }
+//  &__price-box {
+//   margin-bottom: 3rem;
+//  }
 
- &__price-value {
-  font-size: 4rem;
- }
- }
+//  &__price-value {
+//   font-size: 4rem;
+//  }
+//  }
 
+// }
+
+.single-price {
+  box-shadow: 0 2.5rem 4rem rgba($secondary-color, .5);
+  transition: 0.9s;
+  border-radius: 1rem;
+  height: 50rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.price {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  font-size: 4.7rem;
+  color:#333;
+  font-weight: lighter;
+}
+
+.deals {
+  margin-top: 10%;
+  padding: 2rem;
+}
+
+.single-price h1 {
+  font-size: 1.8rem;
+  line-height: 3;
+  text-transform: uppercase;
+}
+
+.main {
+  border: 4px solid $main-color;
+}
+
+.deals p {
+  font-size: 1.3rem;  
+  color: grey;
+}
+
+.most-popular {
+  text-transform: uppercase;
+  color: rgb(245, 24, 104);
+  font-size: 2rem;
+  font-weight: bolder;
+}

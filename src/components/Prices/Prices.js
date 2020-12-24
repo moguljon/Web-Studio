@@ -1,6 +1,8 @@
 import React from 'react';
 import './Prices.scss';
 import { Link } from 'react-router-dom';
+import { IoIosCheckmarkCircleOutline } from "react-icons/io";
+
 
 const Prices = () => {
   return(
@@ -9,7 +11,7 @@ const Prices = () => {
         <h2 className='heading-secondary'>Packages</h2>
       </div>
 
-      <div className='row'>
+      {/* <div className='row'>
         <div className='col-1-of-3'>
           <div className='card'>
             <div className='card__side card__side--front card__side-front-1'>
@@ -100,13 +102,57 @@ const Prices = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* <div className='u-center-text  u-margin-top-huge'>
         <Link to='/priceDetails'>
           <a href='/priceDetails' className='btn btn--main'>Explore Options</a>
         </Link>
       </div> */}
+
+      <div className='row'>
+        <div className='col-1-of-3 single-price'>
+          <h1  className='price-header-1'>Immersive</h1>
+          <div className='price'>
+            <h2 className='price'>Only $297</h2>
+          </div>
+          <div className='deals'>
+            <p><IoIosCheckmarkCircleOutline /> Custom website using the latest designs and trends</p>
+            <p><IoIosCheckmarkCircleOutline /> Single page layout</p>
+            <p><IoIosCheckmarkCircleOutline /> Responsive design</p>
+            <p><IoIosCheckmarkCircleOutline /> 1 round of revisions</p>
+          </div>
+          <Link to='/booking' className='btn btn-outline'>Schedule</Link>
+        </div>
+   
+        <div className='col-1-of-3 single-price main'>
+          <p className='most-popular'>Most Popular</p>
+          <h1  className='price-header-1'>Premium</h1>
+          <div className='price'>
+            <h2 className='price'>Only $495</h2>
+          </div>
+          <div className='deals'>
+            <p><IoIosCheckmarkCircleOutline /> 3 Page Responvie Website</p>
+            <p><IoIosCheckmarkCircleOutline /> Custom Logo</p>
+            <p><IoIosCheckmarkCircleOutline /> Brand colors, fonts, and message for brand</p>
+            <p><IoIosCheckmarkCircleOutline /> Your choice of platfrom or custom</p>
+          </div>
+          <Link to='/booking' className='btn btn--main'>Select</Link>
+        </div>
+        <div className='col-1-of-3 single-price'>
+          <h1  className='price-header-1'>Immersive</h1>
+          <div className='price'>
+            <h2 className='price'>Only $997</h2>
+          </div>
+          <div className='deals'>
+            <p><IoIosCheckmarkCircleOutline /> Custom Shopify website or website from scratch</p>
+            <p><IoIosCheckmarkCircleOutline /> Shop availability</p>
+            <p><IoIosCheckmarkCircleOutline /> Marketing campaigns</p>
+            <p><IoIosCheckmarkCircleOutline /> Social media integration</p>
+          </div>
+          <Link to='/booking' className='btn btn-outline'>Schedule</Link>
+        </div>
+      </div>
     </section>
   )
 }

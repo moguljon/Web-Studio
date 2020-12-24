@@ -15,6 +15,7 @@ import Moguljon from './components/Moguljon/moguljon';
 import Nomatch from './components/Nomatch/Nomatch';
 import Home from './components/Home/Home';
 import Privacy from './components/Privacy/Privacy';
+import Prices from './components/Prices/Prices';
 
 function App() {
     return (
@@ -34,6 +35,7 @@ function App() {
           <Route exact path='/blog' component={Blog} />
           <Route exact path='/portfolio' component={Moguljon} />
           <Route exact path='/privacy' component={Privacy} />
+          <Route exact path='/prices' component={Prices} />
           <Route component={Nomatch} />
         </Switch>
           <Social />

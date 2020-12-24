@@ -71,6 +71,7 @@
   }
 }
 
+
 .btn--white {
   background-color: $color-white;
   color: $secondary-color;
@@ -123,3 +124,12 @@
 }
 
 
+a.btn.btn-outline {
+  border: 1px solid $main-color;
+  color: $main-color;
+}
+
+a.btn.btn-outline:hover {
+  background-color:  $main-color;
+  color: #fff;
+}
