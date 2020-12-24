@@ -31,9 +31,9 @@ class Booking extends Component {
                 <FaLinkedin className='side-section__icon' />
             </div>
             <div className='sizing'>
-              <h3 className='side-section__header-three'>LinkedIn</h3>
+              <h3 className='side-section__header-three'>For Business Owners</h3>
               <p className='side-section__email'>
-                <a href='https://www.linkedin.com/in/jonathan-aguilar-047130ba'>Jonathan Aguilar</a>
+                <a href='https://www.linkedin.com/in/jonathan-aguilar-047130ba'>LinkedIn</a>
               </p>
             </div>
             <hr />
@@ -43,9 +43,9 @@ class Booking extends Component {
                 <FaGithub className='side-section__icon' />
             </div>
             <div className='sizing'>
-              <h3 className='side-section__header-three'>Github</h3>
+              <h3 className='side-section__header-three'>For Developers</h3>
               <p className='side-section__email'>
-                <a href='https://github.com/moguljon'>Github/jonathan</a>
+                <a href='https://github.com/moguljon'>Github</a>
               </p>
             </div>
             <hr />
