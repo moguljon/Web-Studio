@@ -63,6 +63,12 @@ const Work = () => {
          </div>
        </div>
      </div>
+
+     <div className='tc'>
+     <Link to='/portfolio' style={{fontSize: '2rem'}}>View All Projects</Link>
+     </div>
+
+     
     </section>
   )
 }
