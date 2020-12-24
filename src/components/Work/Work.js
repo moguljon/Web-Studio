@@ -65,7 +65,7 @@ const Work = () => {
      </div>
 
      <div className='tc'>
-     <Link to='/portfolio' style={{fontSize: '2rem'}}>View All Projects</Link>
+     <a href='/portfolio'style={{fontSize: '2rem'}}>View All Projects</a>
      </div>
 
      
