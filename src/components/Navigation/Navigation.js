@@ -22,15 +22,15 @@ class Navigation extends Component {
           
           <ul className='navigation__list'>
             <li className='navigation__item'>
-               <a className='navigation__link' href='/'>Home</a>
-              {/* <Link to='/' className='navigation__link'>Home</Link> */}
-            </li> 
-            <li className='navigation__item'>
               <a className='navigation__link' href='/portfolio'>Portfolio</a>
               {/* <Link to='/work' className='navigation__link'>Projects</Link> */}
             </li>
             <li className='navigation__item'>
               <a className='navigation__link' href='/blog'>Blog</a>
+              {/* <Link to='/blog' className='navigation__link'>Blog</Link> */}
+            </li>
+            <li className='navigation__item'>
+              <a className='navigation__link' href='/prices'>Pricing</a>
               {/* <Link to='/blog' className='navigation__link'>Blog</Link> */}
             </li>
             <li className='navigation__item'>
@@ -49,16 +49,15 @@ class Navigation extends Component {
         </Link>
       </div>
         <ul className='nav__list'>
-          <li className='nav__item home'>
-           
-            <Link to='/' className='nav__link dark'>Home</Link>
-          </li>
           <li className='nav__item'>
             <Link to='/portfolio' className='nav__link dark'>Portfolio</Link>
           </li>
           <li className='nav__item'>
             <Link to='/blog' className='nav__link dark'>Blog</Link>
           </li>
+          <li className='nav__item home'>
+           <Link to='/prices' className='nav__link dark'>Pricing</Link>
+         </li>
           <li className='nav__item'>
             <Link to='/booking' className='nav__link dark'>Booking</Link>
           </li>

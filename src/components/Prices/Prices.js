@@ -2,14 +2,25 @@ import React from 'react';
 import './Prices.scss';
 import { Link } from 'react-router-dom';
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
+import {Helmet} from "react-helmet"; 
+import logo from './img/logo_transparent.png';
 
 
 const Prices = () => {
   return(
     <section className='section-tours'>
+      <div className='header__logo-box'>
+        <Link to='/' className='mobile-logo'>
+          <img src={logo} alt='alt' className='header__logo'/>
+        </Link>
+      </div> 
       <div className='u-center-text u-margin-bottom-big'>
         <h2 className='heading-secondary'>Packages</h2>
       </div>
+      <Helmet>
+         <title>Prices - Web Studios</title>
+         <meta name="description" content='price packages where each plan gives you diffrent things bases on your needs and wants.' />
+      </Helmet>
 
       {/* <div className='row'>
         <div className='col-1-of-3'>
@@ -112,7 +123,7 @@ const Prices = () => {
 
       <div className='row'>
         <div className='col-1-of-3 single-price'>
-          <h1  className='price-header-1'>Immersive</h1>
+          <h1  className='price-header-1'>Investment</h1>
           <div className='price'>
             <h2 className='price'>Only $297</h2>
           </div>
@@ -137,7 +148,7 @@ const Prices = () => {
             <p><IoIosCheckmarkCircleOutline /> Brand colors, fonts, and message for brand</p>
             <p><IoIosCheckmarkCircleOutline /> Your choice of platfrom or custom</p>
           </div>
-          <Link to='/booking' className='btn btn--main'>Select</Link>
+          <Link to='/booking' className='btn btn--main' style={{marginTop: '2rem'}}>Schedule</Link>
         </div>
         <div className='col-1-of-3 single-price'>
           <h1  className='price-header-1'>Immersive</h1>
