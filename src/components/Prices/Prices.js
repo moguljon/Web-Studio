@@ -128,10 +128,10 @@ const Prices = () => {
             <h2 className='price'>Only $297</h2>
           </div>
           <div className='deals'>
-            <p><IoIosCheckmarkCircleOutline /> Custom website using the latest designs and trends</p>
-            <p><IoIosCheckmarkCircleOutline /> Single page layout</p>
-            <p><IoIosCheckmarkCircleOutline /> Responsive design</p>
-            <p><IoIosCheckmarkCircleOutline /> 1 round of revisions</p>
+            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Custom website using the latest designs and trends</p>
+            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Single page layout</p>
+            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Responsive design</p>
+            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> 1 round of revisions</p>
           </div>
           <Link to='/booking' className='btn btn-outline'>Schedule</Link>
         </div>
@@ -143,10 +143,10 @@ const Prices = () => {
             <h2 className='price'>Only $495</h2>
           </div>
           <div className='deals'>
-            <p><IoIosCheckmarkCircleOutline /> 3 Page Responvie Website</p>
-            <p><IoIosCheckmarkCircleOutline /> Custom Logo</p>
-            <p><IoIosCheckmarkCircleOutline /> Brand colors, fonts, and message for brand</p>
-            <p><IoIosCheckmarkCircleOutline /> Your choice of platfrom or custom</p>
+            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> 3 Page Responvie Website</p>
+            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Custom Logo</p>
+            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Brand colors, fonts, and message for brand</p>
+            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Your choice of platfrom or custom</p>
           </div>
           <Link to='/booking' className='btn btn--main' style={{marginTop: '2rem'}}>Schedule</Link>
         </div>
@@ -156,10 +156,10 @@ const Prices = () => {
             <h2 className='price'>Only $997</h2>
           </div>
           <div className='deals'>
-            <p><IoIosCheckmarkCircleOutline /> Custom Shopify website or website from scratch</p>
-            <p><IoIosCheckmarkCircleOutline /> Shop availability</p>
-            <p><IoIosCheckmarkCircleOutline /> Marketing campaigns</p>
-            <p><IoIosCheckmarkCircleOutline /> Social media integration</p>
+            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Custom Shopify website or website from scratch</p>
+            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Shop availability</p>
+            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Marketing campaigns</p>
+            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Social media integration</p>
           </div>
           <Link to='/booking' className='btn btn-outline'>Schedule</Link>
         </div>

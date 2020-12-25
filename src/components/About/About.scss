@@ -131,13 +131,24 @@
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-image: linear-gradient(to right, $main-color, $secondary-color);
+  // background-image: linear-gradient(to right, $main-color, $secondary-color);
   display: inline-block;
-  -webkit-background-clip: text;
-  color: transparent;
+  // -webkit-background-clip: text;
+  // color: transparent;
   letter-spacing: 2px;
   transition: all .2s;
   margin-top: 15rem;
+  color: #1b2025;
+
+  &::after {
+    content: '';
+    height: 2px;
+    width: 100px;
+    display: block;
+    background-color: $main-color;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
 
   @include respond(tab-port) {
     font-size: 3rem;
