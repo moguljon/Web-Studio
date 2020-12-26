@@ -9,7 +9,7 @@
 .header {
   position: relative;
   height: 95vh;
-  background-image:linear-gradient(rgba(69, 69, 104, 0.5), rgba(0, 0, 0, 0.8)), url(img/skyooo.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/main-small.jpg);
   background-position: left;
   background-size: cover;
   clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
@@ -161,3 +161,5 @@
   display: flex;
   margin-right: 1rem;
 }
+
+

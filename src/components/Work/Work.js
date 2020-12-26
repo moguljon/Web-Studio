@@ -2,7 +2,6 @@ import React from 'react';
 import './Work.scss';
 import { Link } from 'react-router-dom';
 // import {Helmet} from "react-helmet";
-import logo from './img/logo_transparent.png';
 import omi from './img/omni-removed.png';
 import mm from './img/mm.png';
 import nn from './img/nn.png';
@@ -15,11 +14,13 @@ const Work = () => {
          <meta name="description" content='Our work speaks for itself, we have created amazing websites that clients will love and you are able to see what work we do before you give us a try.' />
       </Helmet> */}
 
-      <div className='header__logo-box'>
-        <Link to='/'>
-          <img src={logo} alt='alt' className='header__logo'/>
-        </Link>
-      </div>
+      <Link to='/'>
+        <div className='header__logo-box'>
+          <div className='new-logo'>
+            <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;E</p>
+          </div>
+        </div>
+      </Link>
       
       <div className='section-work__box tc'>
         <div className='u-center-text'>

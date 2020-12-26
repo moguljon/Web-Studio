@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './Navigation.scss';
 import { Link } from 'react-router-dom';
-import logo from './img/logo_transparent.png';
-
 
 class Navigation extends Component {
   render() {
@@ -44,9 +42,16 @@ class Navigation extends Component {
       <nav className='nav'>
 
       <div className='header__logo-box'>
+        <div className='new-logo'>
+          <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;E</p>
+        </div>
         <Link to='/'>
-          <img src={logo} alt='alt' className='header__logo'/>
-        </Link>
+        <div className='header__logo-box'>
+          <div className='new-logo'>
+            <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;E</p>
+          </div>
+        </div>
+      </Link>
       </div>
         <ul className='nav__list'>
           <li className='nav__item'>

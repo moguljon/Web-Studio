@@ -3,7 +3,6 @@ import './Blog.scss';
 import { Link } from 'react-router-dom';
 import team from './img/remote-team.png';
 import {Helmet} from "react-helmet"; 
-import logo from './img/logo_transparent.png';
 import CardList from '../CardList/CardList';
 import { searching } from '../searching/searching';
 import Searhfield from '../SearchField/SearchField';
@@ -34,11 +33,14 @@ class Blog extends Component {
          <title>Blog - Web Studios</title>
          <meta name="description" content='Welcome to our amazing blog. Here you will find rants, opinions and input on tech. Furtheremore, we have amazing guest writers. Join us as we will be transitioning to YouTube.' />
       </Helmet>
-      <div className='header__logo-box'>
-        <Link to='/'>
-          <img src={logo} alt='alt' className='header__logo'/>
-        </Link>
-      </div>
+      <Link to='/'>
+        <div className='header__logo-box'>
+          <div className='new-logo'>
+            <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;E</p>
+          </div>
+        </div>
+      </Link>
+      
         <div className='row border'>
           <div className='col-1-of-2'>
             <img src={team} alt='blog' /> 

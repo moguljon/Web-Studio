@@ -10,7 +10,6 @@
 //  z-index: 12;
 
  height: 10rem;
- 
  @include respond(phone) {
     display: none;
 }
@@ -23,7 +22,7 @@
   &__link:link,
   &__link:visited {
     text-decoration: none;
-    color: rgb(87, 87, 87);
+    color: #1B2025;
     font-size: 2.1rem;
     margin: 3rem 4rem 0 0;
     // padding-top: 4rem;
@@ -228,4 +227,25 @@
   @include respond(phone) {
     display: none;
   }
+}
+
+.new-logo {
+  font-size: 2.4rem;
+  color:white;
+  border: 3px solid white;
+  font-weight: bolder;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom right, $other-color3, $other-color4);
+
+
+  &__brand {
+  
+  }
+}
+
+.brand2 {
+  display: block;
 }

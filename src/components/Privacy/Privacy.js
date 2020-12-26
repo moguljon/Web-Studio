@@ -28,11 +28,6 @@ const Privacy = () => {
             We may collect personal identification information from Students in a variety of ways, including, but not limited to, when Students enroll in the School or a Course within the School, subscribe to a newsletter, and in connection with other activities, services, features, or resources we make available in our School or on our Website. Students may visit the School or Website anonymously. We will collect personal identification information from Students only if they voluntarily submit such information to us. Students can refuse to supply personal identification information but doing so may prevent them from engaging in certain School and Website related activities.
 
             </p>
-           
-            
-            
-            
-
 
         </div>
     )
