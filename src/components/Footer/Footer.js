@@ -1,5 +1,9 @@
 import React from 'react';
 import './Footer.scss';
+import { IoLogoInstagram } from "react-icons/io";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin} from "react-icons/fa";
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -19,6 +23,23 @@ const Footer = () => {
             <Link to='blog' className='footer__link'>Privacy</Link>
           </div>
         </div> */}
+        <div className='icons-box'>
+          <div className='icon-box-container'>
+            <a href='https://www.instagram.com/webstudios.io/' className='icons'>
+              <IoLogoInstagram className='icons-other' /> Instagram
+            </a>
+          </div>
+          <div>
+            <a href='https://github.com/moguljon' target='_blank ' className='icons' rel="noopener noreferrer"  >
+              <FaGithub className='icons-other'  />
+            </a>
+          </div>
+          <div>
+            <a href='http://www.linkedin.com/in/jonathan-aguilar-047130ba' target='_blank' className='icons' rel="noopener noreferrer"  >
+              <FaLinkedin className='icons-other' />
+            </a>
+          </div>
+      </div>
       </div>
     </footer>
   )
