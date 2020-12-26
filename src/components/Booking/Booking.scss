@@ -4,6 +4,7 @@
   padding: 20rem 3rem;
   color: #000;
   background-size: cover;
+  background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white, .8) 100%), url('img/skyooo.jpg');
 }
 
 .contact-section {
@@ -24,32 +25,31 @@
 .side-section {
   flex: 0 0 50%;
   background: #f7f7f7;
-  background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white, .8) 100%), url('img/sky.png');
+  // background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white, .8) 100%), url('img/skyooo.jpg');
   background-size: cover;
+  
   &__paragraph {
     font-size: 1.4rem;
-    
-   
     color: grey;
   }
 
   &__container1 {
     display: flex;
-    align-items: center;
     margin-top: 3rem;
     padding: 0 4rem 0 4rem;
+    justify-content: center;
+    align-items: center;
   }
 
   &__icon {
     font-size: 6rem;
     color: $main-color;
     padding: 1rem; 
-    display: flex;
-    align-items: center;
+    margin-bottom: 2rem;
   }
 
   &__header-three {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
   }
 
   &__email {

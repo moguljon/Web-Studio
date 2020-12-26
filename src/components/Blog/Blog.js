@@ -36,7 +36,7 @@ class Blog extends Component {
       <Link to='/'>
         <div className='header__logo-box'>
           <div className='new-logo'>
-            <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;E</p>
+            <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;S</p>
           </div>
         </div>
       </Link>

@@ -17,7 +17,7 @@ class Booking extends Component {
       <Link to='/'>
         <div className='header__logo-box'>
           <div className='new-logo'>
-            <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;E</p>
+            <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;S</p>
           </div>
         </div>
       </Link>
@@ -32,7 +32,7 @@ class Booking extends Component {
                 <FaLinkedin className='side-section__icon' />
             </div>
             <div className='sizing'>
-              <h3 className='side-section__header-three'>For Business Owners</h3>
+              <h3 className='side-section__header-three'>For Businesses</h3>
               <p className='side-section__email'>
                 <a href='https://www.linkedin.com/in/jonathan-aguilar-047130ba'>LinkedIn</a>
               </p>

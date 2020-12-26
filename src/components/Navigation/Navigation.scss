@@ -231,14 +231,13 @@
 
 .new-logo {
   font-size: 2.4rem;
-  color:white;
-  border: 3px solid white;
+  color:black;
+  border: 3px solid black;
   font-weight: bolder;
   width: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to bottom right, $other-color3, $other-color4);
 
 
   &__brand {
