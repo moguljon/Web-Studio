@@ -7,6 +7,10 @@
   background-position: right;
   transform: skewY(0deg);
   position: relative;
+
+  @include respond(phone) {
+    padding: 20rem 6rem;
+  }
 }
 
 .feature-box {

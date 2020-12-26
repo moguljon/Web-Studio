@@ -35,8 +35,15 @@ const Header = () => {
 	    }
 	}} />
   
-
-      {/* <div className='header__logo-box'>
+      <Link to='/'>
+        <div className='header__logo-box'>
+          <div className='new-logo'>
+            <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;S</p>
+          </div>
+        </div>
+      </Link>
+{/* 
+      <div className='header__logo-box'>
         <Link to='/' className='mobile-logo'>
           <img src={logo} alt='alt' className='header__logo'/>
         </Link>
