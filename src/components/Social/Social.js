@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './img/logo_transparent.png';
 import './Social.scss';
 import { IoLogoInstagram } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
@@ -8,9 +7,6 @@ import { FaLinkedin} from "react-icons/fa";
 const Social = () => {
   return(
     <section className='section-social'>
-      <div className='section-social__box'>
-        <img src={logo} alt='' style={{width: '8%'}} className='section-social__box--image'/>
-      </div>
       <div className='icons-box'>
         <a href='https://www.instagram.com/webstudios.io/' target='_blank' className='icons' rel="noopener noreferrer"  >
         <IoLogoInstagram className='icons-other' target='_blank' /> 
