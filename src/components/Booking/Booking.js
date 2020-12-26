@@ -67,7 +67,14 @@ class Booking extends Component {
           </div>
         </div>
         </div>
-        <form name='contact' netlify='true' netlify-honeypot="bot-field" action='/booking' method='post' className='contact-form'>
+        <form 
+          name='contact' 
+          netlify='true' 
+          netlify-honeypot="bot-field" 
+          data-netlify-recaptcha="true"
+          action='/booking' 
+          method='post' 
+          className='contact-form'>
           <input type='hidden' name='form-name' value='booking' />
           <label className='label' htmlFor='fullname'>Name <span className='asterisk'>*</span></label>
           <input type='text' className='contact-form-text' name='fullname' id='fullname' required />
