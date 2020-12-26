@@ -1,6 +1,5 @@
 import React from 'react';
 import './Header.scss';
-import logo from './img/logo_transparent.png';
 import { Link } from 'react-router-dom';
 import Particles from 'react-particles-js';
 

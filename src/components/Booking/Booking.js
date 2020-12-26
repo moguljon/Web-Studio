@@ -4,6 +4,8 @@ import {Helmet} from "react-helmet";
 import { Link } from 'react-router-dom';
 import { FaLinkedin} from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
+
 
 class Booking extends Component {
   render() {
@@ -26,7 +28,8 @@ class Booking extends Component {
         <div className='tc tr'>
           <h2 className='heading-secondary2 u-margin-top-small '>Contact Us!</h2>
           <p className='side-section__paragraph'>Contact us to discuss pricing and your project. We love to hear about it!</p>
-          <p className='side-section__paragraph'>Please just give us a brief description and we will get back to you.</p>
+          <p className='side-section__paragraph'>Please just give us a brief description and we will get back to you cheers.</p>
+          <p className='side-section__paragraph'>If you want a quicker response reach us below and reach out directly.</p>
           <div className='side-section__container1'>
             <div className='side-section__container2'>
                 <FaLinkedin className='side-section__icon' />
@@ -47,6 +50,18 @@ class Booking extends Component {
               <h3 className='side-section__header-three'>For Developers</h3>
               <p className='side-section__email'>
                 <a href='https://github.com/moguljon'>Github</a>
+              </p>
+            </div>
+            <hr />
+          </div>
+          <div className='side-section__container1'>
+            <div className='side-section__container2'>
+                <AiOutlineMail className='side-section__icon' />
+            </div>
+            <div className='sizing'>
+              <h3 className='side-section__header-three'>For Questions</h3>
+              <p className='side-section__email'>
+                <a href='mailto:jonathanaguilar@moguljon.com'>Email</a>
               </p>
             </div>
             <hr />

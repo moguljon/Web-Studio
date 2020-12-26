@@ -26,7 +26,7 @@ const Footer = () => {
         <div className='icons-box'>
           <div className='icon-box-container'>
             <a href='https://www.instagram.com/webstudios.io/' className='icons'>
-              <IoLogoInstagram className='icons-other' /> Instagram
+              <IoLogoInstagram className='icons-other' />
             </a>
           </div>
           <div>

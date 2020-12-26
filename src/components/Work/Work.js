@@ -1,6 +1,5 @@
 import React from 'react';
 import './Work.scss';
-import { Link } from 'react-router-dom';
 // import {Helmet} from "react-helmet";
 import omi from './img/omni-removed.png';
 import mm from './img/mm.png';
