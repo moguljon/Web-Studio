@@ -8,7 +8,7 @@ const Social = () => {
   return(
     <section className='section-social'>
       <div className='icons-box'>
-        <a href='https://www.instagram.com/webstudios.io/' target='_blank' className='icons' rel="noopener noreferrer"  >
+        <a href='https://www.instagram.com/webstudios.io/' className='icons'>
         <IoLogoInstagram className='icons-other' target='_blank' /> 
         </a>
         <a href='https://github.com/moguljon' target='_blank ' className='icons' rel="noopener noreferrer"  >
