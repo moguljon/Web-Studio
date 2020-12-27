@@ -38,11 +38,6 @@ class Navigation extends Component {
           </ul>
         </nav>
 
-        
-      <nav className='nav'>
-
-      <div className='header__logo-box'>
-
         <Link to='/'>
         <div className='header__logo-box'>
           <div className='new-logo'>
@@ -50,6 +45,16 @@ class Navigation extends Component {
           </div>
         </div>
       </Link>
+        
+      <nav className='nav'>
+      <div className='header__logo-box'>
+        {/* <Link to='/'>
+        <div className='header__logo-box'>
+          <div className='new-logo'>
+            <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;S</p>
+          </div>
+        </div>
+      </Link> */}
       </div>
         <ul className='nav__list'>
           <li className='nav__item'>

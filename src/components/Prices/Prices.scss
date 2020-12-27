@@ -1,11 +1,11 @@
 @import './src/index.scss';
 
 .section-tours {
-  padding: 12rem 0;
+  padding: 12rem 0 20rem 0;
   color: #f7f7f7;
 
   @include respond(phone) {
-   padding: 12rem 3rem;
+   padding: 12rem 4rem 25rem 4rem;
   }
 }
 

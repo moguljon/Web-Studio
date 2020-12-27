@@ -3,7 +3,6 @@ import './Header.scss';
 import { Link } from 'react-router-dom';
 import Particles from 'react-particles-js';
 
-
 const Header = () => {
   return(
    <header className='header'>
@@ -35,17 +34,19 @@ const Header = () => {
 	    }
 	}} />
   
-      <Link to='/'>
+  <Link to='/'>
         <div className='header__logo-box'>
           <div className='new-logo'>
             <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;S</p>
           </div>
         </div>
       </Link>
+
 {/* 
       <div className='header__logo-box'>
         <Link to='/' className='mobile-logo'>
           <img src={logo} alt='alt' className='header__logo'/>
+          <p className='new-logo__brand'>W<span className='brand2 header__logo'></span>&mdash;S</p>
         </Link>
       </div>  */}
       <div className='header__text-box'>
