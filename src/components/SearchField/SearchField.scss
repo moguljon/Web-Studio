@@ -8,6 +8,7 @@
         background-color: #f7f7f7;
         width: 35%;
         border-radius: 8px;
+        font-size: 1.5rem;
 
         @include respond(phone) {
             width: 60%;
