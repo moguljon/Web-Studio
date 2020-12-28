@@ -75,9 +75,6 @@ class Booking extends Component {
           <input type='email' className='contact-form-text' name='email' id='email' required />
           <label htmlFor='message' className='label'>Message  <span className='asterisk'>*</span></label>
           <textarea className='contact-form-text' id='message' name='message' required></textarea>
-          <div className='field'>
-            <div data-netlify-recaptcha='true'></div>
-          </div>
           <button type='submit' className='btn btn--grey'>Send Away &rarr;</button>
         </form>
       </div>
