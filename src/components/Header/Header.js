@@ -61,8 +61,9 @@ const Header = () => {
           create an online presence or you need help improving it we got you covered. We carefully curate a game plan to see 
           it through so that you can grow..
         </p>
-        <Link to='/prices' className='btn btn--main'>Hire Us for your projects</Link>
-        <Link to='/portfolio' className='mobile-blog'>Discover Portfolio</Link>
+        <a href='https://calendly.com/webstudios/15min?month=2020-12' className='btn btn--main'>Book a quck call</a>
+        <Link to='/prices' className='mobile-blog'>Discover Pricing</Link>
+        
       </div>
   
     </header>
