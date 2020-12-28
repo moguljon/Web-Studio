@@ -4,8 +4,6 @@ import { MdPhonelinkRing } from "react-icons/md";
 import { MdLocalAirport } from "react-icons/md";
 import { MdLocalGroceryStore } from "react-icons/md";
 import Particles from 'react-particles-js';
-
-
 import './Feature.scss';
 
 const Feature = () => {

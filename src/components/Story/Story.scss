@@ -3,7 +3,7 @@
 .section-stories {
   padding: 0 0 11rem 0;
   position: relative;
-  background-color: #f7f7f7;
+  background-color: $color-grey;
  
 
   @include respond(tab-port) {
@@ -18,7 +18,7 @@
     width: 80%;
     border-radius: 50%;
     display: inline-block;
-    border: 3px solid $main-color;
+    border: 5px solid $main-color;
 
     @include respond(tab-port) {
       width: 20%;
@@ -29,6 +29,10 @@
     @include respond(tab-port) {
       margin-left: 2rem;
      }
+  }
+
+  &__header--three {
+    color: $color-black;
   }
 }
 
@@ -66,9 +70,6 @@
 
   &__img {
     height: 100%;
-
-    
-  
   }
 }
 
