@@ -134,3 +134,9 @@ a.btn.btn-outline:hover {
   background-color:  $main-color;
   color: #fff;
 }
+
+a.btn.btn--white.display {
+  @include respond(phone) {
+    display: none;
+  }
+}

@@ -61,8 +61,13 @@ const Header = () => {
           create an online presence or you need help improving it we got you covered. We carefully curate a game plan to see 
           it through so that you can grow..
         </p>
-        <a href='https://calendly.com/webstudios/15min?month=2020-12' className='btn btn--main'>Book a quck call</a>
-        <Link to='/prices' className='mobile-blog'>Discover Pricing</Link>
+          <div>
+          <a href='https://calendly.com/webstudios/15min?month=2020-12' className='btn btn--main'>Book a quck call</a>
+          <a href='https://resume.io/r/Ahq2YpC4a' className='btn btn--white display' style={{marginLeft: '2rem'}}>View Resume</a>
+
+        </div>
+        
+        <a href='https://resume.io/r/Ahq2YpC4a' className='mobile-blog'>View Resume</a>
         
       </div>
   
