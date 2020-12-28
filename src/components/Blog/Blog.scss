@@ -6,29 +6,31 @@
   background-position: center;
   background-size: cover;
   // height: 95vh;
+  color: grey;
 
   &__box {
     color: #f7f7f7;
     margin: 0;
     text-align: center;
-    
   }
+  
   &__header--one {
     font-size: 3rem;
     text-transform: uppercase;
     word-spacing: 5px;
     margin-top: 5rem;
     text-align: center;
+    color: #1b2025;
   }
 
 &__header--three {
-  font-size: 1rem;
-  text-transform: uppercase;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
+  color: #1b2025;
 }
 
   &__paragraph {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-top: 3rem;
   }
 
