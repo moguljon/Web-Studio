@@ -62,7 +62,7 @@
   }
 }
 
-.btn--main::after {
+.btn--main:hover {
   background-image: linear-gradient(to bottom left, $other-color3, $other-color4);
   border-radius: 100rem;
 
@@ -70,6 +70,7 @@
     background-image: linear-gradient(to bottom right, $main-color, $other-color4);
   }
 }
+
 
 
 .btn--white {
@@ -135,8 +136,17 @@ a.btn.btn-outline:hover {
   color: #fff;
 }
 
-a.btn.btn--white.display {
+
+a.btn.ghost.display {
+  border: 1px solid $main-color !important;
+  color: $color-white !important;
+
   @include respond(phone) {
     display: none;
   }
+}
+
+.ghost:hover {
+  background-image:  linear-gradient(to bottom right, $main-color, $other-color4); 
+  color: $color-white;
 }

@@ -229,22 +229,7 @@
   }
 }
 
-.new-logo {
-  font-size: 2.4rem;
-  color:#1b2025;
-  border: 3px solid #1b2025;
-  font-weight: bolder;
-  width: 10rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-
-  &__brand {
-  
-  }
-}
-
-.brand2 {
-  display: block;
+a.nav__link.active {
+  border-bottom: 2px solid $main-color;
 }

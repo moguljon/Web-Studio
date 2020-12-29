@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { FaLinkedin} from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
-
+import ws from './img/ws.png';
 
 class Booking extends Component {
   render() {
@@ -16,13 +16,11 @@ class Booking extends Component {
          <title>Booking - Web Studios</title>
          <meta name="description" content='Contact Web Stuidos with potential new projects and questions you may have. Thank you for visiting us.' />
       </Helmet>
-      <Link to='/'>
-        <div className='header__logo-box'>
-          <div className='new-logo'>
-            <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;S</p>
-          </div>
-        </div>
-      </Link>
+      <div className='header__logo-box'>
+        <Link to='/' className='mobile-logo'>
+          <img src={ws} alt='alt' className='header__logo'/>
+        </Link>
+      </div> 
       <div className='contact-section'>
         <div className='side-section'>
         <div className='tc tr'>

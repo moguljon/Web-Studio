@@ -6,6 +6,7 @@ import {Helmet} from "react-helmet";
 import CardList from '../CardList/CardList';
 import { searching } from '../searching/searching';
 import Searhfield from '../SearchField/SearchField';
+import ws from './img/ws.png';
 
 class Blog extends Component {
   constructor() {
@@ -33,13 +34,11 @@ class Blog extends Component {
          <title>Blog - Web Studios</title>
          <meta name="description" content='Welcome to our amazing blog. Here you will find rants, opinions and input on tech. Furtheremore, we have amazing guest writers. Join us as we will be transitioning to YouTube.' />
       </Helmet>
-      <Link to='/'>
         <div className='header__logo-box'>
-          <div className='new-logo'>
-            <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;S</p>
-          </div>
-        </div>
-      </Link>
+          <Link to='/' className='mobile-logo'>
+            <img src={ws} alt='alt' className='header__logo'/>
+          </Link>
+        </div> 
       
         <div className='row border'>
           <div className='col-1-of-2'>

@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.scss';
 import { Link } from 'react-router-dom';
 import Particles from 'react-particles-js';
+import ws from './img/ws.png'
 
 const Header = () => {
   return(
@@ -34,21 +35,20 @@ const Header = () => {
 	    }
 	}} />
   
-  <Link to='/'>
+  {/* <Link to='/'>
         <div className='header__logo-box'>
           <div className='new-logo'>
             <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;S</p>
           </div>
         </div>
-      </Link>
+      </Link> */}
 
-{/* 
+
       <div className='header__logo-box'>
         <Link to='/' className='mobile-logo'>
-          <img src={logo} alt='alt' className='header__logo'/>
-          <p className='new-logo__brand'>W<span className='brand2 header__logo'></span>&mdash;S</p>
+          <img src={ws} alt='alt' className='header__logo'/>
         </Link>
-      </div>  */}
+      </div> 
       <div className='header__text-box'>
         <h1 className='heading-primary'>
           <span className='heading-primary--main tc'>Web Studios</span>
@@ -63,7 +63,7 @@ const Header = () => {
         </p>
           <div>
           <a href='https://calendly.com/webstudios/15min?month=2020-12' className='btn btn--main'>Book a quck call</a>
-          <a href='https://resume.io/r/Ahq2YpC4a' className='btn btn--white display' style={{marginLeft: '2rem'}}>View Resume</a>
+          <a href='https://resume.io/r/Ahq2YpC4a' className='btn ghost display' style={{marginLeft: '2rem'}}>View Resume</a>
 
         </div>
         

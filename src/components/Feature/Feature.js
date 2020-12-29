@@ -33,21 +33,21 @@ const Feature = () => {
           <div className='feature-box'>
             <MdDone className='feature-box__icon'/>
             <h3 className='heading-teritary u-margin-bottom-small'>Fast and Reliable</h3>
-            <p className='feature-box__text'>We offer the most reliability and best designs to our clients.</p>
+            <p className='feature-box__text'>We offer reliable and fast return rate for projects that are given to us. You can expect exceptional service. </p>
           </div>
         </div>
         <div className='col-1-of-3'>
           <div className='feature-box'>
             <MdPhonelinkRing className='feature-box__icon'/>
             <h3 className='heading-teritary u-margin-bottom-small'>24/7 Access</h3>
-            <p className='feature-box__text'>We provide open communication 24 hours a day 7 days a week for any questions.</p>
+            <p className='feature-box__text'>We are available to answer and questions or concerns you may have at any given moment.</p>
           </div>
         </div>
         <div className='col-1-of-3'>
           <div className='feature-box'>
             <MdLocalGroceryStore className='feature-box__icon'/>
             <h3 className='heading-teritary u-margin-bottom-small'>Flexible</h3>
-            <p className='feature-box__text'>We are able to build your next project with Shopify or Sqaurespace.</p>
+            <p className='feature-box__text'>We can build your next project in a variety of platforms including Shopify or Squarespce because we understand customer needs.</p>
           </div>
         </div>
 

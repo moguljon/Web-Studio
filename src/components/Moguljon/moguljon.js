@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import robofriends from './img/robofriends.png';
 import trillo from './img/trillo.png';
 import portfolio3 from './img/portfolio3.png';
+import ws from './img/ws.png';
 
 const Moguljon = () => {
   return(
@@ -16,13 +17,11 @@ const Moguljon = () => {
          <title>Portfolio - Web Studios</title>
          <meta name="description" content='Our work speaks for itself, we have created amazing websites that clients will love and you are able to see what work we do before you give us a try.' />
       </Helmet>
-      <Link to='/'>
-        <div className='header__logo-box'>
-          <div className='new-logo'>
-            <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;S</p>
-          </div>
-        </div>
-      </Link>
+      <div className='header__logo-box'>
+        <Link to='/' className='mobile-logo'>
+          <img src={ws} alt='alt' className='header__logo'/>
+        </Link>
+      </div> 
       <div className='section-work__box tc'>
         <div className='u-center-text'>
           <h2 className='heading-secondary'>Our Works</h2>

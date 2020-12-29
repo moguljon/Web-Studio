@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Navigation.scss';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import ws from './img/ws.png';
 
 class Navigation extends Component {
   render() {
@@ -38,13 +39,19 @@ class Navigation extends Component {
           </ul>
         </nav>
 
+        <div className='header__logo-box'>
+          <Link to='/' className='mobile-logo'>
+            <img src={ws} alt='alt' className='header__logo'/>
+          </Link>
+      </div> 
+{/* 
         <Link to='/'>
         <div className='header__logo-box'>
           <div className='new-logo'>
             <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;S</p>
           </div>
         </div>
-      </Link>
+      </Link> */}
         
       <nav className='nav'>
       <div className='header__logo-box'>
@@ -55,19 +62,21 @@ class Navigation extends Component {
           </div>
         </div>
       </Link> */}
+
+
       </div>
         <ul className='nav__list'>
           <li className='nav__item'>
-            <Link to='/portfolio' className='nav__link dark'>Portfolio</Link>
+            <NavLink activeClassName='active' to='/portfolio' className='nav__link dark'>Portfolio</NavLink>
           </li>
           <li className='nav__item'>
-            <Link to='/blog' className='nav__link dark'>Blog</Link>
+            <NavLink to='/blog' activeClassName='active' className='nav__link dark'>Blog</NavLink>
           </li>
           <li className='nav__item home'>
-           <Link to='/prices' className='nav__link dark'>Pricing</Link>
+           <NavLink to='/prices' activeClassName='active' className='nav__link dark'>Pricing</NavLink>
          </li>
           <li className='nav__item'>
-            <Link to='/booking' className='nav__link dark'>Booking</Link>
+            <NavLink to='/booking' activeClassName='active' className='nav__link dark'>Booking</NavLink>
           </li>
         </ul>
       </nav>
