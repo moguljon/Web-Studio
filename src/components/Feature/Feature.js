@@ -40,7 +40,7 @@ const Feature = () => {
           <div className='feature-box'>
             <MdPhonelinkRing className='feature-box__icon'/>
             <h3 className='heading-teritary u-margin-bottom-small'>24/7 Access</h3>
-            <p className='feature-box__text'>We are available to answer and questions or concerns you may have at any given moment.</p>
+            <p className='feature-box__text'>We are available to answer your questions or concerns any time you like. 24 hours open communication.</p>
           </div>
         </div>
         <div className='col-1-of-3'>
