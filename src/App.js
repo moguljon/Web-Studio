@@ -8,7 +8,6 @@ import ScrollToTop from './components/ScrollToTop';
 import Work from './components/Work/Work';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import 'tachyons';
-import Social from  './components/Social/Social';
 import {Helmet} from "react-helmet";
 import Moguljon from './components/Moguljon/moguljon';
 import Nomatch from './components/Nomatch/Nomatch';
@@ -36,7 +35,7 @@ function App() {
                 <Route exact path='/prices' component={Prices} />
                 <Route component={Nomatch} />
               </Switch>
-            <Social />
+            {/* <Social /> */}
             <Footer />
           </Router>
         </div>

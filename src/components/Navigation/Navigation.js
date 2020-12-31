@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import './Navigation.scss';
 import { Link, NavLink } from 'react-router-dom';
 import ws from './img/W-S-logo.png';
-import { FaMedium } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin} from "react-icons/fa";
+import Social from '../Social/Social';
 
 class Navigation extends Component {
   render() {
@@ -39,23 +37,7 @@ class Navigation extends Component {
               <a className='navigation__link' href='/booking'>Booking</a>
               {/* <Link to='/booking' className='navigation__link'>Booking</Link> */}
             </li>  
-            <div className='icons-box'>
-          <div className='icon-box-container'>
-            <a href='https://webstudios.medium.com/' className='icons'>
-              <FaMedium className='icons-other' />
-            </a>
-          </div>
-          <div>
-            <a href='https://github.com/moguljon' target='_blank ' className='icons' rel="noopener noreferrer"  >
-              <FaGithub className='icons-other'  />
-            </a>
-          </div>
-          <div>
-            <a href='http://www.linkedin.com/in/jonathan-aguilar-047130ba' target='_blank' className='icons' rel="noopener noreferrer"  >
-              <FaLinkedin className='icons-other' />
-            </a>
-          </div>
-      </div>
+          <Social />
             
           </ul>
         </nav>
@@ -64,7 +46,7 @@ class Navigation extends Component {
           <Link to='/' className='mobile-logo'>
             <img src={ws} alt='alt' className='header__logo'/>
           </Link>
-      </div> 
+       </div> 
 {/* 
         <Link to='/'>
         <div className='header__logo-box'>
