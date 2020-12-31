@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.scss';
-import { IoLogoInstagram } from "react-icons/io";
+import { FaMedium } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin} from "react-icons/fa";
 
@@ -25,8 +25,8 @@ const Footer = () => {
         </div> */}
         <div className='icons-box'>
           <div className='icon-box-container'>
-            <a href='https://www.instagram.com/webstudios.io/' className='icons'>
-              <IoLogoInstagram className='icons-other' />
+            <a href='https://webstudios.medium.com/' className='icons'>
+              <FaMedium className='icons-other' />
             </a>
           </div>
           <div>
