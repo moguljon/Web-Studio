@@ -4,7 +4,7 @@
   padding: 20rem 3rem;
   color: #1b2025;
   background-size: cover;
-  background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white, .8) 100%), url('img/skyooo.jpg');
+  background-image: linear-gradient(to right, rgba($color-white, .7) 0%, rgba($color-white, .8) 100%), url('img/moon.jpg');
 }
 
 .contact-section {
@@ -31,7 +31,6 @@
   &__paragraph {
     font-size: 1.4rem;
     color: grey;
-    padding: 3rem;
   }
 
   &__container1 {
@@ -40,6 +39,7 @@
     padding: 0 4rem 0 4rem;
     justify-content: center;
     align-items: center;
+    display: inline;
   }
 
   &__icon {
