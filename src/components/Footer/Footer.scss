@@ -83,3 +83,9 @@
   border-bottom: none;
 }
 
+
+.social-footer {
+  @include respond(phone) {
+    display: none;
+  }
+}

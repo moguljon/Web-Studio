@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.scss';
-
+import Social from '../Social/Social';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -20,6 +20,11 @@ const Footer = () => {
             <Link to='blog' className='footer__link'>Privacy</Link>
           </div>
         </div> */}
+        <div className='social-footer'>
+        <Social />
+
+        </div>
+        
    
       </div>
      
