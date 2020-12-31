@@ -6,7 +6,7 @@ import {Helmet} from "react-helmet";
 import CardList from '../CardList/CardList';
 import { searching } from '../searching/searching';
 import Searhfield from '../SearchField/SearchField';
-import ws from './img/ws.png';
+import ws from './img/W-S-logo.png';
 
 class Blog extends Component {
   constructor() {

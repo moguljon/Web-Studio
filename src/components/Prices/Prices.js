@@ -3,7 +3,7 @@ import './Prices.scss';
 import { Link } from 'react-router-dom';
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import {Helmet} from "react-helmet"; 
-import ws from './img/ws.png';
+import ws from './img/W-S-logo.png';
 
 const Prices = () => {
   return(

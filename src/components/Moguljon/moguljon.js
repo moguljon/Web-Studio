@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import robofriends from './img/robofriends.png';
 import trillo from './img/trillo.png';
 import portfolio3 from './img/portfolio3.png';
-import ws from './img/ws.png';
+import ws from './img/W-S-logo.png';
 
 const Moguljon = () => {
   return(

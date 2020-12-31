@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.scss';
 import { Link } from 'react-router-dom';
 import Particles from 'react-particles-js';
-import ws from './img/ws.png'
+import ws from './img/W-S-logo.png'
 
 const Header = () => {
   return(

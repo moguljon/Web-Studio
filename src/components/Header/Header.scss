@@ -36,17 +36,17 @@
   &__logo-box {
     position: fixed;
     z-index: 100;
-    top: -6rem;
+    top: -2.8rem;
     left: 2rem;
 
     @include respond(phone) {
-      top: -3.4rem;
+      top: -.8rem;
       left: 1rem;
     }
   }
 
   &__logo {
-    height: 21rem;
+    height: 15rem;
   }
 
   &__text-box {

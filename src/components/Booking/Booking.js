@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { FaLinkedin} from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
-import ws from './img/ws.png';
+import ws from './img/W-S-logo.png';
 
 class Booking extends Component {
   render() {

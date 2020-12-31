@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Navigation.scss';
 import { Link, NavLink } from 'react-router-dom';
-import ws from './img/ws.png';
+import ws from './img/W-S-logo.png';
 
 class Navigation extends Component {
   render() {
