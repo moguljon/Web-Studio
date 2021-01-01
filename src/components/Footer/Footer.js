@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.scss';
 import Social from '../Social/Social';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -20,13 +21,13 @@ const Footer = () => {
             <Link to='blog' className='footer__link'>Privacy</Link>
           </div>
         </div> */}
-           <a href='https://webstudios.io/privacy' className='privacy-link'>Privacy</a>
+           <Link to='/privacy' className='privacy-link'>Privacy</Link>
           |
           
-            <a href='https://webstudios.io/terms' className='privacy-link'>Terms</a>
+            <Link to='/terms' className='privacy-link'>Terms</Link>
           |
          
-            <a href='https://webstudios.io/cookies-policy' className='privacy-link'>Cookies</a>
+            <Link to='/cookies-policy'  className='privacy-link'>Cookies</Link>
         <div className='social-footer'>
         <Social />
         </div>
