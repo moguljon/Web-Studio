@@ -37,7 +37,6 @@ class Booking extends Component {
                 <a href='https://www.linkedin.com/in/jonathan-aguilar-047130ba'>LinkedIn</a>
               </p>
             </div>
-            <hr />
           </div>
           <div className='side-section__container1'>
             <div className='side-section__container2'>
@@ -49,7 +48,6 @@ class Booking extends Component {
                 <a href='https://github.com/moguljon'>Github</a>
               </p>
             </div>
-            <hr />
           </div>
           <div className='side-section__container1'>
             <div className='side-section__container2'>
@@ -61,7 +59,6 @@ class Booking extends Component {
                 <a href='mailto:jonathanaguilar@moguljon.com'>Email</a>
               </p>
             </div>
-            <hr />
           </div>
         </div>
         </div>
