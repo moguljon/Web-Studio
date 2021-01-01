@@ -159,3 +159,9 @@
   display: flex;
   margin-right: 1rem;
 }
+
+.particles-mobile {
+  @include respond(phone) {
+    display: none;
+  }
+}

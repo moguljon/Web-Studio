@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.scss';
 import { Link } from 'react-router-dom';
-
+import Particles from 'react-particles-js';
 import ws from './img/W-S-logo.png'
 
 const Header = () => {
@@ -15,25 +15,28 @@ const Header = () => {
         </video>
       </div> */}
 
-{/* <Particles className='particles'
-    params={{
-	    "particles": {
-	        "number": {
-	            "value": 40
-	        },
-	        "size": {
-	            "value": 3
-	        }
-	    },
-	    "interactivity": {
-	        "events": {
-	            "onhover": {
-	                "enable": true,
-	                "mode": "repulse"
-	            }
-	        }
-	    }
-	}} /> */}
+<div className='particles-mobile'>
+  <Particles className='particles'
+      params={{
+        "particles": {
+            "number": {
+                "value": 40
+            },
+            "size": {
+                "value": 3
+            }
+        },
+        "interactivity": {
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "repulse"
+                }
+            }
+        }
+    }} />
+</div>
+
   
   {/* <Link to='/'>
         <div className='header__logo-box'>
