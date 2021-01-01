@@ -4,6 +4,7 @@ import './Work.scss';
 import omi from './img/omni-removed.png';
 import mm from './img/mm.png';
 import nn from './img/nn.png';
+import { Link } from 'react-router-dom';
 
 const Work = () => {
   return(
@@ -57,6 +58,11 @@ const Work = () => {
          </div>
        </div>
      </div>
+     <div className='tc'>
+     <Link to='/portfolio'className='btn' style={{fontSize: '2rem'}}>View More</Link>
+
+     </div>
+     
     </section>
   )
 }
