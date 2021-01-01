@@ -25,13 +25,13 @@ const Footer = () => {
         </div>
         <div className='privacy-container'>
           
-            <a href='/privacy' className='privacy-link'>Privacy</a>
+            <a href='https://webstudios.io/privacy' className='privacy-link'>Privacy</a>
           |
           
-            <a href='/terms' className='privacy-link'>Terms</a>
+            <a href='https://webstudios.io/terms' className='privacy-link'>Terms</a>
           |
          
-            <a href='/cookies-policy' className='privacy-link'>Cookies</a>
+            <a href='https://webstudios.io/cookies-policy' className='privacy-link'>Cookies</a>
           
         </div>
       </div>
