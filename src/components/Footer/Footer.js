@@ -20,20 +20,20 @@ const Footer = () => {
             <Link to='blog' className='footer__link'>Privacy</Link>
           </div>
         </div> */}
-        <div className='social-footer'>
-        <Social />
-        </div>
-        <div className='privacy-container'>
-          
-            <a href='https://webstudios.io/privacy' className='privacy-link'>Privacy</a>
+           <a href='https://webstudios.io/privacy' className='privacy-link'>Privacy</a>
           |
           
             <a href='https://webstudios.io/terms' className='privacy-link'>Terms</a>
           |
          
             <a href='https://webstudios.io/cookies-policy' className='privacy-link'>Cookies</a>
-          
+        <div className='social-footer'>
+        <Social />
         </div>
+     
+          
+         
+  
       </div>
     </footer>
   )
