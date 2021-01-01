@@ -31,7 +31,7 @@ class Blog extends Component {
     <div className='whole-section'>
       <section className='section-blog'>
       <Helmet>
-         <title>Blog - Web Studios</title>
+         <title>Blog | Web Studios</title>
          <meta name="description" content='Welcome to our amazing blog. Here you will find rants, opinions and input on tech. Furtheremore, we have amazing guest writers. Join us as we will be transitioning to YouTube.' />
       </Helmet>
         <div className='header__logo-box'>

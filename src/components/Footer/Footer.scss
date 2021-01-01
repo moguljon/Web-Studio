@@ -13,10 +13,7 @@
     display: flex;
     
     justify-content: center;
-  }
-
-  &__privacy {
-    text-decoration: none;
+    color: $color-white;
   }
 
   &__link {
@@ -82,7 +79,6 @@
 .achor:hover {
   border-bottom: none;
 }
-
 
 .social-footer {
   @include respond(phone) {

@@ -13,7 +13,7 @@ class Booking extends Component {
     <section className='section-book'>
     
       <Helmet>
-         <title>Booking - Web Studios</title>
+         <title>Booking | Web Studios</title>
          <meta name="description" content='Contact Web Stuidos with potential new projects and questions you may have. Thank you for visiting us.' />
       </Helmet>
       <div className='header__logo-box'>

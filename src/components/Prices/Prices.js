@@ -12,7 +12,7 @@ const Prices = () => {
         <h2 className='heading-secondary'>Packages</h2>
       </div>
       <Helmet>
-         <title>Prices - Web Studios</title>
+         <title>Prices | Web Studios</title>
          <meta name="description" content='price packages where each plan gives you diffrent things bases on your needs and wants.' />
       </Helmet>
       <div className='header__logo-box'>

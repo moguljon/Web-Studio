@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.scss';
 import Social from '../Social/Social';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -22,13 +23,19 @@ const Footer = () => {
         </div> */}
         <div className='social-footer'>
         <Social />
-
         </div>
-        
-   
+        <div className='privacy-container'>
+          <div className='privacy'>
+            <Link to='/privacy' className='privacy-link'>Privacy</Link>
+          </div>|
+          <div className='privacy'>
+            <Link to='/terms' className='privacy-link'>Terms</Link>
+          </div>|
+          <div className='privacy'>
+            <Link to='/cookies-policy' className='privacy-link'>Cookies</Link>
+          </div>
+        </div>
       </div>
-     
-
     </footer>
   )
 }

@@ -14,6 +14,8 @@ import Nomatch from './components/Nomatch/Nomatch';
 import Home from './components/Home/Home';
 import Privacy from './components/Privacy/Privacy';
 import Prices from './components/Prices/Prices';
+import Terms from './components/Terms/Terms';
+import Cookies from './components/Cookies/Cookies';
 
 function App() {
     return (
@@ -33,7 +35,11 @@ function App() {
                 <Route exact path='/portfolio' component={Moguljon} />
                 <Route exact path='/privacy' component={Privacy} />
                 <Route exact path='/prices' component={Prices} />
+                <Route exact path='/privacy' component={Privacy} />
+                <Route exact path='/terms' component={Terms} />
+                <Route exact path='/cookies-policy' component={Cookies} />
                 <Route component={Nomatch} />
+
               </Switch>
             {/* <Social /> */}
             <Footer />
