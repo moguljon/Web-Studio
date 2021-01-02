@@ -11,9 +11,9 @@ const Nomatch = () => {
                 <title>Page Not Found  | Web Studios</title>
                 <meta name="description" content='This page does not exist. Sorry.' />
             </Helmet>
-            <h1 className='nomatch__header'>Why am I here?</h1>
-            <Link to='/' className='btn btn--main tc' style={{marginBottom: '4rem'}}> Take me Home</Link>
-            <p className='nomatch__paragraph'>It seems like the page that are looking for does not exist.</p>
+            <h1 className='nomatch__header'>404 Page Not Found!</h1>
+            <Link to='/' className='btn btn--white tc' style={{marginBottom: '4rem'}}> Take me Home</Link>
+            <p className='nomatch__paragraph'>It seems like the page you are looking for does not exist.</p>
             <img src={nomatch} className='nomatch__img' alt='' />
         </section>
     )
