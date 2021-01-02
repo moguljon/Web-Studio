@@ -6,6 +6,10 @@
   background-size: cover;
   background-image: linear-gradient(to right, rgba($color-white, .7) 0%, rgba($color-white, .3) 100%), url('img/skyooo.jpg');
   background-position: center;
+
+  @include respond(phone) {
+    padding: 25rem 3rem;
+  }
 }
 
 .contact-section {

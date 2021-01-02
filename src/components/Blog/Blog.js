@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Blog.scss';
 import { Link } from 'react-router-dom';
-import team from './img/team.png';
+import team from './img/remote-team.png';
 import {Helmet} from "react-helmet"; 
 import CardList from '../CardList/CardList';
 import { searching } from '../searching/searching';
