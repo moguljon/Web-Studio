@@ -15,7 +15,7 @@
   }
 
   &__image {
-    width: 80%;
+    width: 100%;
     border-radius: 50%;
     display: inline-block;
     border: 3px solid $main-color;
@@ -26,6 +26,7 @@
   }
 
   &__container--two {
+    margin-left: 2rem;
     @include respond(tab-port) {
       margin-left: 2rem;
      }
@@ -39,16 +40,18 @@
 .story {
   margin: 0 auto;
   //75% for mobile or less
-  width: 95%;
+  width: 75%;
   background-color: $color-white;
   box-shadow:  0 2rem 6rem rgba(0, 0, 0, .3);
-  padding: 10rem;
+  padding: 12rem;
   border-radius: 3px;
   font-size: 1.6rem;
   line-height: 1.7;
   position: relative;
   font-weight: 300;
   display: flex;
+  align-items: center;
+  justify-content: center;
 
 
   @include respond(tab-port) {

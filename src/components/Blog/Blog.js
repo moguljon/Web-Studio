@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Blog.scss';
 import { Link } from 'react-router-dom';
-import team from './img/remote-team.png';
+import team from './img/team.png';
 import {Helmet} from "react-helmet"; 
 import CardList from '../CardList/CardList';
 import { searching } from '../searching/searching';
@@ -36,9 +36,10 @@ class Blog extends Component {
       </Helmet>
         <div className='header__logo-box'>
           <Link to='/' className='mobile-logo'>
-            <img src={ws} alt='alt' className='header__logo'/>
+            <img src={ws} alt='team webstudios' className='header__logo'/>
           </Link>
         </div> 
+        
       
         <div className='row border'>
           <div className='col-1-of-2'>
@@ -47,9 +48,12 @@ class Blog extends Component {
           <div className='col-1-of-2 border-around'>
             <h1 className='section-blog__header--one'>Web Studios Blog</h1>
             <p className='section-blog__paragraph'>Here you will find the latest input, takes, and rants as it relates to web development. Please contact me if you have any questions. Web studis is an interactive platform that makes your online presence viable while also educating you in this space. </p>
-            <p className='section-blog__paragraph'>Here we also give you an insight on our platform and how were are able to leverage technology to your benefit. That is, how we can create an application for you that you would love but also that will bring profit.</p>  
+            <p className='section-blog__paragraph'>Here we also give you an insight on our platform and how were are able to leverage technology to your benefit. That is, how we can create an application for you that you would love but also that will bring profit.</p>
+          
           </div>
         </div>
+
+        
         <div className='section-work__box section-blog__box'>
           <h1 className='heading-secondary section-work__header section-blog__header--one'>Latest Blogs</h1>
         </div>

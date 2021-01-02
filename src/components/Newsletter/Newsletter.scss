@@ -1,0 +1,14 @@
+@import './src/index.scss';
+
+.newsletter {
+    margin-top: 10rem;
+  }
+  
+  .ml-form-embedWrapper {
+    box-shadow: 0 2.5rem 1rem rgba($secondary-color, .15);
+  }
+  
+  .form-control {
+    width: 50%;
+    border-radius: 100rem;
+  }

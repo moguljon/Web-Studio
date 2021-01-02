@@ -38,6 +38,7 @@ function App() {
                 <Route exact path='/privacy' component={Privacy} />
                 <Route exact path='/terms' component={Terms} />
                 <Route exact path='/cookies-policy' component={Cookies} />
+                
                 <Route component={Nomatch} />
 
               </Switch>
