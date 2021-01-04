@@ -31,10 +31,6 @@ const Footer = () => {
         <div className='social-footer'>
         <Social />
         </div>
-     
-          
-         
-  
       </div>
     </footer>
   )

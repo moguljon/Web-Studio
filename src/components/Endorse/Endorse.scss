@@ -4,7 +4,6 @@
   color: $color-black;
   padding: 12rem 0 12rem 0;
   transition: box-shadow 0.4s ease-in-out 0s;
-  
 
   @include respond(tab-port) {
     padding: 10rem 0 12rem 0;
@@ -12,8 +11,6 @@
 
   @include respond(phone) {
     background: $color-white;
-    border-top: 0;
-    display: inline-block;
     margin-top: 0;
     padding: 5rem 0 5rem 0;
   }
