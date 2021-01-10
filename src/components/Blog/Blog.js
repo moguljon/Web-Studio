@@ -48,8 +48,12 @@ class Blog extends Component {
           <div className='col-1-of-2 border-around'>
             <h1 className='section-blog__header--one'>Web Studios Blog</h1>
             <p className='section-blog__paragraph'>Here you will find the latest input, takes, and rants as it relates to web development. Please contact me if you have any questions. Web studis is an interactive platform that makes your online presence viable while also educating you in this space. </p>
-            <p className='section-blog__paragraph'>Here we also give you an insight on our platform and how were are able to leverage technology to your benefit. That is, how we can create an application for you that you would love but also that will bring profit.</p>
-          
+            <p className='section-blog__paragraph'>Here we also give you an insight on our platform and how were are able to leverage technology to your benefit. That is, how we can create an application for you that you would love but also that will bring profit.
+            </p>
+            <div className='newsletter-container'>
+              <p className='newsletter-paragraph'>We write blogs so do not miss out on our growing weekly articles for developers and business owners. </p>
+              <a href='https://webstudiosnews.herokuapp.com/' className='btn btn--main'>Join our newsletter</a>
+            </div>
           </div>
         </div>
 

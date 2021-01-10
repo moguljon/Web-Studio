@@ -81,3 +81,19 @@ a:visited {
     width: 90vw; 
   }
 }
+
+
+.newsletter-container {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-paragraph {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  font-style: italic;
+}

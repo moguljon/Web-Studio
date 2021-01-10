@@ -232,3 +232,11 @@
 a.nav__link.active {
   border-bottom: 2px solid $main-color;
 }
+
+.newsletter-link {
+  border: 2px solid $main-color;
+  background-color: $main-color;
+  color: white!important;
+  padding: 0 4rem 0 4rem;
+  border-radius: 100rem;
+}

@@ -37,6 +37,10 @@ class Navigation extends Component {
               <a className='navigation__link' href='/booking'>Booking</a>
               {/* <Link to='/booking' className='navigation__link'>Booking</Link> */}
             </li>  
+            <li className='navigation__item'>
+              <a className='navigation__link' href='https://webstudiosnews.herokuapp.com/'  target='_blank' rel="noopener noreferrer">Newsletter</a>
+              {/* <Link to='/booking' className='navigation__link'>Booking</Link> */}
+            </li>  
           <Social />
             
           </ul>
@@ -75,12 +79,17 @@ class Navigation extends Component {
           <li className='nav__item'>
             <NavLink to='/blog' activeClassName='active' className='nav__link dark'>Blog</NavLink>
           </li>
-          <li className='nav__item home'>
-           <NavLink to='/prices' activeClassName='active' className='nav__link dark'>Pricing</NavLink>
-         </li>
+
           <li className='nav__item'>
             <NavLink to='/booking' activeClassName='active' className='nav__link dark'>Booking</NavLink>
           </li>
+          <li className='nav__item'>
+            <a href='https://webstudiosnews.herokuapp.com/'className='nav__link dark' target='_blank' rel="noopener noreferrer">Newsletter</a>
+          </li>
+          <li className='nav__item home'>
+           <NavLink to='/prices' activeClassName='active' className='nav__link dark newsletter-link'>Pricing</NavLink>
+         </li>
+         
         </ul>
       </nav>
       </section>

@@ -10,6 +10,7 @@ const Card = ({ id, title, paragraph, img, link}) => {
             <h3 className='section-blog__header--three'>{title}</h3>
             <p className='section-blog__paragraph'>{paragraph}</p>
             <a className='btn' href={link} target='_blank' rel="noopener noreferrer">Read More</a>
+            
           </article>
       </div>
     </div>
