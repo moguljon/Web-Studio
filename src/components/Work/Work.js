@@ -42,7 +42,7 @@ const Work = () => {
          <h3 className='work__header-three'>Beautiful React Application With Modern Design and Layout</h3>
          <p className='work__paragraph'>Development, Web Design</p>
          <div className='work__btn-container'>
-          <a href='https://omnifoodeats.netlify.app/' target='__blank' className='work__btn btn buttons'>View Project</a>
+          <a href='https://omnifood.jonathanaguilar.live/' target='__blank' className='work__btn btn buttons'>View Project</a>
          </div>
        </div>
      </div>
@@ -54,7 +54,7 @@ const Work = () => {
          <h3 className='work__header-three'>Newsgrid, A Sports Related Website Meant for News Articles</h3>
          <p className='work__paragraph'>Development, Web Design</p>
          <div className='work__btn-container'>
-         <a href='https://newsmedia.netlify.app/' target='__blank' className='work__btn btn buttons'>View Project</a>
+         <a href='https://newsmedia.jonathanaguilar.live/' target='__blank' className='work__btn btn buttons'>View Project</a>
          </div>
        </div>
      </div>

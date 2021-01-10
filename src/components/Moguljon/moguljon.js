@@ -49,7 +49,7 @@ const Moguljon = () => {
          <h3 className='work__header-three'>Beautiful React Application With Modern Design and Layout</h3>
          <p className='work__paragraph'>Development, Web Design</p>
          <div className='work__btn-container'>
-          <a href='https://omnifoodeats.netlify.app/' target='__blank' className='work__btn btn buttons'>View Project</a>
+          <a href='https://omnifood.jonathanaguilar.live/' target='__blank' className='work__btn btn buttons'>View Project</a>
          </div>
       </div>
      </div>
@@ -61,7 +61,7 @@ const Moguljon = () => {
          <h3 className='work__header-three'>Newsgrid, A Sports Related Website Meant for News Articles</h3>
          <p className='work__paragraph'>Development, Web Design</p>
          <div className='work__btn-container'>
-         <a href='https://newsmedia.netlify.app/' target='__blank' className='work__btn btn buttons'>View Project</a>
+         <a href='https://newsmedia.jonathanaguilar.live/' target='__blank' className='work__btn btn buttons'>View Project</a>
          </div>
        </div>
      </div>
@@ -89,7 +89,7 @@ const Moguljon = () => {
          <h3 className='work__header-three'>A fantastic single page portfolio website example.</h3>
          <p className='work__paragraph'>Development, Web Design</p>
          <div className='work__btn-container'>
-         <a href='https://jonathanaguilarportfolio.netlify.app/' target='__blank' className='work__btn--2 btn'>View Project</a>
+         <a href='https://work.jonathanaguilar.live/' target='__blank' className='work__btn--2 btn'>View Project</a>
          </div>
        </div>
      </div>
@@ -101,7 +101,7 @@ const Moguljon = () => {
          <h3 className='work__header-three'>A demo hotel homepage.</h3>
          <p className='work__paragraph'>React Development, Web Design</p>
          <div className='work__btn-container'>
-          <a href='https://trilloinn.netlify.app/' target='__blank' className='work__btn--2 btn'>View Project</a>
+          <a href='https://trillo.jonathanaguilar.live/' target='__blank' className='work__btn--2 btn'>View Project</a>
          </div>
       </div>
      </div>
