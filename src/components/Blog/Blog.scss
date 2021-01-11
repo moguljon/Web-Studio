@@ -33,7 +33,6 @@
     font-size: 1.9rem;
     margin-top: 3rem;
     color: #616161;
-    line-height: 2.2;
   }
 
   &__other {
@@ -101,4 +100,8 @@ a:visited {
   @include respond(tab-port) {
     margin-bottom: 6rem;
   }
+}
+
+.blog-paragraph {
+  line-height: 2.1 !important;
 }

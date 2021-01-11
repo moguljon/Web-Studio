@@ -47,7 +47,7 @@ class Blog extends Component {
           </div>
           <div className='col-1-of-2 border-around'>
             <h1 className='section-blog__header--one'>Web Studios Blog</h1>
-            <p className='section-blog__paragraph'>Find the latest blogs and informative <strong>information in tech</strong>. Web Studios is an interactive 
+            <p className='section-blog__paragraph blog-paragraph'>Find the latest blogs and informative <strong>information in tech</strong>. Web Studios is an interactive 
             platform that makes your online presence viable while also <strong>educating you in the process</strong>. 
             We share on the tech industry and how were are able to leverage technology to your benefit. That is, how we can create an application 
             for you that you would love but also that <strong>will bring profit</strong>.
