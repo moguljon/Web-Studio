@@ -1,8 +1,8 @@
 import React from 'react';
 import './Header.scss';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Particles from 'react-particles-js';
-import ws from './img/W-S-logo.png'
+// import ws from './img/W-S-logo.png'
 
 const Header = () => {
   return(
@@ -47,11 +47,11 @@ const Header = () => {
       </Link> */}
 
 
-      <div className='header__logo-box'>
+      {/* <div className='header__logo-box'>
         <Link to='/' className='mobile-logo'>
           <img src={ws} alt='alt' className='header__logo'/>
         </Link>
-      </div> 
+      </div>  */}
       <div className='header__text-box'>
         <h1 className='heading-primary'>
           <span className='heading-primary--main tc'>Web Studios</span>
