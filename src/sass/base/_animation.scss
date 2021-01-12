@@ -47,3 +47,17 @@
     opacity: 1;
   }
 }
+
+@keyframes moveDown {
+  0% {
+    transform: translateY(-3rem);
+    //invisible
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0);
+    //normal
+    opacity: 1;
+  }
+}

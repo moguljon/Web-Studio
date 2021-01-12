@@ -108,8 +108,8 @@
   &--main {
     display: block;
     font-size: 5.3rem;
-    letter-spacing: 2rem;
-    animation: moveRight 1s ease-out;
+    letter-spacing: 1.8rem;
+    animation: moveDown 1s ease-out;
 
     
   @include respond(phone) {
@@ -125,9 +125,9 @@
   &--secondary {
     display: block;
     font-weight: 300;
-    letter-spacing: .7rem;
+    letter-spacing: .5rem;
     font-size: 2rem;
-    animation: moveLeft 1s ease-out;
+    animation: moveUp 1s ease-out;
 
     @include respond(phone) {
       display: none;
@@ -143,6 +143,7 @@
     font-size: 2rem;
     display: inline-block;
     margin-bottom: 6rem;
+    animation: moveUp 1s ease-out;
   }
 }
 
