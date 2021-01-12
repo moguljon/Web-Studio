@@ -70,7 +70,7 @@ const Header = () => {
 
         </div>
         
-        <a href='https://resume.io/r/Ahq2YpC4a' className='mobile-blog'>View Resume</a>
+        <a href='https://resume.io/r/Ahq2YpC4a' className='mobile-blog' style={{color: '#32353b'}}>View Resume</a>
         
       </div>
   

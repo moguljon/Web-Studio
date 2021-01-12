@@ -9,12 +9,12 @@ const Social = () => {
     <section>
            <div className='icons-box'>
           <div className='icon-box-container'>
-            <a href='https://webstudios.medium.com/' className='icons'>
+            <a href='https://webstudios.medium.com/' className='icons'  target='_blank' rel="noopener noreferrer">
               <FaMedium className='icons-other' />
             </a>
           </div>
           <div>
-            <a href='https://github.com/moguljon' target='_blank ' className='icons' rel="noopener noreferrer"  >
+            <a href='https://github.com/moguljon' target='_blank' className='icons' rel="noopener noreferrer"  >
               <FaGithub className='icons-other'  />
             </a>
           </div>

@@ -9,40 +9,30 @@ class Navigation extends Component {
     return(
       <section className='navigaiton'>
         <input type='checkbox' className='navigation__checkbox' id='navi-toggle'></input>
-      
         <label htmlFor='navi-toggle' className='navigation__button'>
           <span className='navigation__icon'>
             &nbsp;
           </span>
         </label>
-
-  
         <div className='navigation__background'>&nbsp;</div>
         <nav className='navigation__nav'>
-          
           <ul className='navigation__list'>
             <li className='navigation__item'>
               <a className='navigation__link' href='/portfolio'>Portfolio</a>
-              {/* <Link to='/work' className='navigation__link'>Projects</Link> */}
             </li>
             <li className='navigation__item'>
               <a className='navigation__link' href='/blog'>Blog</a>
-              {/* <Link to='/blog' className='navigation__link'>Blog</Link> */}
             </li>
             <li className='navigation__item'>
               <a className='navigation__link' href='/prices'>Pricing</a>
-              {/* <Link to='/blog' className='navigation__link'>Blog</Link> */}
             </li>
             <li className='navigation__item'>
               <a className='navigation__link' href='/booking'>Booking</a>
-              {/* <Link to='/booking' className='navigation__link'>Booking</Link> */}
             </li>  
             <li className='navigation__item'>
               <a className='navigation__link ' href='https://webstudiosnews.herokuapp.com/'  target='_blank' rel="noopener noreferrer">Newsletter</a>
-              {/* <Link to='/booking' className='navigation__link'>Booking</Link> */}
             </li>  
           <Social />
-            
           </ul>
         </nav>
 
@@ -72,26 +62,23 @@ class Navigation extends Component {
 
 
       </div>
-        <ul className='nav__list'>
-          <li className='nav__item'>
+        <div className='nav__list'>
+          <div className='nav__item'>
             <NavLink activeClassName='active' to='/portfolio' className='nav__link dark'>Portfolio</NavLink>
-          </li>
-          <li className='nav__item'>
+          </div>
+          <div className='nav__item'>
             <NavLink to='/blog' activeClassName='active' className='nav__link dark'>Blog</NavLink>
-          </li>
-
-          <li className='nav__item'>
+          </div>
+          <div className='nav__item'>
             <NavLink to='/booking' activeClassName='active' className='nav__link dark'>Booking</NavLink>
-          </li>
-          <li className='nav__item home'>
-           <NavLink to='/prices' activeClassName='active' className='nav__link dark'>Pricing</NavLink>
-         </li>
-          <li className='nav__item'>
+          </div>
+          <div className='nav__item home'>
+            <NavLink to='/prices' activeClassName='active' className='nav__link dark'>Pricing</NavLink>
+         </div>
+          <div className='nav__item'>
             <a href='https://webstudiosnews.herokuapp.com/'className='nav__link dark new-newsletter newsletter-link' target='_blank' rel="noopener noreferrer">Newsletter</a>
-          </li>
- 
-         
-        </ul>
+          </div>         
+        </div>
       </nav>
       </section>
     )
