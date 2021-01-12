@@ -35,15 +35,12 @@ function App() {
         <div>
           <Helmet>
             <title>Web Studios | Let Us Create Your Next Website.</title>
-            <meta name="description" content='We create stunning web apps for business owners large or small that need a wow factors to attract potential clients.' />
+            <meta name="description" content='Creating stunning web apps for business owners large or small that so they can attract clients and make profit.' />
           </Helmet>
           <Router>
-          {/* <Suspense fallback={<div>Loading....</div>}> */}
             <ScrollToTop />
             <Navigation />
-            
-            <Switch>
-             
+            <Switch>             
                 <Route exact path='/' component={Home} />
                 <Route exact path='/booking' component={Booking} />
                 <Route exact path='/work' component={Work} />
@@ -53,14 +50,9 @@ function App() {
                 <Route exact path='/prices' component={Prices} />
                 <Route exact path='/terms' component={Terms} />
                 <Route exact path='/cookies-policy' component={Cookies} />
-                
-              
               <Route component={Nomatch} />
             </Switch>
-            
-            {/* <Social /> */}
             <Footer />
-            {/* </Suspense> */}
           </Router>
         </div>
     );
