@@ -13,7 +13,7 @@ const Prices = () => {
       </div>
       <Helmet>
          <title>Prices | Web Studios</title>
-         <meta name="description" content='price packages where each plan gives you diffrent things bases on your needs and wants.' />
+         <meta name="description" content='Price packages where each plan gives you different things bases on your needs and wants.' />
       </Helmet>
       <div className='header__logo-box'>
         <Link to='/' className='mobile-logo'>
@@ -27,7 +27,7 @@ const Prices = () => {
             <h2 className='price'>Only $297</h2>
           </div>
           <div className='deals'>
-            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Custom website using the latest designs and trends</p>
+            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Custom website using the latest designs</p>
             <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Single page layout</p>
             <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Responsive design</p>
             <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> 1 round of revisions</p>
@@ -36,16 +36,16 @@ const Prices = () => {
         </div>
    
         <div className='col-1-of-3 single-price main'>
-          <p className='most-popular'>Most Popular</p>
+          {/* <p className='most-popular'>Most Popular</p> */}
           <h1  className='price-header-1'>Premium</h1>
           <div className='price'>
             <h2 className='price'>Only $495</h2>
           </div>
           <div className='deals'>
-            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> 3 Page Responvie Website</p>
+            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> 3 Page Responsive Website</p>
             <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Custom Logo</p>
-            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Brand colors, fonts, and message for brand</p>
-            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Your choice of platfrom or custom</p>
+            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Brand colors, fonts, and message</p>
+            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Your choice of platform or custom</p>
           </div>
           <Link to='/booking' className='btn btn--main' style={{marginTop: '2rem'}}>Schedule</Link>
         </div>
@@ -55,7 +55,9 @@ const Prices = () => {
             <h2 className='price'>Only $997</h2>
           </div>
           <div className='deals'>
-            <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Custom Shopify website or website from scratch</p>
+            <p>
+              <IoIosCheckmarkCircleOutline size={15} className='icons' /> Custom Shopify website or other
+            </p>
             <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Shop availability</p>
             <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Marketing campaigns</p>
             <p><IoIosCheckmarkCircleOutline size={15} className='icons' /> Social media integration</p>

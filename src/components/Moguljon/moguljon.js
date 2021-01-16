@@ -15,7 +15,7 @@ const Moguljon = () => {
     <section className='section-list'>
       <Helmet>
          <title>Portfolio | Web Studios</title>
-         <meta name="description" content='Our work speaks for itself, we have created amazing websites that clients will love and you are able to see what work we do before you give us a try.' />
+         <meta name="description" content='Our work speaks for itself, we have created amazing websites that clients will love, and you can see what work we do before you give us a try.' />
       </Helmet>
       <div className='header__logo-box'>
         <Link to='/' className='mobile-logo'>

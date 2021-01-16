@@ -117,9 +117,7 @@
   font-size: 1.5rem;
   text-align: center;
 
-  @include respond(tab-port) {
-   display: none;
-  }
+
   }
 
   &__icon--2 {
