@@ -44,7 +44,7 @@
     padding: 2rem;
     transition: all 0.5s ease;
     border-radius: 1rem;
-    box-shadow: 0 2.5rem 4rem rgba($secondary-color, .15);
+    box-shadow: 0 5.5rem 5rem rgba($secondary-color, .25);
 
     @include respond(phone) {
       height: 60rem;
