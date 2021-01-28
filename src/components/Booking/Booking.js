@@ -26,7 +26,7 @@ class Booking extends Component {
         <div className='tc tr'>
           <h2 className='heading-secondary2 u-margin-top-small '>Contact Us!</h2>
           <p className='side-section__paragraph'>Contact us to discuss pricing and your project. We love to hear about it!</p>
-          <p className='side-section__paragraph'>Please just give us a brief description and we will get back to you cheers.</p>
+          <p className='side-section__paragraph'>Please give us a brief description, and we will get back to you cheers.</p>
           <div className='side-section__container1'>
             <div className='side-section__container2'>
                 <FaLinkedin className='side-section__icon' />

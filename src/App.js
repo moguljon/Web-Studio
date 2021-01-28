@@ -16,19 +16,7 @@ import Privacy from './components/Privacy/Privacy';
 import Prices from './components/Prices/Prices';
 import Terms from './components/Terms/Terms';
 import Cookies from './components/Cookies/Cookies';
-
-// const Home = lazy(() => import('./components/Home/Home'));
-// const Booking = lazy(() => import('./components/Booking/Booking'));
-// const Work = lazy(() => import('./components/Work/Work'));
-// const Blog = lazy(() =>import('./components/Blog/Blog'));
-// const Moguljon = lazy(() => import('./components/Moguljon/moguljon'));
-// const Privacy = lazy(() => import('./components/Privacy/Privacy'));
-// const Prices = lazy(() => import('./components/Prices/Prices'));
-// const Terms = lazy(() => import('./components/Terms/Terms'))
-// const Cookies = lazy(() => import('./components/Cookies/Cookies'));
-// const Navigation = lazy(() => import('./components/Navigation/Navigation'));
-// const Footer = lazy(() => import('./components/Footer/Footer'));
-
+import Resources from './components/Resources/Resources';
 
 function App() {
     return (
@@ -50,7 +38,8 @@ function App() {
                 <Route exact path='/prices' component={Prices} />
                 <Route exact path='/terms' component={Terms} />
                 <Route exact path='/cookies-policy' component={Cookies} />
-              <Route component={Nomatch} />
+                <Route exact path='/resources' component={Resources} />
+                <Route component={Nomatch} />
             </Switch>
             <Footer />
           </Router>

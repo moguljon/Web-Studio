@@ -1,0 +1,42 @@
+@import './src/index.scss';
+
+.section-resources {
+    padding: 20rem 0;
+    color: #32353b;
+}
+
+.resources-header-two {
+    border-bottom: 2px solid $main-color;
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    
+}
+.box-div {
+    display: flex;
+  
+    &__left {
+        margin-left: 2rem;
+    }
+
+    &__header-three {
+        font-size: 2rem;
+    }
+}
+
+.box-div-right {
+    box-shadow: 0 5.5rem 5rem rgba($secondary-color, .25);
+}
+
+.resources-img {
+    width: 60rem;
+}
+
+.box-div-paragraph {
+    font-size: 1.6rem;
+    margin-bottom: 6rem;
+}
+
+.resources-link {
+    text-decoration: none;
+}
