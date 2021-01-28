@@ -27,7 +27,7 @@ const Resources = () => {
                 <div className='col-1-of-2 border-around'>
                     <h1 className='section-blog__header--one'>Web Studios Resources</h1>
                     <p className='section-blog__paragraph blog-paragraph'>Your one-stop shop for all the resources you will ever need
-                    to get started working on your business because we understand how valuable and time-consuming to find things are. 
+                    to get started working on your business because we understand how valuable and time-consuming to find things are. We have put together this collection of the best free resources to help you at any stage of your entrepreneur journey.
                     </p>
                     <div className='newsletter-container'>
                     <a href='https://webstudiosnews.herokuapp.com/' className='btn btn--main'>Join our newsletter</a>
