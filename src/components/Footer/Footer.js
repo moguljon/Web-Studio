@@ -21,13 +21,17 @@ const Footer = () => {
             <Link to='blog' className='footer__link'>Privacy</Link>
           </div>
         </div> */}
-           <Link to='/privacy' className='privacy-link'>Privacy</Link>
+          <Link to='/privacy' className='privacy-link'>Privacy</Link>
           |
           
-            <Link to='/terms' className='privacy-link'>Terms</Link>
+          <Link to='/terms' className='privacy-link'>Terms</Link>
           |
          
-            <Link to='/cookies-policy'  className='privacy-link'>Cookies</Link>
+          <Link to='/cookies-policy'  className='privacy-link'>Cookies</Link>
+          |
+          <Link to='/resources'  className='privacy-link'>Resources</Link>
+          |
+          <a href='https://webstudiosnews.herokuapp.com/' target='_blank' rel="noopener noreferrer" className='privacy-link'>Newsletter</a>
         <div className='social-footer'>
         <Social />
         </div>
