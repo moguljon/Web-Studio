@@ -7,6 +7,10 @@ import './Resources.scss';
 import canva from './img/canva1.jpg';
 import unsplash from './img/unsplash1.jpg';
 import figma from './img/figma1.jpg';
+import squarespace from './img/squarespace1.jpg';
+import shopify from './img/shopify1.jpg';
+import wix from './img/wix1.jpg';
+import webflow from './img/webflow.jpg';
 
 const Resources = () => {
     return(
@@ -65,6 +69,57 @@ const Resources = () => {
                         <div className='content__all'>
                             <h3 className='content__header-three'>Canva</h3>
                             <p className='content__paragraph'>Canva is a graphic design platform, used to create social media graphics, presentations, posters, documents and other visual content. The app already includes templates for users to use. The platform is free to use and offers paid subscriptions like Canva Pro and Canva for Enterprise for additional functionality.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+            <div className='row'>
+                <h2 className='resources-header-two'>Best Website Builders</h2>
+                <div className='col-1-of-2'>
+                    <div className='content content2'>
+                        <a href='https://www.squarespace.com/website-design/?channel=pbr&subchannel=go&campaign=pbr-dr-go-us-en-squarespace-core-e&subcampaign=(brand-core_squarespace_e)&utm_source=google&utm_medium=pbr&utm_campaign=pbr-dr-go-us-en-squarespace-core-e&utm_term=squarespace&gclid=CjwKCAiAjeSABhAPEiwAqfxURftPehNl9wpfXyAKaj5XqaOZddrrQzdXnFiBY5lHVUAjbZ7Xua8deRoCPn4QAvD_BwE' target='_blank' rel="noopener noreferrer">
+                            <img src={squarespace} alt='' className='content__img2' />
+                        </a>  
+                        <div className='content__all'>
+                            <h3 className='content__header-three'>Squarespace</h3>
+                            <p className='content__paragraph'>Squarespace is my personal favorite and has the most beautiful templates around. Squarespace, is an American website building and hosting company which is based in New York City, United States. It provides software as a service for website building and hosting, and allows users to use pre-built website templates and drag-and-drop elements to create and modify webpages</p>
+                            <p className='content__paragraph'>Furthermore, it has a way to create web pages unique to others. I find that some template builders look generic and that makes it unoriginal. You can also put custom code on it for a even better custom build.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='col-1-of-2'>
+                    <div className='content content__display'>
+                        <div className='content__img-container'>
+                            <a href='https://www.shopify.com/free-trial?&term=shopify&Network=Search&SiteTarget=&mt=e&adid=268900212216&device=c&test=&adpos=&CampaignId=788843419&gclid=CjwKCAiAjeSABhAPEiwAqfxURQ22bM4QD-TPGTzdQ7UxC5trnVgDFkP25jneGd4uC3btr0T3xMatDxoCJLoQAvD_BwE' target='_blank' rel="noopener noreferrer">
+                                <img src={shopify} alt='' className='content__img' />
+                            </a>
+                        </div>
+                        <div className='content__all'>
+                            <h3 className='content__header-three'>Shopify</h3>
+                            <p className='content__paragraph'>Shopify Inc. is a Canadian multinational e-commerce company headquartered in Ottawa, Ontario. It is also the name of its proprietary e-commerce platform for online stores and retail point-of-sale systems.</p>
+                        </div>
+                    </div>
+                    <div className='content content__display'>
+                        <div className='content__img-container'>
+                            <a href='https://webflow.com/?gclid=CjwKCAiAjeSABhAPEiwAqfxURdvo6IsGA88nLpNm8gs23gcUsrlnC9QPvsK9OIt3esm5msOUkKAYdRoCaHMQAvD_BwE' target='_blank' rel="noopener noreferrer">
+                                <img src={webflow} alt='webflow' className='content__img' />
+                            </a>
+                        </div>
+                        <div className='content__all'>
+                            <h3 className='content__header-three'>Webflow</h3>
+                            <p className='content__paragraph'>Webflow, Inc. is an American company, based in San Francisco, that provides software as a service for website building and hosting. Their online visual editor platform allows users to design, build, and launch websites. </p>
+                        </div>
+                    </div>
+                    <div className='content content__display'>
+                        <div className='content__img-container'>
+                            <a href='https://www.wix.com/freesitebuilder/hiker-create?cq_term=wix&gclid=CjwKCAiAjeSABhAPEiwAqfxURfp9Xbure8in_uOEUIeM3fc5MAukGOju6tPIBi5oQkhc9-zhQZABWhoCoA0QAvD_BwE&cq_cmp=195454540&cq_plt=gp&cq_plac=&cq_con=10375167220&cq_src=google_ads&cq_pos=&cq_net=g&cq_med=' target='_blank' rel="noopener noreferrer">
+                                <img src={wix} alt='canva' className='content__img' />
+                            </a>
+                        </div>
+                        <div className='content__all'>
+                            <h3 className='content__header-three'>Wix</h3>
+                            <p className='content__paragraph'>Wix.com Ltd. is an Israeli software company, providing cloud-based web development services. It allows users to create HTML5 websites and mobile sites through the use of online drag and drop tools. </p>
                         </div>
                     </div>
                 </div>

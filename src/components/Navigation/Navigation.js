@@ -23,6 +23,9 @@ class Navigation extends Component {
               <a className='navigation__link' href='/blog'>Blog</a>
             </li>
             <li className='navigation__item'>
+              <a className='navigation__link' href='/resources'>Resources</a>
+            </li>
+            <li className='navigation__item'>
               <a className='navigation__link' href='/prices'>Pricing</a>
             </li>
             <li className='navigation__item'>
@@ -45,6 +48,9 @@ class Navigation extends Component {
           </div>
           <div className='nav__item'>
             <NavLink to='/blog' activeClassName='active' className='nav__link dark'>Blog</NavLink>
+          </div>
+          <div className='nav__item'>
+            <NavLink to='/resources' activeClassName='active' className='nav__link dark'>Resources</NavLink>
           </div>
           <div className='nav__item'>
             <NavLink to='/booking' activeClassName='active' className='nav__link dark'>Booking</NavLink>

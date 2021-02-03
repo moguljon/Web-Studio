@@ -20,6 +20,11 @@
         margin: 0 0 6rem 0;
         align-items: center;
         justify-content: center;
+
+        @include respond(phone) {
+            flex-direction: column;
+          }
+        
     }
 
     &__all {
@@ -29,6 +34,14 @@
     &__img {
         width: 600px;
         margin-left: 2rem;
+
+        @include respond(phone) {
+            margin-left: 0;
+          }
+    }
+
+    &__img2 {
+        width: 800px;
     }
 
     
@@ -60,4 +73,9 @@
 
 .resource-btn {
     margin-top: 3.5rem;
+}
+
+
+.content2 {
+    height: 69rem;
 }
