@@ -39,26 +39,21 @@ class Blog extends Component {
             <img src={ws} alt='team webstudios' className='header__logo'/>
           </Link>
         </div> 
-        
-      
-        <div className='row border'>
-          <div className='col-1-of-2'>
-            <img src={team} alt='blog' className='team' /> 
-          </div>
-          <div className='col-1-of-2 border-around'>
-            <h1 className='section-blog__header--one'>Web Studios Blog</h1>
-            <p className='section-blog__paragraph blog-paragraph'>Find the latest blogs and informative <strong>information in tech</strong>. Web Studios is an interactive 
-            platform that makes your online presence viable while also <strong>educating you in the process</strong>. 
-            We share on the tech industry and how were are able to leverage technology to your benefit. That is, how we can create an application 
-            for you that you would love but also that <strong>will bring profit</strong>.
-            </p>
-            <div className='newsletter-container'>
-              <a href='https://webstudiosnews.herokuapp.com/' className='btn btn--main'>Join our newsletter</a>
-            </div>
-          </div>
-        </div>
 
-        
+        <div className='row'>
+                <div className='col-1-of-2'>
+                  <img src={team} alt='blog' className='team' /> 
+                </div>
+                <div className='col-1-of-2 border'>
+                    <h1 className='content__header-one'>Web Studios Blog</h1>
+                    <p className='section-blog__paragraph blog-paragraph'>Find the latest blogs and informative <strong>information in tech</strong>. Web Studios is an interactive 
+                      platform that makes your online presence viable while also <strong>educating you in the process</strong>. 
+                      We share on the tech industry and how were are able to leverage technology to your benefit. That is, how we can create an application 
+                      for you that you would love but also that <strong>will bring profit</strong>.
+                    </p>
+                    <a href='https://webstudiosnews.herokuapp.com/' target='_blank' rel="noopener noreferrer" className='btn btn--main tc resource-btn'>Newsletter</a>
+                </div>
+            </div>    
         <div className='section-work__box section-blog__box'>
           <h1 className='heading-secondary section-work__header section-blog__header--one'>Latest Blogs</h1>
         </div>

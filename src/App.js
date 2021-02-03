@@ -17,6 +17,7 @@ import Prices from './components/Prices/Prices';
 import Terms from './components/Terms/Terms';
 import Cookies from './components/Cookies/Cookies';
 import Resources from './components/Resources/Resources';
+import Bottom from './components/Bottom/Bottom';
 
 function App() {
     return (
@@ -41,6 +42,7 @@ function App() {
                 <Route exact path='/resources' component={Resources} />
                 <Route component={Nomatch} />
             </Switch>
+            <Bottom />
             <Footer />
           </Router>
         </div>

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './Navigation.scss';
 import { Link, NavLink } from 'react-router-dom';
 import ws from './img/W-S-logo.png';
-import Social from '../Social/Social';
 
 class Navigation extends Component {
   render() {
@@ -28,11 +27,7 @@ class Navigation extends Component {
             </li>
             <li className='navigation__item'>
               <a className='navigation__link' href='/booking'>Booking</a>
-            </li>  
-            {/* <li className='navigation__item'>
-              <a className='navigation__link ' href='https://webstudiosnews.herokuapp.com/'  target='_blank' rel="noopener noreferrer">Newsletter</a>
-            </li>   */}
-          <Social />
+            </li> 
           </ul>
         </nav>
 
@@ -41,26 +36,8 @@ class Navigation extends Component {
             <img src={ws} alt='alt' className='header__logo'/>
           </Link>
        </div> 
-{/* 
-        <Link to='/'>
-        <div className='header__logo-box'>
-          <div className='new-logo'>
-            <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;S</p>
-          </div>
-        </div>
-      </Link> */}
-        
       <nav className='nav'>
       <div className='header__logo-box'>
-        {/* <Link to='/'>
-        <div className='header__logo-box'>
-          <div className='new-logo'>
-            <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;S</p>
-          </div>
-        </div>
-      </Link> */}
-
-
       </div>
         <div className='nav__list'>
           <div className='nav__item'>

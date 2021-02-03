@@ -9,34 +9,55 @@
     border-bottom: 2px solid $main-color;
     font-size: 2.2rem;
     margin-bottom: 2rem;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;   
 }
-.box-div {
-    display: flex;
-  
-    &__left {
+
+.content {
+    box-shadow : 0 2.5rem 5rem rgba($secondary-color, .25);
+
+    &__display {
+        display: flex;
+        margin: 0 0 6rem 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__all {
+        padding: 4rem;
+    }
+
+    &__img {
+        width: 600px;
         margin-left: 2rem;
     }
 
+    
     &__header-three {
-        font-size: 2rem;
+        font-size: 1.7rem;
+    }
+
+    &__paragraph {
+        font-size: 1.2rem;
+    }
+
+    &__header-one {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+
+    &__paragraph1 {
+        font-size: 1.8rem;
+        line-height: 1.9;
     }
 }
 
-.box-div-right {
-    box-shadow: 0 5.5rem 5rem rgba($secondary-color, .25);
+.border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.resources-img {
-    width: 60rem;
-}
-
-.box-div-paragraph {
-    font-size: 1.6rem;
-    margin-bottom: 6rem;
-}
-
-.resources-link {
-    text-decoration: none;
+.resource-btn {
+    margin-top: 3.5rem;
 }
