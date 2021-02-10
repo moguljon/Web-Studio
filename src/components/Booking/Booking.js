@@ -21,47 +21,52 @@ class Booking extends Component {
           <img src={ws} alt='alt' className='header__logo'/>
         </Link>
       </div> 
+      <div className='tc mobile-header'>
+      <h2 className='heading-secondary u-margin-top-small u-margin-bottom-medium booking'>Contact Us!</h2>
+      </div>
       <div className='contact-section'>
-        <div className='side-section'>
-        <div className='tc tr'>
-          <h2 className='heading-secondary2 u-margin-top-small '>Contact Us!</h2>
-          <p className='side-section__paragraph'>Contact us to discuss pricing and your project. We love to hear about it!</p>
-          <p className='side-section__paragraph'>Please give us a brief description, and we will get back to you cheers.</p>
-          <div className='side-section__container1'>
-            <div className='side-section__container2'>
-                <FaLinkedin className='side-section__icon' />
+
+        <div className='side-section removing'>
+          <div className='tc tr '>
+            <h2 className='heading-secondary u-margin-top-small u-margin-bottom-medium booking'>Contact Us!</h2>
+            {/* <p className='side-section__paragraph'>Contact us to discuss pricing and your project. We love to hear about it!</p>
+            <p className='side-section__paragraph'>Please give us a brief description, and we will get back to you cheers.</p> */}
+            <div className='side-section__container1'>
+              <div className='side-section__container2'>
+                  <FaLinkedin className='side-section__icon' />
+              </div>
+              <div className='sizing'>
+                <h3 className='side-section__header-three'>For Businesses</h3>
+                <p className='side-section__email'>
+                  <a href='https://www.linkedin.com/in/jonathan-aguilar-047130ba'>LinkedIn</a>
+                </p>
+              </div>
             </div>
-            <div className='sizing'>
-              <h3 className='side-section__header-three'>For Businesses</h3>
-              <p className='side-section__email'>
-                <a href='https://www.linkedin.com/in/jonathan-aguilar-047130ba'>LinkedIn</a>
-              </p>
+            <div className='side-section__container1'>
+              <div className='side-section__container2'>
+                  <FaGithub className='side-section__icon' />
+              </div>
+              <div className='sizing'>
+                <h3 className='side-section__header-three'>For Developers</h3>
+                <p className='side-section__email'>
+                  <a href='https://github.com/moguljon'>Github</a>
+                </p>
+              </div>
             </div>
-          </div>
-          <div className='side-section__container1'>
-            <div className='side-section__container2'>
-                <FaGithub className='side-section__icon' />
-            </div>
-            <div className='sizing'>
-              <h3 className='side-section__header-three'>For Developers</h3>
-              <p className='side-section__email'>
-                <a href='https://github.com/moguljon'>Github</a>
-              </p>
-            </div>
-          </div>
-          <div className='side-section__container1'>
-            <div className='side-section__container2'>
-                <AiOutlineMail className='side-section__icon' />
-            </div>
-            <div className='sizing'>
-              <h3 className='side-section__header-three'>For Questions</h3>
-              <p className='side-section__email'>
-                <a href='mailto:jonathanaguilar@moguljon.com'>Email</a>
-              </p>
+            <div className='side-section__container1'>
+              <div className='side-section__container2'>
+                  <AiOutlineMail className='side-section__icon' />
+              </div>
+              <div className='sizing'>
+                <h3 className='side-section__header-three'>For Questions</h3>
+                <p className='side-section__email'>
+                  <a href='mailto:jonathanaguilar@moguljon.com'>Email</a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        </div>
+
         <form name='contact' netlify='true' netlify-honeypot="bot-field" action='/booking' method='post' className='contact-form'>
           <input type='hidden' name='form-name' value='booking' />
           <label className='label' htmlFor='fullname'>Name <span className='asterisk'>*</span></label>

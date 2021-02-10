@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet"; 
 import ws from './img/W-S-logo.png';
-import astro from './img/astro.jpeg';
+import astro from './img/resized.jpeg';
 import './Resources.scss';
 import canva from './img/canva1.jpg';
 import unsplash from './img/unsplash1.jpg';
@@ -34,7 +34,7 @@ const Resources = () => {
                     <a href='https://webstudiosnews.herokuapp.com/' target='_blank' rel="noopener noreferrer" className='btn btn--main tc resource-btn'>Newsletter</a>
                 </div>
             </div>
-            <div className='row'>
+            <div className='row space'>
                 <h2 className='resources-header-two'>Design Tools</h2>
                 <div className='col-1-of-2'>
                     <div className='content'>
@@ -74,8 +74,8 @@ const Resources = () => {
                 </div>
             </div>
          
-            <div className='row'>
-                <h2 className='resources-header-two'>Best Website Builders</h2>
+            <div className='row space'>
+                <h2 className='resources-header-two space'>Best Website Builders</h2>
                 <div className='col-1-of-2'>
                     <div className='content content2'>
                         <a href='https://www.squarespace.com/website-design/?channel=pbr&subchannel=go&campaign=pbr-dr-go-us-en-squarespace-core-e&subcampaign=(brand-core_squarespace_e)&utm_source=google&utm_medium=pbr&utm_campaign=pbr-dr-go-us-en-squarespace-core-e&utm_term=squarespace&gclid=CjwKCAiAjeSABhAPEiwAqfxURftPehNl9wpfXyAKaj5XqaOZddrrQzdXnFiBY5lHVUAjbZ7Xua8deRoCPn4QAvD_BwE' target='_blank' rel="noopener noreferrer">

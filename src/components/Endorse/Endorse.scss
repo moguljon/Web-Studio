@@ -28,10 +28,11 @@
 
   &__image {
     margin-left: 6rem;
-    width: 16%;
+    width: 17%;
     border-radius: 10px;
     padding: 4rem;
     box-shadow: rgba(19, 15, 235, 0.1) 2px 4px 25px 0px;
+    color: black !important;
    
 
     @include respond(tab-port) {

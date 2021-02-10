@@ -1,29 +1,25 @@
 @import './src/index.scss';
 
 .section-book {
-  padding: 30rem 3rem;
+  padding: 25rem 3rem 15rem  3rem;
   color: #1b2025;
-  background-size: cover;
-  background-image: linear-gradient(to right, rgba($color-white, .7) 0%, rgba($color-white, .3) 100%), url('img/skyooo.jpg');
+  background-image: url('img/coffee.jpg');
   background-position: center;
-
+  background-size: cover;
+  background-repeat: no-repeat;
   @include respond(phone) {
-    padding: 25rem 3rem;
+    padding: 20rem 3rem;
   }
 }
 
 .contact-section {
   display: flex;
-  height: 60rem;;
+  height: 70rem;;
   max-width: 110rem;
   margin: auto;
   box-shadow: 0 2.5rem 4rem rgba($secondary-color, .5);
   border-radius: 4rem;
   
-  @include respond(tab-port) {
-    flex-direction: column;
-    height: 125rem;
-  }
 }
 
 .side-section {
@@ -42,12 +38,10 @@
     margin-top: 3rem;
     padding: 0 4rem 0 4rem;
     align-items: center;
-    display: inline;
   }
 
   &__icon {
     font-size: 5rem;
-    color: $main-color;
     padding: 1rem; 
     margin-bottom: 2rem;
   }
@@ -109,4 +103,22 @@ textarea.contact-form-text {
 
 .asterisk {
   color: red;
+}
+
+.booking {
+  margin-bottom: rem;
+}
+
+.removing {
+  @include respond(phone) {
+    display: none;
+  }
+}
+
+.mobile-header {
+  display: none;
+
+  @include respond(phone) {
+    display: block;
+  }
 }

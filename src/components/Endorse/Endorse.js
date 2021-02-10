@@ -3,7 +3,6 @@ import './Endorse.scss';
 import image1 from './img/logo-envato.png';
 import image2 from './img/logo-magento.png';
 import image3 from './img/logo-woocommerce.png';
-import image4 from './img/logo-wordpress.png';
 
 const Endorse = () => { 
   return(
@@ -21,7 +20,6 @@ const Endorse = () => {
         
           <img  src={image3} alt='' className='section-endorse__image' />
      
-          <img src={image4} alt='' className='section-endorse__image' />
        
       </div>
     </section>
