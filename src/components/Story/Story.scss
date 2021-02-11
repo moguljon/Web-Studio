@@ -2,7 +2,6 @@
 
 .section-stories {
   padding: 0 0 20rem 0;
-  position: relative;
   background-color: $color-grey;
  
 
@@ -77,24 +76,7 @@
 }
 
 
-// .bg-video {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   height: 100%;
-//   width: 100%;
-//   z-index: -1;
-//   opacity: .3; 
-//   overflow: hidden;
 
-//   &__content {
-//     height: 100%;
-//     width: 100%;
-//     object-fit: cover;
-
-//   }
-
-// }
 
 .story-p {
   color: #32353b;
