@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './Booking.scss';
 import {Helmet} from "react-helmet";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { FaLinkedin} from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
-import ws from './img/W-S-logo.png';
+// import ws from './img/W-S-logo.png';
 import free from './img/free.mp4';
 
 class Booking extends Component {
@@ -24,11 +24,11 @@ class Booking extends Component {
          <title>Booking | Web Studios</title>
          <meta name="description" content='Contact Web Studios with potential new projects and questions you may have. Thank you for visiting us.' />
       </Helmet>
-      <div className='header__logo-box'>
+      {/* <div className='header__logo-box'>
         <Link to='/' className='mobile-logo'>
           <img src={ws} alt='alt' className='header__logo'/>
         </Link>
-      </div> 
+      </div>  */}
       <div className='tc mobile-header'>
       <h2 className='heading-secondary u-margin-top-small u-margin-bottom-medium booking' style={{color: '#fff'}}>Contact Us!</h2>
       </div>
