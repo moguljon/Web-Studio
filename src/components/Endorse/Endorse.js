@@ -1,6 +1,6 @@
 import React from 'react';
 import './Endorse.scss';
-import image1 from './img/shopify.svg';
+import image1 from './img/shopify2.svg';
 import image2 from './img/squarespace.svg';
 import image3 from './img/wix.svg';
 
