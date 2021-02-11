@@ -67,7 +67,7 @@ class Booking extends Component {
               <div className='sizing'>
                 <h3 className='side-section__header-three'>For Questions</h3>
                 <p className='side-section__email'>
-                  <a href='mailto:jonathanaguilar@moguljon.com'>Email</a>
+                  <a href='mailto:jonathanaguilarweb@gmail.com'>Email</a>
                 </p>
               </div>
             </div>
