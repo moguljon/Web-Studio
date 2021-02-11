@@ -24,7 +24,7 @@ class Booking extends Component {
       </div>  */}
         <div className='bg-video'>
             <video className='bg-video__content' autoPlay muted loop>
-              <source className='bg-video__source' src={free} type='video/mp4'></source>
+              <source src={free} type='video/mp4'></source>
               {/* <source src={Mockup1} type='video/webm'></source>
               Your browser is not supported */}
             </video>
