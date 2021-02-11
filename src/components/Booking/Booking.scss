@@ -5,7 +5,6 @@
   color: #1b2025;
   position: relative;
   @include respond(phone) {
-    position: none;
     padding: 13rem 3rem;
     background-image: url('img/contact.jpg');
   }
@@ -135,8 +134,6 @@ textarea.contact-form-text {
 
   @include respond(phone) {
     display: none;
-    position: initial;
-    z-index: unset;
   }
 
   &__content {
@@ -148,10 +145,10 @@ textarea.contact-form-text {
       display: none;
     }
   }
-}
 
-.video-container {
-  @include respond(phone) {
-    display: none;
+  &__source {
+    @include respond(phone) {
+      display: none;
+    }
   }
 }
