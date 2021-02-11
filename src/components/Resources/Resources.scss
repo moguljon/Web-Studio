@@ -5,7 +5,7 @@
     color: #32353b;
 
     @include respond(phone) {
-        padding: 20rem 3rem;
+        padding: 20rem 3rem 12rem 3rem;
       }
 }
 

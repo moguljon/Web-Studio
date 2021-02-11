@@ -83,7 +83,7 @@ class Booking extends Component {
           <input type='email' className='contact-form-text' name='email' id='email' required />
           <label htmlFor='message' className='label'>Message  <span className='asterisk'>*</span></label>
           <textarea className='contact-form-text' id='message' name='message' required></textarea>
-          <button type='submit' className='btn btn--grey'>Send Away &rarr;</button>
+          <button type='submit' className='btn btn--main'>Send Away &rarr;</button>
         </form>
       </div>
     </section>
