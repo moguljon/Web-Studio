@@ -3,6 +3,10 @@
 .section-resources {
     padding: 20rem 0;
     color: #32353b;
+
+    @include respond(phone) {
+        padding: 20rem 3rem;
+      }
 }
 
 .resources-header-two {

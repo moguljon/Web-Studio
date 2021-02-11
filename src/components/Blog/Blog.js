@@ -40,7 +40,7 @@ class Blog extends Component {
           </Link>
         </div> 
 
-        <div className='row'>
+          <div className='row'>
                 <div className='col-1-of-2'>
                   <img src={team} alt='blog' className='team' /> 
                 </div>

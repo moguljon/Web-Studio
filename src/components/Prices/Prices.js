@@ -65,6 +65,7 @@ const Prices = () => {
           <Link to='/booking' className='btn btn-outline'>Schedule</Link>
         </div>
       </div>
+      
     </section>
   )
 }
