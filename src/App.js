@@ -23,7 +23,7 @@ function App() {
     return (
         <div>
           <Helmet>
-            <title>Web Studios | Let Us Create Your Next Website.</title>
+            <title>Web Studios | Let's Create Your Next Website</title>
             <meta name="description" content='Creating stunning web apps for business owners large or small that so they can attract clients and make profit.' />
           </Helmet>
           <Router>
