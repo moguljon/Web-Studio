@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './Blog.scss';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import team from './img/remote-team.png';
 import {Helmet} from "react-helmet"; 
 import CardList from '../CardList/CardList';
 import { searching } from '../searching/searching';
 import Searhfield from '../SearchField/SearchField';
-import ws from './img/W-S-logo.png';
+// import ws from './img/W-S-logo.png';
 
 class Blog extends Component {
   constructor() {
@@ -34,11 +34,11 @@ class Blog extends Component {
          <title>Blog | Web Studios</title>
          <meta name="description" content='Welcome to our amazing blog. Here you will find the latest news on tech. Furthermore, we have amazing guest writers. Join us as we will be transitioning to YouTube.' />
       </Helmet>
-        <div className='header__logo-box'>
+        {/* <div className='header__logo-box'>
           <Link to='/' className='mobile-logo'>
             <img src={ws} alt='team webstudios' className='header__logo'/>
           </Link>
-        </div> 
+        </div>  */}
 
           <div className='row'>
                 <div className='col-1-of-2'>

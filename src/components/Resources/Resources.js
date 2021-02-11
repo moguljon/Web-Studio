@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet"; 
-import ws from './img/W-S-logo.png';
+// import ws from './img/W-S-logo.png';
 import astro from './img/resized.jpeg';
 import './Resources.scss';
 import canva from './img/canva1.jpg';
@@ -19,11 +19,11 @@ const Resources = () => {
                 <title>Best Resources for Business Owners | Web Studios</title>
                 <meta name="description" content='Our great resources page so that you can get up and running with your business. Best of all, most of these resources are completely free.' />
             </Helmet>
-            <div className='header__logo-box'>
+            {/* <div className='header__logo-box'>
                 <Link to='/' className='mobile-logo'>
                     <img src={ws} alt='team webstudios' className='header__logo'/>
                 </Link>
-            </div> 
+            </div>  */}
             <div className='row'>
                 <div className='col-1-of-2'>
                     <img src={astro} alt='blog' className='team' /> 

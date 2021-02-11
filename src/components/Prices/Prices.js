@@ -3,7 +3,7 @@ import './Prices.scss';
 import { Link } from 'react-router-dom';
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import {Helmet} from "react-helmet"; 
-import ws from './img/W-S-logo.png';
+// import ws from './img/W-S-logo.png';
 
 const Prices = () => {
   return(
@@ -15,11 +15,11 @@ const Prices = () => {
          <title>Prices | Web Studios</title>
          <meta name="description" content='Price packages where each plan gives you different things bases on your needs and wants.' />
       </Helmet>
-      <div className='header__logo-box'>
+      {/* <div className='header__logo-box'>
         <Link to='/' className='mobile-logo'>
           <img src={ws} alt='alt' className='header__logo'/>
         </Link>
-      </div> 
+      </div>  */}
       <div className='row'>
         <div className='col-1-of-3 single-price'>
           <h1  className='price-header-1'>Investment</h1>

@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import './Bottom.scss';
 import '../Social/Social'
 import Social from '../Social/Social';
-import img from './img/W-S-logo.png';
+import ws from '../../img/logo2/vector/default-monochrome.svg';
 
 const Bottom = () => {
     return(
         <section className='bottom'>
             <div className='bottom__img-container'>
-            <img src={img} className='bottom__img' alt='logo'/>
+            <img src={ws} className='bottom__img' alt='logo'/>
             </div>
             <div className='bottom__container'>
                 <div className='bottom__items'>

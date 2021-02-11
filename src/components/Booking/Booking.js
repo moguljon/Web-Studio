@@ -33,7 +33,6 @@ class Booking extends Component {
       <h2 className='heading-secondary u-margin-top-small u-margin-bottom-medium booking' style={{color: '#fff'}}>Contact Us!</h2>
       </div>
       <div className='contact-section'>
-
         <div className='side-section removing'>
           <div className='tc tr '>
             <h2 className='heading-secondary u-margin-top-small u-margin-bottom-medium booking'>Contact Us!</h2>

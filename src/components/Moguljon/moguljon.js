@@ -4,11 +4,11 @@ import omi from './img/omni-removed.png';
 import mm from './img/mm.png';
 import nn from './img/nn.png';
 import {Helmet} from "react-helmet";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import robofriends from './img/robofriends.png';
 import trillo from './img/trillo.png';
 import portfolio3 from './img/portfolio3.png';
-import ws from './img/W-S-logo.png';
+// import ws from './img/W-S-logo.png';
 
 const Moguljon = () => {
   return(
@@ -17,11 +17,11 @@ const Moguljon = () => {
          <title>Portfolio | Web Studios</title>
          <meta name="description" content='Our work speaks for itself, we have created amazing websites that clients will love, and you can see what work we do before you give us a try.' />
       </Helmet>
-      <div className='header__logo-box'>
+      {/* <div className='header__logo-box'>
         <Link to='/' className='mobile-logo'>
           <img src={ws} alt='alt' className='header__logo'/>
         </Link>
-      </div> 
+      </div>  */}
       <div className='section-work__box tc'>
         <div className='u-center-text'>
           <h2 className='heading-secondary'>Our Works</h2>
