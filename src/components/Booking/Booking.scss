@@ -4,6 +4,7 @@
   padding: 25rem 3rem 15rem  3rem;
   color: #1b2025;
   position: relative;
+  
   @include respond(phone) {
     padding: 13rem 3rem;
     background-image: url('img/contact.jpg');
@@ -134,6 +135,9 @@ textarea.contact-form-text {
 
   @include respond(phone) {
     display: none;
+    height: 0;
+    width: 0;
+    z-index: -0;
   }
 
   &__content {
@@ -143,12 +147,9 @@ textarea.contact-form-text {
 
     @include respond(phone) {
       display: none;
-    }
-  }
-
-  &__source {
-    @include respond(phone) {
-      display: none;
+      height: 0;
+      width: 0;
+      object-fit: none;
     }
   }
 }

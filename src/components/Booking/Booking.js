@@ -30,7 +30,7 @@ class Booking extends Component {
             </video>
         </div>
       <div className='tc mobile-header'>
-      <h2 className='heading-secondary u-margin-top-small u-margin-bottom-medium booking' style={{color: '#fff'}}>Contact Us!</h2>
+        <h2 className='heading-secondary u-margin-top-small u-margin-bottom-medium booking' style={{color: '#fff'}}>Contact Us!</h2>
       </div>
       <div className='contact-section'>
         <div className='side-section removing'>
