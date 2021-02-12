@@ -6,7 +6,7 @@ import { FaLinkedin} from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 // import ws from './img/W-S-logo.png';
-import free from './img/free.mp4';
+import Video from '../Video/Video';
 
 class Booking extends Component {
   render() {
@@ -22,13 +22,8 @@ class Booking extends Component {
           <img src={ws} alt='alt' className='header__logo'/>
         </Link>
       </div>  */}
-        <div className='bg-video'>
-            <video className='bg-video__content' autoPlay muted loop>
-              <source src={free} type='video/mp4'></source>
-              {/* <source src={Mockup1} type='video/webm'></source>
-              Your browser is not supported */}
-            </video>
-        </div>
+      <Video />
+        
       <div className='tc mobile-header'>
         <h2 className='heading-secondary u-margin-top-small u-margin-bottom-medium booking' style={{color: '#fff'}}>Contact Us!</h2>
       </div>

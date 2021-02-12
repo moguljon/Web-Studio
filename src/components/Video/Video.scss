@@ -1,0 +1,38 @@
+@import './src/index.scss';
+
+.video {
+    @include respond(phone) {
+        display: none;
+     }
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    // opacity: .9; 
+    overflow: hidden;
+  
+    @include respond(phone) {
+      display: none;
+      z-index: 10;
+      position: relative;
+    }
+  
+    &__content {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  
+      @include respond(phone) {
+       display: none;
+       object-fit: none;
+      }
+    }
+  }
+  
