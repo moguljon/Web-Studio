@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.scss';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Particles from 'react-particles-js';
 // import ws from './img/W-S-logo.png'
 
@@ -67,11 +67,11 @@ const Header = () => {
         </p>
           <div>
           <a href='https://calendly.com/webstudios/15min?month=2020-12' className='btn btn--main'>Book a quck call</a>
-          <a href='https://resume.io/r/Ahq2YpC4a' className='btn ghost display' style={{marginLeft: '2rem'}}>View Resume</a>
+          <Link to='/services' className='btn ghost display' style={{marginLeft: '2rem'}}>View Services</Link>
 
         </div>
         
-        <a href='https://resume.io/r/Ahq2YpC4a' className='mobile-blog' style={{color: '#32353b'}}>View Resume</a>
+        <Link to='/services' className='mobile-blog'>View Services</Link>
         
       </div>
   
