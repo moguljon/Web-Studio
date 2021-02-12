@@ -5,7 +5,6 @@ import Booking from './components/Booking/Booking';
 import Footer from './components/Footer/Footer';
 import Blog from './components/Blog/Blog';
 import ScrollToTop from './components/ScrollToTop';
-import Work from './components/Work/Work';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import 'tachyons';
 import {Helmet} from "react-helmet";
@@ -32,7 +31,6 @@ function App() {
             <Switch>             
                 <Route exact path='/' component={Home} />
                 <Route exact path='/booking' component={Booking} />
-                <Route exact path='/work' component={Work} />
                 <Route exact path='/blog' component={Blog} />
                 <Route exact path='/portfolio' component={Moguljon} />
                 <Route exact path='/privacy' component={Privacy} />
