@@ -1,9 +1,7 @@
 @import './src/index.scss';
 
 .video {
-  @include respond(phone) {
-    position: relative;
-  }
+  // position: relative;
 }
 
 .bg-video {
@@ -17,10 +15,7 @@
     overflow: hidden;
   
     @include respond(phone) {
-      position: relative;
-      display: none;
-      height: 0;
-      width: 0;
+     display: none;
     }
   
     &__content {
