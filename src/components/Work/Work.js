@@ -1,6 +1,5 @@
 import React from 'react';
 import './Work.scss';
-// import {Helmet} from "react-helmet";
 import omi from './img/omni-removed.png';
 import mm from './img/mm.png';
 import nn from './img/nn.png';
@@ -9,13 +8,6 @@ import { Link } from 'react-router-dom';
 const Work = () => {
   return(
     <section className='section-work'>
-   {/* `   <Helmet>
-         <title>Projects - Web Studios</title>
-         <meta name="description" content='Our work speaks for itself, we have created amazing websites that clients will love and you are able to see what work we do before you give us a try.' />
-      </Helmet> */}
-
-      
-      
       <div className='section-work__box tc'>
         <div className='u-center-text'>
           <h2 className='heading-secondary'>Our Works</h2>

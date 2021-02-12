@@ -27,7 +27,6 @@ const Feature = () => {
                 }
             }
         }} />
-
       <div className='row'>
         <div className='col-1-of-3'>
           <div className='feature-box'>
