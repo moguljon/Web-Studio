@@ -32,7 +32,7 @@ class Blog extends Component {
       <section className='section-blog'>
       <Helmet>
          <title>Blog | Web Studios</title>
-         <meta name="description" content='Welcome to our amazing blog. Here you will find the latest news on tech. Furthermore, we have amazing guest writers. Join us as we will be transitioning to YouTube.' />
+         <meta name="description" content='Our dedicated blog gives you an insight look on the people behind Web Studios.' />
       </Helmet>
         {/* <div className='header__logo-box'>
           <Link to='/' className='mobile-logo'>
@@ -46,10 +46,10 @@ class Blog extends Component {
                 </div>
                 <div className='col-1-of-2 border'>
                     <h1 className='content__header-one'>Web Studios Blog</h1>
-                    <p className='section-blog__paragraph blog-paragraph'>Find the latest blogs and informative <strong>information in tech</strong>. Web Studios is an interactive 
+                    <p className='section-blog__paragraph blog-paragraph'>We like to give technical insights and disucss our journey as technologist and developer. 
+                    Find the latest blogs and informative <strong>information in tech</strong>. Web Studios is an interactive 
                       platform that makes your online presence viable while also <strong>educating you in the process</strong>. 
-                      We share on the tech industry and how were are able to leverage technology to your benefit. That is, how we can create an application 
-                      for you that you would love but also that <strong>will bring profit</strong>.
+    
                     </p>
                     <a href='https://webstudiosnews.herokuapp.com/' target='_blank' rel="noopener noreferrer" className='btn btn--main tc resource-btn'>Newsletter</a>
                 </div>

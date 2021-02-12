@@ -55,14 +55,15 @@ const Header = () => {
       <div className='header__text-box'>
         <h1 className='heading-primary'>
           <span className='heading-primary--main tc'>Web Studios</span>
-          <span className='heading-primary--secondary'>Creating Experiences on the Web</span>
+          <span className='heading-primary--secondary'>Creating Brands That Matter</span>
         </h1>
         
         
         <p className='mobile'>
-          The home of a creative platform use to build and scale websites, apps, and designs for you. Whether you are looking to 
-          create an online presence or you need help improving it we got you covered. We carefully curate a game plan to see 
-          it through so that you can grow..
+          This creative platform leverages technology to create brands from inception to production. We understand that 
+          it is much easier to have a guiding hand that understands technology and uses it to develop solutions. 
+          Whether you are looking to 
+          start or start over; we got you covered. 
         </p>
           <div>
           <a href='https://calendly.com/webstudios/15min?month=2020-12' className='btn btn--main'>Book a quck call</a>

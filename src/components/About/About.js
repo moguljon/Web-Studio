@@ -32,8 +32,8 @@ const About = () => {
           <div className='col-1-of-4'>
             <div className='section-about__container'>
               <ion-icon name="globe-outline" className='section-about__color' size='large'  ></ion-icon>
-              <h2 className='section-about__header--two'>Scalibility</h2>
-              <p className='section-about__paragraph'>We create projects that scale as your business grows.</p>
+              <h2 className='section-about__header--two'>Social Media</h2>
+              <p className='section-about__paragraph'>We integrate social media strategies that help your business grow.</p>
             </div>
           </div>
         </div>

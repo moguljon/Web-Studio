@@ -22,8 +22,8 @@ function App() {
     return (
         <div>
           <Helmet>
-            <title>Web Studios | Let's Create Your Next Website</title>
-            <meta name="description" content='Creating stunning web apps for business owners large or small that so they can attract clients and make profit.' />
+            <title>Web Studios | Let's Build Your Brand</title>
+            <meta name="description" content='We leverage technology to create brands from inception to production because we understand that it is much easier to have a guiding hand that understands the technical details of creating a brand.' />
           </Helmet>
           <Router>
             <ScrollToTop />
@@ -34,7 +34,7 @@ function App() {
                 <Route exact path='/blog' component={Blog} />
                 <Route exact path='/portfolio' component={Moguljon} />
                 <Route exact path='/privacy' component={Privacy} />
-                <Route exact path='/prices' component={Prices} />
+                <Route exact path='/Services' component={Prices} />
                 <Route exact path='/terms' component={Terms} />
                 <Route exact path='/cookies-policy' component={Cookies} />
                 <Route exact path='/resources' component={Resources} />

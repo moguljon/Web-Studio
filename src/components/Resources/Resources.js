@@ -16,8 +16,8 @@ const Resources = () => {
     return(
         <section className='section-resources'>
             <Helmet>
-                <title>Best Resources for Business Owners | Web Studios</title>
-                <meta name="description" content='Our great resources page so that you can get up and running with your business. Best of all, most of these resources are completely free.' />
+                <title>Best Resources for Brands | Web Studios</title>
+                <meta name="description" content='A dedicated resource page helps brands get up and running with tools, software, and digitals assets needed to build a brand. Best of all, most of these resources are entirely free.' />
             </Helmet>
             {/* <div className='header__logo-box'>
                 <Link to='/' className='mobile-logo'>

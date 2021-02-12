@@ -9,11 +9,11 @@ const Prices = () => {
   return(
     <section className='section-tours'>
       <div className='u-center-text u-margin-bottom-big'>
-        <h2 className='heading-secondary'>Packages</h2>
+        <h2 className='heading-secondary'>Services</h2>
       </div>
       <Helmet>
-         <title>Prices | Web Studios</title>
-         <meta name="description" content='Price packages where each plan gives you different things bases on your needs and wants.' />
+         <title>Find the Right Service for You | Web Studios</title>
+         <meta name="description" content='Various service packages that Web Studios provides at a reasonable price.' />
       </Helmet>
       {/* <div className='header__logo-box'>
         <Link to='/' className='mobile-logo'>
