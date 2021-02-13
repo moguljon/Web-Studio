@@ -1,7 +1,7 @@
 import React from 'react';
 import './Endorse.scss';
 import image1 from './img/shopify2.png';
-import image2 from './img/squarespace2.svg';
+import image2 from './img/squarespace.svg';
 import image3 from './img/wix.svg';
 
 const Endorse = () => { 
@@ -15,7 +15,7 @@ const Endorse = () => {
           <img src={image1} alt='' className='section-endorse__image' />
         
 
-          <img  src={image2} alt='' className='section-endorse__image resize2' />
+          <img  src={image2} alt='' className='section-endorse__image other' />
      
         
           <img  src={image3} alt='' className='section-endorse__image' />
