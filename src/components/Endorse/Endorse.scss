@@ -2,9 +2,10 @@
 
 .section-endorse {
   color: $color-black;
-  padding: 6rem 0 2rem 0;
+  padding: 4rem 0 .2rem 0;
   transition: box-shadow 0.4s ease-in-out 0s;
   box-shadow: 0 9.5rem 9rem rgba($secondary-color, .25);
+  text-align: center;
 
   &__container {
     display: flex;
@@ -13,7 +14,7 @@
   }
 
   @include respond(tab-port) {
-    padding: 10rem 0 12rem 0;
+    padding: 6rem 0 4rem 0;
   }
 
   @include respond(phone) {
@@ -25,7 +26,6 @@
   &__paragraph {
     font-size: 2rem;
     font-weight: bolder;
-    margin-bottom: 3rem;
     color: $color-black;
 
     @include respond(phone) {
@@ -34,34 +34,41 @@
   }
 
   &__image {
-    margin-left: 6rem;
-    width: 15%;
     border-radius: 10px;
     padding: 4rem;
     color: black !important;
    
+    &--1 {
+      width: 17%;
+
+      @include respond(phone) {
+        width: 25%;
+      }
+    }
+
+    &--2 {
+      width: 28%;
+
+      @include respond(phone) {
+        width: 43%;
+      }
+    }
+
+    &--3 {
+      width: 11%;
+      @include respond(phone) {
+        width: 15%;
+      }
+    }
 
     @include respond(tab-port) {
       margin-left: 2rem;
       padding: 2rem;
-      width: 20%;
     }
 
     @include respond(phone) {
       margin: 0 1rem 0 1rem;
     }
-  }
-}
-
-.other-image {
-  width: 28%;
-
-  @include respond(tab-port) {
-    width: 38%;
-  }
-
-  @include respond(phone) {
-    width: 43%;
   }
 }
 
