@@ -7,13 +7,12 @@
   box-shadow: 0 9.5rem 9rem rgba($secondary-color, .25);
 
   @include respond(tab-port) {
-    padding: 10rem 0 12rem 0;
+    padding: 3rem 0 1rem 0;
   }
 
   @include respond(phone) {
     background: $color-white;
-    margin-top: 0;
-    padding: 5rem 0 5rem 0;
+    padding: 5rem 0 1rem 0;
   }
 
   &__paragraph {
@@ -29,7 +28,7 @@
 
   &__image {
     margin-left: 6rem;
-    width: 17%;
+    width: 15%;
     border-radius: 10px;
     padding: 4rem;
     color: black !important;
@@ -37,15 +36,31 @@
 
     @include respond(tab-port) {
       margin-left: 2rem;
-      padding: 2rem;
-      width: 26%;
+      width: 20%;
     }
 
     @include respond(phone) {
-
-      margin: 0 1rem 0 1rem;
+      width: 29%;
     }
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
   }
 }
 
+.resize2 {
+  width: 25%;
+
+  @include respond(tab-port) {
+    width: 38%;
+  }
+
+  @include respond(phone) {
+    width: 45%;
+  }
+}
 
