@@ -1,0 +1,26 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/Homepage/Homepage.scss":
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./src/components/Homepage/Homepage.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".container {\n  display: flex;\n  max-width: 160rem; }\n\n.main {\n  background: var(color-grey-light);\n  flex: 1 1; }\n\n.person {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  height: 100vh; }\n  .person__img {\n    height: 35rem;\n    margin-right: 2rem;\n    box-shadow: 0 2rem 4rem grey; }\n  .person__header-one {\n    font-size: 2.8rem;\n    text-transform: uppercase; }\n  .person__halfone {\n    margin-right: .7rem;\n    color: var(--color-primary);\n    display: block; }\n", "",{"version":3,"sources":["webpack://src/components/Homepage/Homepage.scss"],"names":[],"mappings":"AAAA;EACI,aAAa;EACb,iBAAiB,EAAA;;AAGrB;EACI,iCAAiC;EACjC,SAAO,EAAA;;AAGX;EACI,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,aAAa,EAAA;EAEb;IACI,aAAa;IACb,kBAAkB;IAClB,4BAA4B,EAAA;EAGhC;IACI,iBAAiB;IACjB,yBAAyB,EAAA;EAG7B;IACI,mBAAmB;IACnB,2BAA2B;IAC3B,cAAc,EAAA","sourcesContent":[".container {\r\n    display: flex;\r\n    max-width: 160rem;\r\n}\r\n\r\n.main {\r\n    background: var(color-grey-light);\r\n    flex: 1;\r\n}\r\n\r\n.person {\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    height: 100vh;\r\n\r\n    &__img {\r\n        height: 35rem;\r\n        margin-right: 2rem;\r\n        box-shadow: 0 2rem 4rem grey;\r\n    }\r\n    \r\n    &__header-one {\r\n        font-size: 2.8rem;\r\n        text-transform: uppercase;\r\n    }\r\n\r\n    &__halfone {\r\n        margin-right: .7rem;\r\n        color: var(--color-primary);\r\n        display: block;\r\n    }\r\n}\r\n\r\n\r\n  \r\n\r\n  "],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.34a9c518bd1eb071c57e.hot-update.js.map
