@@ -9,6 +9,10 @@ import robofriends from './img/robofriends.png';
 import trillo from './img/trillo.png';
 // import ws from './img/W-S-logo.png';
 import portfolio from './img/portfolio.png';
+import shopify from './img/sprite/shopify-dark.svg';
+import react from './img/react.png';
+import sass from './img/sass.png';
+import css from './img/css.png';
 
 const Moguljon = () => {
   return(
@@ -39,6 +43,10 @@ const Moguljon = () => {
          <div className='work__btn-container'>
           <a href='https://moguljon.com/' target='__blank' className='work__btn btn buttons'>View Project</a>
          </div>
+         <div className='work__platforms'>
+          <h4 className='work__header-four'>Built With Shopify</h4>
+         </div>
+          <img src={shopify} alt='' className='work__platform-img' />
        </div>
      </div>
      <div className='tc other-work'>
@@ -51,6 +59,11 @@ const Moguljon = () => {
          <div className='work__btn-container'>
           <a href='https://portfolio.jonathanaguilar.live/' target='__blank' className='work__btn btn buttons'>View Project</a>
          </div>
+         <div className='work__platforms'>
+          <h4 className='work__header-four'>Built with Custom Code With the Javascript Framework React, and Sass</h4>
+         </div>
+          <img src={react} alt='' className='work__platform-img' />
+          <img src={sass} alt='' className='work__platform-img' />
       </div>
      </div>
      <div className='work tc'>
@@ -63,6 +76,10 @@ const Moguljon = () => {
          <div className='work__btn-container'>
          <a href='https://newsmedia.jonathanaguilar.live/' target='__blank' className='work__btn btn buttons'>View Project</a>
          </div>
+         <div className='work__platforms'>
+          <h4 className='work__header-four'>Built with Modern HTML5 and CSS3</h4>
+         </div>
+          <img src={css} alt='' className='work__platform-img' />
        </div>
      </div>
 
@@ -78,6 +95,10 @@ const Moguljon = () => {
          <div className='work__btn-container'>
           <a href='https://moguljon.github.io/robofriends/' target='__blank' className='work__btn--2 btn'>View Project</a>
          </div>
+         <div className='work__platforms'>
+          <h4 className='work__header-four'>Built with Custom Code With the Javascript Framework React</h4>
+        </div>
+          <img src={react} alt='' className='work__platform-img' />
       </div>
      </div>
 
@@ -91,6 +112,11 @@ const Moguljon = () => {
          <div className='work__btn-container'>
          <a href='https://omnifood.jonathanaguilar.live/' target='__blank' className='work__btn--2 btn'>View Project</a>
          </div>
+         <div className='work__platforms'>
+            <h4 className='work__header-four'>Built with Custom Code With the Javascript Framework React, and Sass</h4>
+          </div>
+            <img src={react} alt='' className='work__platform-img' />
+            <img src={sass} alt='' className='work__platform-img' />
        </div>
      </div>
      <div className='tc other-work'>
@@ -103,6 +129,10 @@ const Moguljon = () => {
          <div className='work__btn-container'>
           <a href='https://trillo.jonathanaguilar.live/' target='__blank' className='work__btn--2 btn'>View Project</a>
          </div>
+         <div className='work__platforms'>
+          <h4 className='work__header-four'>Built with Custom Code With Sass</h4>
+         </div>
+          <img src={sass} alt='' className='work__platform-img' />
       </div>
      </div>
 
