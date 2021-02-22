@@ -46,7 +46,7 @@ const Moguljon = () => {
         <img src={portfolio} alt='' className='work__img' width='500px' />
        </div>
        <div className='work__content'>
-         <h3 className='work__header-three'>Personal portfolio with modern a modern layout and look.</h3>
+         <h3 className='work__header-three'>Personal portfolio with a modern look and layout.</h3>
          <p className='work__paragraph'>Development, Web Design</p>
          <div className='work__btn-container'>
           <a href='https://portfolio.jonathanaguilar.live/' target='__blank' className='work__btn btn buttons'>View Project</a>
