@@ -2,7 +2,7 @@ import React from 'react';
 import './Work.scss';
 import omi from './img/omni-removed.png';
 import mm from './img/mm.png';
-import nn from './img/nn.png';
+import portfolio from './img/portfolio.png';
 import { Link } from 'react-router-dom';
 
 const Work = () => {
@@ -28,6 +28,18 @@ const Work = () => {
      </div>
      <div className='tc other-work'>
        <div className='work__img-container other-container'>
+        <img src={portfolio} alt='' className='work__img' width='500px' />
+       </div>
+       <div className='work__content'>
+         <h3 className='work__header-three'>Personal portfolio with modern color and look.</h3>
+         <p className='work__paragraph'>Development, Web Design</p>
+         <div className='work__btn-container'>
+          <a href='https://portfolio.jonathanaguilar.live/' target='__blank' className='work__btn btn buttons'>View Project</a>
+         </div>
+       </div>
+     </div>
+     <div className='work tc'>
+       <div className='work__img-container'>
         <img src={omi} alt='' className='work__img' width='500px' />
        </div>
        <div className='work__content'>
@@ -35,18 +47,6 @@ const Work = () => {
          <p className='work__paragraph'>Development, Web Design</p>
          <div className='work__btn-container'>
           <a href='https://omnifood.jonathanaguilar.live/' target='__blank' className='work__btn btn buttons'>View Project</a>
-         </div>
-       </div>
-     </div>
-     <div className='work tc'>
-       <div className='work__img-container'>
-        <img src={nn} alt='' className='work__img' width='500px' />
-       </div>
-       <div className='work__content'>
-         <h3 className='work__header-three'>Newsgrid, A Sports Related Website Meant for News Articles</h3>
-         <p className='work__paragraph'>Development, Web Design</p>
-         <div className='work__btn-container'>
-         <a href='https://newsmedia.jonathanaguilar.live/' target='__blank' className='work__btn btn buttons'>View Project</a>
          </div>
        </div>
      </div>

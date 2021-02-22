@@ -7,8 +7,8 @@ import {Helmet} from "react-helmet";
 // import { Link } from 'react-router-dom';
 import robofriends from './img/robofriends.png';
 import trillo from './img/trillo.png';
-import portfolio3 from './img/portfolio3.png';
 // import ws from './img/W-S-logo.png';
+import portfolio from './img/portfolio.png';
 
 const Moguljon = () => {
   return(
@@ -43,13 +43,13 @@ const Moguljon = () => {
      </div>
      <div className='tc other-work'>
        <div className='work__img-container other-container'>
-        <img src={omi} alt='' className='work__img' width='500px' />
+        <img src={portfolio} alt='' className='work__img' width='500px' />
        </div>
        <div className='work__content'>
-         <h3 className='work__header-three'>Beautiful React Application With Modern Design and Layout</h3>
+         <h3 className='work__header-three'>Personal portfolio with modern a modern layout and look.</h3>
          <p className='work__paragraph'>Development, Web Design</p>
          <div className='work__btn-container'>
-          <a href='https://omnifood.jonathanaguilar.live/' target='__blank' className='work__btn btn buttons'>View Project</a>
+          <a href='https://portfolio.jonathanaguilar.live/' target='__blank' className='work__btn btn buttons'>View Project</a>
          </div>
       </div>
      </div>
@@ -83,13 +83,13 @@ const Moguljon = () => {
 
      <div className='work tc'>
        <div className='work__img-container--2'>
-        <img src={portfolio3} alt='' className='work__img' width='500px' />
+        <img src={omi} alt='' className='work__img' width='500px' />
        </div>
        <div className='work__content'>
-         <h3 className='work__header-three'>A fantastic single page portfolio website example.</h3>
+         <h3 className='work__header-three'>Beautiful React Application With Modern Design and Layout</h3>
          <p className='work__paragraph'>Development, Web Design</p>
          <div className='work__btn-container'>
-         <a href='https://work.jonathanaguilar.live/' target='__blank' className='work__btn--2 btn'>View Project</a>
+         <a href='https://omnifood.jonathanaguilar.live/' target='__blank' className='work__btn--2 btn'>View Project</a>
          </div>
        </div>
      </div>
