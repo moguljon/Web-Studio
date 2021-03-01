@@ -22,7 +22,7 @@ const Bottom = () => {
                     <Link to='/booking' className='bottom__item'>Booking |</Link>
                 </div>
                 <div className='bottom__items'>
-                    <a href='https://resume.io/r/Ahq2YpC4a' className='bottom__item'>Resume</a>
+                    <a href='https://resume.io/r/fsXzS10vh' className='bottom__item'>Resume</a>
                 </div>
             </div>
             <Social />
