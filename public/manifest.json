@@ -1,12 +1,7 @@
 {
   "short_name": "Web Studios",
   "name": "Web Studios - Create Your next Web App",
-  "icons": [
-    {
-      "src": "favicon.png",
-       "type": "image/png"
-    }
-  ],
+
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",

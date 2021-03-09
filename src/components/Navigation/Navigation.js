@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Navigation.scss';
-import { Link, NavLink } from 'react-router-dom';
-import ws from '../../img/logo2/vector/default-monochrome.svg';
+import { NavLink } from 'react-router-dom';
+import Logo from '../Logo/Logo';
 
 class Navigation extends Component {
   render() {
@@ -33,12 +33,7 @@ class Navigation extends Component {
             </li> 
           </ul>
         </nav>
-
-        <div className='header__logo-box'>
-          <Link to='/' className='mobile-logo'>
-            <img src={ws} alt='alt' className='header__logo'/>
-          </Link>
-       </div> 
+        <Logo />
       <nav className='nav'>
       <div className='header__logo-box'>
       </div>
