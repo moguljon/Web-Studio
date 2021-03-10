@@ -49,12 +49,10 @@ const Feature = () => {
             <p className='feature-box__text'>We can build your next project in a variety of platforms including Shopify or Squarespce because we understand customer needs.</p>
           </div>
         </div>
-
       </div>
       <div className='tc'>
       <a href='https://calendly.com/webstudios/15min' className='btn btn--white'>Book a quick call</a>
       </div>
-      
     </section>
   )
 }
