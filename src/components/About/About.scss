@@ -29,6 +29,11 @@
         margin-right: 0;
         margin-bottom: $gutter-vertical-small;
       }
+
+      @include respond(tab-port) {
+        margin-right: 0;
+        margin-bottom: $gutter-vertical-small;
+      }
     }
 
     @include respond(tab-port) {
@@ -93,8 +98,8 @@
     padding: 2rem 0 10rem 0;
   }
 
-  @include respond(tab-port) {
-    margin-top: 0;
+  @include respond(phone) {
+    padding: 2rem 2rem 10rem 2rem;
   }
 }
 
@@ -198,6 +203,7 @@ ion-icon {
     flex-direction: column;
     justify-content: space-between;
 
+     
     &:hover {
       transform: translateY(-3rem);
     }
