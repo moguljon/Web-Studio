@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Booking.scss';
 import {Helmet} from "react-helmet";
-// import { Link } from 'react-router-dom';
 import { FaLinkedin} from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
@@ -31,8 +30,6 @@ class Booking extends Component {
         <div className='side-section removing'>
           <div className='tc tr '>
             <h2 className='heading-secondary u-margin-top-small u-margin-bottom-medium booking'>Contact Us!</h2>
-            {/* <p className='side-section__paragraph'>Contact us to discuss pricing and your project. We love to hear about it!</p>
-            <p className='side-section__paragraph'>Please give us a brief description, and we will get back to you cheers.</p> */}
             <div className='side-section__container1'>
               <div className='side-section__container2'>
                   <FaLinkedin className='side-section__icon' />

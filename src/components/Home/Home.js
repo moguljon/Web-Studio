@@ -6,6 +6,7 @@ import Feature from '../Feature/Feature';
 import Story from '../Story/Story';
 import Work from '../Work/Work';
 
+
 const Home = () => {
     return(
         <div>
@@ -13,7 +14,7 @@ const Home = () => {
             <Endrose />
             <About />
             <Feature />
-            {/* <Prices /> */}
+            
             <Story />
             <Work />
            

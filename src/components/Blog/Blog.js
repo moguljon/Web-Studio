@@ -41,19 +41,19 @@ class Blog extends Component {
         </div>  */}
 
           <div className='row'>
-                <div className='col-1-of-2'>
-                  <img src={team} alt='blog' className='team' /> 
-                </div>
-                <div className='col-1-of-2 border'>
-                    <h1 className='content__header-one'>Web Studios Blog</h1>
-                    <p className='section-blog__paragraph blog-paragraph'>We like to give technical insights and disucss our journey as technologist and developer. 
+              <div className='col-1-of-2'>
+                <img src={team} alt='blog' className='team' /> 
+              </div>
+              <div className='col-1-of-2 border'>
+                  <h1 className='content__header-one'>Web Studios Blog</h1>
+                  <p className='section-blog__paragraph blog-paragraph'>We like to give technical insights and disucss our journey as technologist and developer. 
                     Find the latest blogs and informative <strong>information in tech</strong>. Web Studios is an interactive 
                       platform that makes your online presence viable while also <strong>educating you in the process</strong>. 
     
-                    </p>
-                    <a href='https://webstudiosnews.herokuapp.com/' target='_blank' rel="noopener noreferrer" className='btn btn--main tc resource-btn'>Newsletter</a>
-                </div>
-            </div>    
+                  </p>
+                  <a href='https://webstudiosnews.herokuapp.com/' target='_blank' rel="noopener noreferrer" className='btn btn--main tc resource-btn'>Newsletter</a>
+              </div>
+          </div>    
         <div className='section-work__box section-blog__box'>
           <h1 className='heading-secondary section-work__header section-blog__header--one'>Latest Blogs</h1>
         </div>

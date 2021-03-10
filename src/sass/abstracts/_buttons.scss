@@ -71,13 +71,10 @@
   }
 }
 
-
-
 .btn--white {
   background-color: $color-white;
   color: $secondary-color;
   border-radius: 100rem;
-
 }
 
 .btn--grey {
@@ -85,13 +82,11 @@
   color: #fff !important;
   border-radius: 2px;
   border-radius: 100rem;
-
 }
 
 .btn--white::after {
   background-color: $color-white;
   border-radius: 100rem;
-
 }
 
 .btn--animated {

@@ -96,33 +96,6 @@
   @include respond(tab-port) {
     margin-top: 0;
   }
-
-  &__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  &__header--two {
-    margin: 3rem 0 3rem 0;
-    color: #212529;
-  }
-
-  &__paragraph {
-   width: 100%;
-   color: #32353b;
-   line-height: 1.73;
-  letter-spacing: .5px;
-  font-size: 1.5rem;
-  text-align: center;
-
-
-  }
-
-  &__icon--2 {
-    background-image: (150deg,red -20%, yellow) !important;
-  }
 }
 
 .heading-secondary {
@@ -152,26 +125,9 @@
     font-size: 3rem;
   }
 
-
-
   &:hover {
     transform: skewY(2deg) skewX(15deg) scaleX(1.1);
     text-shadow: .5rem 1rem 2rem rgba($secondary-color, .2);
-  }
-}
-
-.heading-teritary {
-  font-size: 1.6rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.paragraph {
-  font-size: 1.6rem;
-  
-
-  &:not(:last-child) {
-    margin-bottom: 3rem;
   }
 }
 
@@ -201,71 +157,12 @@
   }
 }
 
-.composition {
-  position: relative;
-  &__photo {
-    width: 55%;
-    box-shadow: 0 1.5rem 4rem rgba($secondary-color, .4);
-    border-radius: 2px;
-    position: absolute;
-    z-index: 10;
-    transition: all .2s;
-
-    @include respond(tab-port) {
-      float: left;
-      position: relative;
-      width: 33.33333333%;
-      box-shadow: 0 1.5rem 3rem rgba($secondary-color, .2);
-    }
-
-    &--p1 {
-      left: 0;
-      top: -2rem;
-
-      @include respond(tab-port) {
-        top: 0;
-        transform: scale(1.2);
-      }
-    }
-
-    &--p2 {
-      right: -1rem;
-      top: 2rem;
-
-      @include respond(tab-port) {
-        top: 0;
-        transform: scale(1.5);
-        z-index: 100;
-      }
-    }
-
-    &--p3 {
-      left: 20%;
-      top: 3rem;
-
-      @include respond(tab-port) {
-        top: 1rem;
-        left:  0;
-        transform: scale(1.1);
-      }
-    }
-
-    &:hover {
-      outline: 1.5rem solid $main-color;
-      transform: scale(1.15);
-      box-shadow: 0 2.5rem 4rem rgba($secondary-color, .5);
-      z-index: 20;
-    }
-  }
-}
-
 ion-icon {
-  background-image: linear-gradient(135deg,pink,#e83e8c 150%);
-  color: #fff;
-  border-radius: 50%;
-  padding: 2.3rem;
+  // background-image: linear-gradient(135deg,pink,#e83e8c 150%);
+  color: $main-color;
+  font-size: 2.3rem;
+  margin-left: .4rem;
 }
-
 
 .heading-secondary2 {
   font-size: 3.5rem;
@@ -277,7 +174,65 @@ ion-icon {
   color: transparent;
   letter-spacing: 2px;
   transition: all .2s;
-
 }
 
+.headline-container {
+  text-align: center;
+}
 
+.first-paragraph {
+  font-size: 1.7rem;
+  margin-top: 2rem;
+}
+
+.about {
+  &__services1 {
+    margin-top: 8rem;
+    background: $color-white;
+    border-radius: 1rem;
+    padding: 3rem;
+    height: 30rem;
+    box-shadow: 0 2.5rem 2rem rgba($secondary-color, .25);
+    transition: all .3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &:hover {
+      transform: translateY(-3rem);
+    }
+  }
+
+  &__headerthree {
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__paragraph {
+    font-size: 1.3rem;
+  }
+
+  &__skills {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+  }
+
+  &__header4 {
+    margin-top: 2rem;
+  }
+
+  &__header4 {
+    font-size: 1.7rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-size: 1.3rem;
+    border-bottom: 3px solid $main-color;
+  }
+}
+
+.about-img {
+  margin-top: 3rem;
+}
