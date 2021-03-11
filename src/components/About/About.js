@@ -19,7 +19,7 @@ const About = () => {
               <div className='about-mobile'>
                 <h3 className='about__headerthree'>E-Commerce Solutions <ion-icon name="pricetags-outline"></ion-icon></h3>
                 <p className='about__paragraph'>We create entire storefronts for your E-Commerce Business Using the latest platfroms and integrations.</p>
-                <img src={shopify} alt='' className='work__platform-img about-img' />
+                <img src={shopify} alt='' className='work__platform-img about-img about-img' />
               </div>
               <div className='about__skills'>
                 <hr></hr>
