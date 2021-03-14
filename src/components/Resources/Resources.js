@@ -31,7 +31,7 @@ const Resources = () => {
                 <div className='col-1-of-2 border'>
                     <h1 className='content__header-one'>Business Resources</h1>
                     <p className='content__paragraph1'>Your one-stop shop for all the resources you will ever need to get started working on your business because we understand how valuable and time-consuming to find things are. We have put together this collection of the best free resources to help you at any stage of your entrepreneur journey.</p>
-                    <a href='https://webstudiosnews.herokuapp.com/' target='_blank' rel="noopener noreferrer" className='btn btn--main tc resource-btn'>Newsletter</a>
+                    <a href='http://newsletter.webstudios.io/' target='_blank' rel="noopener noreferrer" className='btn btn--main tc resource-btn'>Newsletter</a>
                 </div>
             </div>
             <div className='row space'>
