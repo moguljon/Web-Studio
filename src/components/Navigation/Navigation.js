@@ -42,7 +42,7 @@ class Navigation extends Component {
             <NavLink activeClassName='active' to='/portfolio' className='nav__link dark'>Portfolio</NavLink>
           </div>
           <div className='nav__item'>
-            <NavLink to='/blog' activeClassName='active' className='nav__link dark'>Blog</NavLink>
+            <a href='https://blog.webstudios.io/' className='nav__link dark'>Blog</a>
           </div>
           <div className='nav__item'>
             <NavLink to='/resources' activeClassName='active' className='nav__link dark'>Resources</NavLink>
