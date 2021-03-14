@@ -18,7 +18,7 @@ const Bottom = () => {
                     <Link to='/resources' className='bottom__item'>Resources |</Link>
                 </div>
                 <div className='bottom__items'>
-                    <a href='https://webstudiossignup.herokuapp.com/' className='bottom__item'>Newsletter |</a>
+                    <a href='http://newsletter.webstudios.io/' className='bottom__item'>Newsletter |</a>
                 </div>
                 <div className='bottom__items'>
                     <Link to='/booking' className='bottom__item'>Booking |</Link>
