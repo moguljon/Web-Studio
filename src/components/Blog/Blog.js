@@ -51,7 +51,7 @@ class Blog extends Component {
                       platform that makes your online presence viable while also <strong>educating you in the process</strong>. 
     
                   </p>
-                  <a href='http://newsletter.webstudios.io/' target='_blank' rel="noopener noreferrer" className='btn btn--main tc resource-btn'>Newsletter</a>
+                  <a href='https://newsletter.webstudios.io/' target='_blank' rel="noopener noreferrer" className='btn btn--main tc resource-btn'>Newsletter</a>
               </div>
           </div>    
         <div className='section-work__box section-blog__box'>
