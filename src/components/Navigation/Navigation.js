@@ -20,7 +20,7 @@ class Navigation extends Component {
               <a className='navigation__link' href='/portfolio'>Portfolio</a>
             </li>
             <li className='navigation__item'>
-              <a className='navigation__link' href='/blog'>Blog</a>
+              <a className='navigation__link' href='https://blog.webstudios.io/'>Blog</a>
             </li>
             <li className='navigation__item'>
               <a className='navigation__link' href='/resources'>Resources</a>
