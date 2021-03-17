@@ -145,3 +145,8 @@ a.btn.ghost.display {
   background-image:  linear-gradient(to bottom right, $main-color, $other-color4); 
   color: $color-white;
 }
+
+a:link,
+a:visited {
+  color: #32353b;
+}

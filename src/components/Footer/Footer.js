@@ -8,13 +8,13 @@ const Footer = () => {
     <footer className='footer'>
       <div className='footer__logo-box'>
         <p className='footer__paragraph'><strong>COPYRIGHT © {currentYear}, WEB STUDIOS.</strong></p>
-          <Link to='/privacy' className='privacy-link'>Privacy</Link>
+          <Link to='/privacy' className='privacy-link' style={{color: 'white'}}>Privacy</Link>
           |
           
-          <Link to='/terms' className='privacy-link'>Terms</Link>
+          <Link to='/terms' className='privacy-link' style={{color: 'white'}}>Terms</Link>
           |
          
-          <Link to='/cookies-policy'  className='privacy-link'>Cookies</Link>
+          <Link to='/cookies-policy' className='privacy-link' style={{color: 'white'}}>Cookies</Link>
           |
         <div className='social-footer'>
         </div>
