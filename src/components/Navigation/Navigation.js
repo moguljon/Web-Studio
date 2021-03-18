@@ -20,7 +20,7 @@ class Navigation extends Component {
               <a className='navigation__link' href='/portfolio'>Portfolio</a>
             </li>
             <li className='navigation__item'>
-              <a className='navigation__link' href='https://blog.webstudios.io/'>Blog</a>
+              <a className='navigation__link' href='https://publication.webstudios.io/'>Publication</a>
             </li>
             <li className='navigation__item'>
               <a className='navigation__link' href='/resources'>Resources</a>
@@ -42,7 +42,7 @@ class Navigation extends Component {
             <NavLink activeClassName='active' to='/portfolio' className='nav__link dark'>Portfolio</NavLink>
           </div>
           <div className='nav__item'>
-            <a href='https://blog.webstudios.io/' className='nav__link dark'>Blog</a>
+            <a href='https://publication.webstudios.io/' className='nav__link dark'>Publication</a>
           </div>
           <div className='nav__item'>
             <NavLink to='/resources' activeClassName='active' className='nav__link dark'>Resources</NavLink>
