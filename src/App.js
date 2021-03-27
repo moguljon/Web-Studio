@@ -19,6 +19,7 @@ import Resources from './components/Resources/Resources';
 import Bottom from './components/Bottom/Bottom';
 
 function App() {
+  
     return (
         <div>
           <Helmet>
@@ -27,7 +28,7 @@ function App() {
           </Helmet>
           <Router>
             <ScrollToTop />
-            <Navigation />
+            <Navigation />  
             <Switch>             
                 <Route exact path='/' component={Home} />
                 <Route exact path='/booking' component={Booking} />
