@@ -25,7 +25,7 @@ const Story = () => {
           </div>
           <div className='section-stories__container--two'>   
             <h3 className='heading-teritary u-margin-bottom-small tc section-stories__header--three'><span role='img' aria-label='eng'>👋 </span>Hi I'm Jonathan Aguilar</h3>
-            <p className='story-p' >Hello, I am Jonathan Aguilar I make your big idea come to life so if you need a web presence or social media presence I can incorporate what I have learned through my experience in the technology space and use my knowledge to build your next big idea. I am a self taught web developer from the ground up and I know first hand how hard it is when you have no guidance but you do not have to feel that way as I will work with you every step of the way to build your idea. </p>
+            <p className='story-p' >Hello, I make your big idea come to life! If you need a web presence, I can use my knowledge to build your next  idea. I am a self-taught web developer, and I know firsthand how hard it is when you have no guidance, but you do not have to feel helpless. I will work with you every step of the way to build your idea.</p>
             <p  className='story-p'>Cheers,</p>
             <p  className='story-p'>Jonathan Aguilar</p>
           </div>

@@ -14,25 +14,25 @@ class Navigation extends Component {
           </span>
         </label>
         <div className='navigation__background'>&nbsp;</div>
-        <nav className='navigation__nav'>
-          <ul className='navigation__list'>
-            <li className='navigation__item'>
-              <a className='navigation__link' href='/portfolio'>Portfolio</a>
-            </li>
-            <li className='navigation__item'>
-              <a className='navigation__link' href='https://publication.webstudios.io/'>Publication</a>
-            </li>
-            <li className='navigation__item'>
-              <a className='navigation__link' href='/resources'>Resources</a>
-            </li>
-            <li className='navigation__item'>
-              <a className='navigation__link' href='/services'>Services</a>
-            </li>
-            <li className='navigation__item'>
-              <a className='navigation__link' href='/booking'>Booking</a>
-            </li> 
-          </ul>
-        </nav>
+          <nav className='navigation__nav'>
+            <ul className='navigation__list'>
+              <li className='navigation__item'>
+                <a className='navigation__link' href='/portfolio'>Portfolio</a>
+              </li>
+              <li className='navigation__item'>
+                <a className='navigation__link' href='https://publication.webstudios.io/'>Publication</a>
+              </li>
+              <li className='navigation__item'>
+                <a className='navigation__link' href='/resources'>Resources</a>
+              </li>
+              <li className='navigation__item'>
+                <a className='navigation__link' href='/services'>Services</a>
+              </li>
+              <li className='navigation__item'>
+                <a className='navigation__link' href='/booking'>Booking</a>
+              </li> 
+            </ul>
+          </nav>
         <Logo />
       <nav className='nav'>
       <div className='header__logo-box'>

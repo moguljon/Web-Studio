@@ -60,10 +60,7 @@ const Header = () => {
         
         
         <p className='mobile'>
-          This creative platform leverages technology to create brands from inception to production. We understand that 
-          it is much easier to have a guiding hand that understands technology and uses it to develop solutions. 
-          Whether you are looking to 
-          start or start over; we got you covered. 
+        This creative platform leverages technology to create brands from inception to production. We understand that it is much easier to have a guiding hand that understands technology and uses it to develop solutions. Whether you are looking to start or start over, we've got you covered. 
         </p>
           <div>
           <a href='https://calendly.com/webstudios/15min?month=2020-12' className='btn btn--main'>Book a quck call</a>
