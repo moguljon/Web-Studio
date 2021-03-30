@@ -4,7 +4,7 @@ import Navigation from './components/Navigation/Navigation';
 import Booking from './components/Booking/Booking';
 import Footer from './components/Footer/Footer';
 import ScrollToTop from './components/ScrollToTop';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';s
 import 'tachyons';
 import {Helmet} from "react-helmet";
 import Moguljon from './components/Moguljon/moguljon';
@@ -16,31 +16,9 @@ import Terms from './components/Terms/Terms';
 import Cookies from './components/Cookies/Cookies';
 import Resources from './components/Resources/Resources';
 import Bottom from './components/Bottom/Bottom';
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
-import Logo from '../src/img/noun-o.svg';
 
 function App() {
-
-  const [loading, setLoading] = useState(false);
-
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 500)
-  }, []);
-
-
     return (
-      loading ? 
-            
-      <div className='app'>
-        <div>
-          <img src={Logo} alt="brand" className='logo' />
-        </div>
-          <ClimbingBoxLoader color={'#8098ee'} loading={loading} size={40} />
-      </div>
-      :(
         <div>
         <Helmet>
           <title>Web Studios | Let's Build Your Brand</title>
@@ -63,8 +41,7 @@ function App() {
           <Bottom />
           <Footer />
         </Router>
-      </div>
-      )
+      </div> 
     )
   } 
 
