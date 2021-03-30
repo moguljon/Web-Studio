@@ -6,8 +6,6 @@ import Feature from '../Feature/Feature';
 import Story from '../Story/Story';
 import Work from '../Work/Work';
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
-import logo from '../../img/noun-o.svg';
-
 
 const Home = () => {
     const [loading, setLoading] = useState(false);
@@ -25,9 +23,6 @@ const Home = () => {
         loading ? 
             
         <div className='app'>
-          <div className='img2'>
-            <img src={logo} alt='brand representation' />
-          </div>
             <ClimbingBoxLoader color={'#8098ee'} loading={loading} size={40} />
         </div>
         :(

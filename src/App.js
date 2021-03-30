@@ -18,13 +18,8 @@ import Resources from './components/Resources/Resources';
 import Bottom from './components/Bottom/Bottom';
 
 function App() {
-  
-  
     return (
-        <div>
           
-          {
-         
               <div>
                 <Helmet>
                   <title>Web Studios | Let's Build Your Brand</title>
@@ -48,11 +43,7 @@ function App() {
                   <Footer />
                 </Router>
               </div>
-          
-          }
-       
-        </div>
-    );
+            )
   } 
 
 export default App;
