@@ -18,6 +18,7 @@ class Navigation extends Component {
             <ul className='navigation__list'>
               <li className='navigation__item'>
                 <a className='navigation__link' href='/portfolio'>Portfolio</a>
+               
               </li>
               <li className='navigation__item'>
                 <a className='navigation__link' href='https://publication.webstudios.io/'>Publication</a>

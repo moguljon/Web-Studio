@@ -1,32 +1,21 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import Header from '../Header/Header';
 import Endrose from '../Endorse/Endorse';
 import About from '../About/About';
 import Feature from '../Feature/Feature';
 import Story from '../Story/Story';
 import Work from '../Work/Work';
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+
 
 
 const Home = () => {
-    const [loading, setLoading] = useState(false);
-
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000)
-  }, []);
+  
 
   
     return(
 
-        loading ? 
-            
-        <div className='app'>
-            <ClimbingBoxLoader color={'#8098ee'} loading={loading} size={40} />
-        </div>
-        :(
+ 
+        
             <div>
             <Header />
             <Endrose />
@@ -38,7 +27,7 @@ const Home = () => {
            
             
         </div>
-        )
+      
       
     )
 }
