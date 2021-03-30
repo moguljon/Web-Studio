@@ -1,10 +1,10 @@
-import React,  {useState, useEffect} from 'react';
+import React from 'react';
 import './App.scss';
 import Navigation from './components/Navigation/Navigation';
 import Booking from './components/Booking/Booking';
 import Footer from './components/Footer/Footer';
 import ScrollToTop from './components/ScrollToTop';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';s
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import 'tachyons';
 import {Helmet} from "react-helmet";
 import Moguljon from './components/Moguljon/moguljon';
