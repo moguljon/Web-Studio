@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import './App.scss';
 import Navigation from './components/Navigation/Navigation';
 import Booking from './components/Booking/Booking';
@@ -16,34 +16,15 @@ import Terms from './components/Terms/Terms';
 import Cookies from './components/Cookies/Cookies';
 import Resources from './components/Resources/Resources';
 import Bottom from './components/Bottom/Bottom';
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
-import logo from '../src/img/noun-o.svg';
 
 function App() {
-  const [loading, setLoading] = useState(false);
-
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 1500)
-  }, []);
+  
   
     return (
         <div>
           
           {
          
-            loading ? 
-            
-            <div className='app'>
-              <div className='img2'>
-                <img src={logo} alt='brand representation' />
-              </div>
-                <ClimbingBoxLoader color={'#8098ee'} loading={loading} size={40} />
-            </div>
-            :
-            (
               <div>
                 <Helmet>
                   <title>Web Studios | Let's Build Your Brand</title>
@@ -67,7 +48,7 @@ function App() {
                   <Footer />
                 </Router>
               </div>
-            )
+          
           }
        
         </div>
