@@ -7,6 +7,7 @@ import Story from '../Story/Story';
 import Work from '../Work/Work';
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 
+
 const Home = () => {
     const [loading, setLoading] = useState(false);
 
@@ -14,7 +15,7 @@ const Home = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 1500)
+    }, 1000)
   }, []);
 
   
