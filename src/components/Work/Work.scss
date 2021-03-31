@@ -1,18 +1,18 @@
 @import './src/index.scss';
 
 .section-work {
-  padding: 1rem 0 10rem 0;
+  padding: 1rem 3rem 10rem 3rem;
   background-color: $color-white;
   color: #1b2025;
   font-family: sans-serif;
 
-  @include respond(tab-port) {
-    padding: 5rem 12rem;
-  }
+  // @include respond(tab-port) {
+  //   padding: 5rem 12rem;
+  // }
 
-  @include respond(phone) {
-    padding: 0 2rem 6rem 2rem;
-  }
+  // @include respond(phone) {
+  //   padding: 0 2rem 6rem 2rem;
+  // }
 
   &__box {
     margin-bottom: 8rem;
@@ -151,9 +151,9 @@
 
   &__content {
     background-color: #fff;
-    width: 50%;
+    width: 40%;
     min-height: 336px;
-    flex: 0 0 35%;
+    flex: 0 0 40%;
     padding: 48px 56px;
     box-shadow:  0 2rem 3.5rem rgba(0, 0, 0, .3);
     display: flex;

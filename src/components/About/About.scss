@@ -13,7 +13,8 @@
   }
 
   @include respond(tab-port) {
-   max-width: 50rem;
+    // WAS 50 REM
+   max-width: 80rem;
   }
 
   @include clearfix();
@@ -92,15 +93,7 @@
 //Section About
 .section-about {
   background-color: $color-grey;
-  padding: 2rem 0 20rem 0;
-
-  @include respond(tab-port) {
-    padding: 2rem 0 10rem 0;
-  }
-
-  @include respond(phone) {
-    padding: 2rem 2rem 10rem 2rem;
-  }
+  padding: 2rem 3rem 20rem 3rem;
 }
 
 .heading-secondary {

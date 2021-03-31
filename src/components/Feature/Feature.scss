@@ -1,17 +1,13 @@
 @import './src/index.scss';
 
 .section-features {
-  padding: 20rem 0;
+  padding: 20rem 3rem;
   background-image:linear-gradient(rgba(69, 69, 104, 0.5), rgba(0, 0, 0, 0.8)), url(img/main-small.jpg);
   background-size: cover;
   background-position: right;
   transform: skewY(0deg);
   position: relative;
   color: $color-black;
-
-  @include respond(phone) {
-    padding: 20rem 3rem;
-  }
 }
 
 .feature-box {

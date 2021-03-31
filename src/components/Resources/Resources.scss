@@ -4,7 +4,7 @@
     padding: 20rem 0 10rem 0;
     color: #32353b;
 
-    @include respond(phone) {
+    @include respond(tab-port) {
         padding: 20rem 3rem 12rem 3rem;
       }
 }
@@ -28,7 +28,6 @@
         @include respond(phone) {
             flex-direction: column;
           }
-        
     }
 
     &__all {
@@ -47,7 +46,6 @@
     &__img2 {
         width: 800px;
     }
-
     
     &__header-three {
         font-size: 1.7rem;
@@ -80,9 +78,16 @@
     margin-top: 3.5rem;
 }
 
-
 .content2 {
     height: 69rem;
+
+    @include respond(tab-port) {
+        height: 78rem;
+      }
+
+    @include respond(phone) {
+        height: 70rem;
+      }
 }
 
 .space {

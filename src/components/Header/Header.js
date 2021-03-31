@@ -63,7 +63,7 @@ const Header = () => {
         This creative platform leverages technology to create brands from inception to production. We understand that it is much easier to have a guiding hand that understands technology and uses it to develop solutions. Whether you are looking to start or start over, we've got you covered. 
         </p>
           <div>
-          <a href='https://calendly.com/webstudios/15min?month=2020-12' className='btn btn--main'>Book a quck call</a>
+          <a href='https://calendly.com/webstudios/15min?month=2020-12' className='btn btn--main' style={{marginBottom: '2rem'}}>Book a quck call</a>
           <Link to='/services' className='btn ghost display' style={{marginLeft: '2rem'}}>View Services</Link>
 
         </div>

@@ -6,29 +6,16 @@ import Feature from '../Feature/Feature';
 import Story from '../Story/Story';
 import Work from '../Work/Work';
 
-
-
 const Home = () => {
-  
-
-  
     return(
-
- 
-        
-            <div>
+        <div>
             <Header />
             <Endrose />
             <About />
             <Feature />
-            
             <Story />
             <Work />
-           
-            
         </div>
-      
-      
     )
 }
 
