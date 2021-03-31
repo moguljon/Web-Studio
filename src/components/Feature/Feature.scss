@@ -2,9 +2,9 @@
 
 .section-features {
   padding: 20rem 3rem;
-  background-image:linear-gradient(rgba(69, 69, 104, 0.5), rgba(0, 0, 0, 0.8)), url(img/main-small.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../img/feature.svg);
   background-size: cover;
-  background-position: right;
+  background-position: center;
   transform: skewY(0deg);
   position: relative;
   color: $color-black;

@@ -1,8 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet"; 
-// import ws from './img/W-S-logo.png';
-import astro from './img/resized.jpeg';
 import './Resources.scss';
 import canva from './img/canva1.jpg';
 import unsplash from './img/unsplash1.jpg';
@@ -11,6 +8,7 @@ import squarespace from './img/squarespace1.jpg';
 import shopify from './img/shopify1.jpg';
 import wix from './img/wix1.jpg';
 import webflow from './img/webflow.jpg';
+import resourcesheader from '../../img/resources.svg';
 
 const Resources = () => {
     return(
@@ -26,7 +24,7 @@ const Resources = () => {
             </div>  */}
             <div className='row'>
                 <div className='col-1-of-2'>
-                    <img src={astro} alt='blog' className='team' /> 
+                    <img src={resourcesheader} alt='blog' className='team' /> 
                 </div>
                 <div className='col-1-of-2 border'>
                     <h1 className='content__header-one'>Business Resources</h1>
