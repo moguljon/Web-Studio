@@ -23,6 +23,7 @@ function App() {
         <Helmet>
           <title>Web Studios | Let's Build Your Brand</title>
           <meta name="description" content='We leverage technology to create brands from inception to production because we understand that it is much easier to have a guiding hand that understands the technical details of creating a brand.' />
+          <link rel="canonical" href="https://www.webstudios.io/"></link>
         </Helmet>
         <Router>
           <ScrollToTop />
