@@ -1,1 +1,10 @@
 @import './src/index.scss';
+
+
+.header {
+    &__logo-box {
+        @include respond(phone) {
+            display: none;
+          }
+    }
+}

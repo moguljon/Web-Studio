@@ -9,10 +9,12 @@ import shopify from './img/shopify1.jpg';
 import wix from './img/wix1.jpg';
 import webflow from './img/webflow.jpg';
 import resourcesheader from '../../img/resources.svg';
+import Logo2 from '../Logo2/Logo2';
 
 const Resources = () => {
     return(
         <section className='section-resources'>
+            <Logo2 />
             <Helmet>
                 <title>Best Resources for Brands | Web Studios</title>
                 <meta name="description" content='A dedicated resource page helps brands get up and running with tools, software, and digitals assets needed to build a brand. Best of all, most of these resources are entirely free.' />

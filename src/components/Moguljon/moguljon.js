@@ -13,10 +13,12 @@ import shopify from './img/sprite/shopify-dark.svg';
 import react from './img/react.png';
 import sass from './img/sass.png';
 import css from './img/css.png';
+import Logo2 from '../Logo2/Logo2';
 
 const Moguljon = () => {
   return(
     <section className='section-list'>
+      <Logo2 />
       <Helmet>
          <title>Portfolio | Web Studios</title>
          <meta name="description" content='Our work speaks for itself; we have created unique websites that you as clients will value, take a look at some of the beautiful interfaces we have created for brands and our portfolio.' />

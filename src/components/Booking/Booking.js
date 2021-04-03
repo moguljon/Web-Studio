@@ -6,21 +6,17 @@ import { FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 // import ws from './img/W-S-logo.png';
 import Video from '../Video/Video';
+import Logo2 from '../Logo2/Logo2';
 
 class Booking extends Component {
   render() {
     return(
     <section className='section-book'>
-     
+      <Logo2 />
       <Helmet>
          <title>Booking | Web Studios</title>
          <meta name="description" content='Contact Web Studios with potential new projects and questions you may have. Thank you for visiting us.' />
       </Helmet>
-      {/* <div className='header__logo-box'>
-        <Link to='/' className='mobile-logo'>
-          <img src={ws} alt='alt' className='header__logo'/>
-        </Link>
-      </div>  */}
       <Video />
         
       <div className='tc mobile-header'>

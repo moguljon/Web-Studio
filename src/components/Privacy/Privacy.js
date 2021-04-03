@@ -1,10 +1,12 @@
 import React from 'react';
 import './Privacy.scss';
 import {Helmet} from "react-helmet";
+import Logo2 from '../Logo2/Logo2';
 
 const Privacy = () => {
     return(
         <div className='section-privacy'>
+            <Logo2 />
              <Helmet>
                 <title>Privacy Policy | Web Studios</title>
                 <meta name="description" content='Privacy Policy that allows you to give you more information on Web Studios' />

@@ -3,11 +3,12 @@ import './Prices.scss';
 import { Link } from 'react-router-dom';
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import {Helmet} from "react-helmet"; 
-// import ws from './img/W-S-logo.png';
+import Logo2 from '../Logo2/Logo2';
 
 const Prices = () => {
   return(
     <section className='section-tours'>
+      <Logo2 />
       <div className='u-center-text u-margin-bottom-big'>
         <h2 className='heading-secondary'>Services</h2>
       </div>

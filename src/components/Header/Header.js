@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.scss';
 import { Link } from 'react-router-dom';
 import Particles from 'react-particles-js';
-// import ws from './img/W-S-logo.png'
+import Logo2 from '../Logo2/Logo2';
 
 const Header = () => {
   return(
@@ -36,22 +36,8 @@ const Header = () => {
         }
     }} />
 </div>
+    <Logo2 />
 
-  
-  {/* <Link to='/'>
-        <div className='header__logo-box'>
-          <div className='new-logo'>
-            <p className='new-logo__brand'>W<span className='brand2'></span>&mdash;S</p>
-          </div>
-        </div>
-      </Link> */}
-
-
-      {/* <div className='header__logo-box'>
-        <Link to='/' className='mobile-logo'>
-          <img src={ws} alt='alt' className='header__logo'/>
-        </Link>
-      </div>  */}
       <div className='header__text-box'>
         <h1 className='heading-primary'>
           <span className='heading-primary--main tc'>Web Studios</span>

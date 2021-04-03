@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Logo.scss';
 
 const Logo = () => {
     return(
@@ -10,7 +11,7 @@ const Logo = () => {
                 <path d="M79.78 67.14l5.13.36-13.34-27.59-3.31 4.91zM44.1 62.86l3.23 4.06 5.8.31-5.55-8.43-.52-.01-3.01 4.01zM85.91 66.72l4.57.39-2.41-5.09z"/>
                 </svg>
             </Link>
-     </div> 
+        </div> 
 
     )
 }

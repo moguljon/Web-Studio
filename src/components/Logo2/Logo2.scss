@@ -1,0 +1,11 @@
+@import './src/index.scss';
+
+.logo2 {
+    display: none;
+
+    @include respond(phone) {
+      display: block;
+      padding: 0;
+      margin: 0;
+      }
+}
