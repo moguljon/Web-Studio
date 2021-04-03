@@ -6,9 +6,9 @@ import './Logo2.scss';
 const Logo2 = () => {
     return(
         <div>
-            <div className='logo2 header__logo-box'>
+            <div className='logo2 '>
                 <Link to='/' >
-                    <img src={ws} alt='alt' className='header__logo' />
+                    <img src={ws} alt='alt' className='logo2__image' />
                 </Link>
             </div>
         </div>  

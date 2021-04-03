@@ -5,7 +5,12 @@
 
     @include respond(phone) {
       display: block;
-      padding: 0;
-      margin: 0;
+      position: absolute;
+      top: 2.3rem; 
+      left: 3.3rem;
+      }
+
+      &__image {
+        height: 10rem;
       }
 }
