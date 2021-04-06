@@ -23,10 +23,6 @@ function App() {
         <Helmet>
           <title>Web Studios | Let's Build Your Brand</title>
           <meta name="description" content='We leverage technology to create brands from inception to production because we understand that it is much easier to have a guiding hand that understands the technical details of creating a brand.' />
-          <link rel="canonical" href="https://www.webstudios.io/"></link>>
-          <meta property="og:title" content=" app .js A Step-by-Step Guide to Setting Up Selenium-webdriver with Node.js" data-rh="true" />
-          <meta property="og:description" content=" app .js A dummies guide to getting up and running with selenium-webdriver" data-rh="true" />
-          <meta property="og:image" content="https://www.webstudios.io/static/media/resources.a660f562.svg" data-rh="true" />
         </Helmet>
         <Router>
           <ScrollToTop />

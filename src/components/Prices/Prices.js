@@ -27,7 +27,7 @@ const Prices = () => {
             <div className='prices__container container1'>
              <img src={img1} className='prices__img' alt="Explore plan"/>
               <p className='prices__paragraph1'>Explore Plan</p>
-              <h3 className='prices__header-three'>$260</h3>
+              <h3 className='prices__header-three'>$280</h3>
             </div>
             <div className='prices__other-container'>
               <div className='prices__content'>
