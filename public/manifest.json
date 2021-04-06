@@ -1,6 +1,12 @@
 {
   "short_name": "Web Studios",
   "name": "Web Studios",
+  "icons":[
+    {
+    "src": "noun-canva.png",
+    "type": "image/x-icon"
+    }
+],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
