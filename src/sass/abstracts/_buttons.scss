@@ -84,6 +84,20 @@
   border-radius: 100rem;
 }
 
+.btn--orange {
+  background-image: linear-gradient(to bottom right, $other-color, $other-color2);
+  color: #fff !important;
+  border-radius: 2px;
+  border-radius: 100rem;
+}
+
+.btn--green {
+  background-image: linear-gradient(to bottom right, $other-color5, $other-color6);
+  color: #fff !important;
+  border-radius: 2px;
+  border-radius: 100rem;
+}
+
 .btn--white::after {
   background-color: $color-white;
   border-radius: 100rem;
@@ -118,7 +132,6 @@
     
   }
 }
-
 
 a.btn.btn-outline {
   border: 1px solid $main-color;
