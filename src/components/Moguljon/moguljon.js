@@ -48,13 +48,13 @@ const Moguljon = () => {
         <img src={katie} alt='Katie Ray Website' className='work__img' width='500px' />
        </div>
        <div className='work__content'>
-         <h3 className='work__header-three'>Katie Ray Website, a redesign website to improve the design.</h3>
+         <h3 className='work__header-three'>Katie Ray Website, A Redesign Website to Improve the Design</h3>
          <p className='work__paragraph'>Web Design</p>
          <div className='work__btn-container'>
           <a href='https://portfolio.jonathanaguilar.live/' target='__blank' className='work__btn btn buttons'>View Project</a>
          </div>
          <div className='work__platforms'>
-          <h4 className='work__header-four'>Built with Custom Code With the Javascript Framework React, and Sass</h4>
+          <h4 className='work__header-four'>Built with Wix</h4>
          </div>
           <img src={wix} alt='Wix Logo' className='work__platform-img'/>
       </div>
@@ -70,7 +70,7 @@ const Moguljon = () => {
          <a href='https://newsmedia.jonathanaguilar.live/' target='__blank' className='work__btn btn buttons'>View Project</a>
          </div>
          <div className='work__platforms'>
-          <h4 className='work__header-four'>Built with Modern HTML5 and CSS3</h4>
+          <h4 className='work__header-four'>Built With Modern HTML5 and CSS3</h4>
          </div>
             <img src={react} alt='React Logo' className='work__platform-img' />
             <img src={sass} alt='Sass Logo' className='work__platform-img' />
@@ -89,7 +89,7 @@ const Moguljon = () => {
          <a href='https://moguljon.github.io/robofriends/' target='__blank' className='work__btn--2 btn'>View Project</a>
          </div>
          <div className='work__platforms'>
-            <h4 className='work__header-four'>Built with Custom Code With the Javascript Framework React, and Sass</h4>
+            <h4 className='work__header-four'>Built with React and Sass</h4>
           </div>
             <img src={react} alt='React logo' className='work__platform-img' />
        </div>
@@ -99,13 +99,13 @@ const Moguljon = () => {
         <img src={trillo} alt='Trillo Website' className='work__img' width='500px' />
        </div>
        <div className='work__content'>
-         <h3 className='work__header-three'>A demo hotel homepage.</h3>
+         <h3 className='work__header-three'>A Demo Hotel Homepage</h3>
          <p className='work__paragraph'>React Development, Web Design</p>
          <div className='work__btn-container'>
           <a href='https://trillo.jonathanaguilar.live/' target='__blank' className='work__btn--2 btn'>View Project</a>
          </div>
          <div className='work__platforms'>
-          <h4 className='work__header-four'>Built with Custom Code With Sass</h4>
+          <h4 className='work__header-four'>Built with Sass</h4>
          </div>
           <img src={sass} alt='sass website' className='work__platform-img' />
       </div>
