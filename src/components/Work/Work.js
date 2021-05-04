@@ -31,7 +31,7 @@ const Work = () => {
         <img src={katie} alt='Kaite Work' className='work__img' width='500px' />
        </div>
        <div className='work__content'>
-         <h3 className='work__header-three'>Katie Ray Website, a redesign website to improve the design.</h3>
+         <h3 className='work__header-three'>Katie Ray Website, A Redesign Website to Improve the Design</h3>
          <p className='work__paragraph'>Product, Web Design</p>
          <div className='work__btn-container'>
           <a href='https://www.katieraybathandglow.com/' target='__blank' className='work__btn btn buttons'>View Project</a>
