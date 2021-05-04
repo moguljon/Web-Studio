@@ -2,8 +2,8 @@ import React from 'react';
 import './Work.scss';
 import omi from './img/omni-removed.png';
 import mm from './img/mm.png';
-import portfolio from './img/portfolio.png';
 import { Link } from 'react-router-dom';
+import katie from '../../img/katie-project.png';
 
 const Work = () => {
   return(
@@ -28,13 +28,13 @@ const Work = () => {
      </div>
      <div className='tc other-work'>
        <div className='work__img-container other-container'>
-        <img src={portfolio} alt='' className='work__img' width='500px' />
+        <img src={katie} alt='Kaite Work' className='work__img' width='500px' />
        </div>
        <div className='work__content'>
-         <h3 className='work__header-three'>Personal portfolio with modern color and look.</h3>
-         <p className='work__paragraph'>Development, Web Design</p>
+         <h3 className='work__header-three'>Katie Ray Website, a redesign website to improve the design.</h3>
+         <p className='work__paragraph'>Product, Web Design</p>
          <div className='work__btn-container'>
-          <a href='https://portfolio.jonathanaguilar.live/' target='__blank' className='work__btn btn buttons'>View Project</a>
+          <a href='https://www.katieraybathandglow.com/' target='__blank' className='work__btn btn buttons'>View Project</a>
          </div>
        </div>
      </div>
