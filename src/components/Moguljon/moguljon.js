@@ -51,7 +51,7 @@ const Moguljon = () => {
          <h3 className='work__header-three'>Katie Ray Website, A Redesign Website to Improve the Design</h3>
          <p className='work__paragraph'>Web Design</p>
          <div className='work__btn-container'>
-          <a href='https://portfolio.jonathanaguilar.live/' target='__blank' className='work__btn btn buttons'>View Project</a>
+          <a href='https://www.katieraybathandglow.com/' target='__blank' className='work__btn btn buttons'>View Project</a>
          </div>
          <div className='work__platforms'>
           <h4 className='work__header-four'>Built with Wix</h4>
