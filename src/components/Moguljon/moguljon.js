@@ -1,6 +1,5 @@
 import React from 'react';
 import './moguljon.scss';
-import omi from './img/omni-removed.png';
 import mm from './img/mm.png';
 import {Helmet} from "react-helmet";
 import robofriends from './img/robofriends.png';
@@ -11,6 +10,7 @@ import sass from './img/sass.png';
 import Logo2 from '../Logo2/Logo2';
 import katie from '../../img/katie-project.png';
 import wix from '../../img/wix.svg';
+import miksii from '../../img/miksii.png'
 
 const Moguljon = () => {
   return(
@@ -38,7 +38,7 @@ const Moguljon = () => {
           <a href='https://moguljon.com/' target='__blank' className='work__btn btn buttons'>View Project</a>
          </div>
          <div className='work__platforms'>
-          <h4 className='work__header-four'>Built With Shopify</h4>
+          <h4 className='work__header-four'>Built with</h4>
          </div>
           <img src={shopify} alt='Shopify logo' className='work__platform-img' />
        </div>
@@ -48,32 +48,31 @@ const Moguljon = () => {
         <img src={katie} alt='Katie Ray Website' className='work__img' width='500px' />
        </div>
        <div className='work__content'>
-         <h3 className='work__header-three'>Katie Ray Website, A Redesign Website to Improve the Design</h3>
+         <h3 className='work__header-three'>Katie Ray, A Redesign Website to Improve the Design</h3>
          <p className='work__paragraph'>Web Design</p>
          <div className='work__btn-container'>
           <a href='https://www.katieraybathandglow.com/' target='__blank' className='work__btn btn buttons'>View Project</a>
          </div>
          <div className='work__platforms'>
-          <h4 className='work__header-four'>Built with Wix</h4>
+          <h4 className='work__header-four'>Built with</h4>
          </div>
           <img src={wix} alt='Wix Logo' className='work__platform-img'/>
       </div>
      </div>
      <div className='work tc'>
        <div className='work__img-container'>
-        <img src={omi} alt='Omnifood Website' className='work__img' width='500px'/>
+        <img src={miksii} alt='Miksi Website' className='work__img' width='500px'/>
        </div>
        <div className='work__content'>
          <h3 className='work__header-three'>Newsgrid, A Sports Related Website Meant for News Articles</h3>
          <p className='work__paragraph'>Development, Web Design</p>
          <div className='work__btn-container'>
-         <a href='https://newsmedia.jonathanaguilar.live/' target='__blank' className='work__btn btn buttons'>View Project</a>
+         <a href='https://miksii.com/' target='__blank' className='work__btn btn buttons'>View Project</a>
          </div>
          <div className='work__platforms'>
-          <h4 className='work__header-four'>Built With Modern HTML5 and CSS3</h4>
+          <h4 className='work__header-four'>Built with</h4>
          </div>
-            <img src={react} alt='React Logo' className='work__platform-img' />
-            <img src={sass} alt='Sass Logo' className='work__platform-img' />
+            <img src={shopify} alt='Shopify logo' className='work__platform-img' />
        </div>
      </div>
 
@@ -89,7 +88,7 @@ const Moguljon = () => {
          <a href='https://moguljon.github.io/robofriends/' target='__blank' className='work__btn--2 btn'>View Project</a>
          </div>
          <div className='work__platforms'>
-            <h4 className='work__header-four'>Built with React and Sass</h4>
+            <h4 className='work__header-four'>Built with</h4>
           </div>
             <img src={react} alt='React logo' className='work__platform-img' />
        </div>
@@ -105,7 +104,7 @@ const Moguljon = () => {
           <a href='https://trillo.jonathanaguilar.live/' target='__blank' className='work__btn--2 btn'>View Project</a>
          </div>
          <div className='work__platforms'>
-          <h4 className='work__header-four'>Built with Sass</h4>
+          <h4 className='work__header-four'>Built with</h4>
          </div>
           <img src={sass} alt='sass website' className='work__platform-img' />
       </div>

@@ -1,9 +1,9 @@
 import React from 'react';
 import './Work.scss';
-import omi from './img/omni-removed.png';
 import mm from './img/mm.png';
 import { Link } from 'react-router-dom';
 import katie from '../../img/katie-project.png';
+import miksi from '../../img/miksii.png';
 
 const Work = () => {
   return(
@@ -19,7 +19,7 @@ const Work = () => {
         <img src={mm} alt='' className='work__img' width='500px' />
        </div>
        <div className='work__content'>
-         <h3 className='work__header-three'>MogulJon, Website for Women Clothing</h3>
+         <h3 className='work__header-three'>MogulJon, A Website for Women Clothing</h3>
          <p className='work__paragraph'>Product, Web Design</p>
          <div className='work__btn-container'>
           <a href='https://moguljon.com/' target='__blank' className='work__btn btn buttons'>View Project</a>
@@ -40,13 +40,13 @@ const Work = () => {
      </div>
      <div className='work tc'>
        <div className='work__img-container'>
-        <img src={omi} alt='' className='work__img' width='500px' />
+        <img src={miksi} alt='' className='work__img' width='500px' />
        </div>
        <div className='work__content'>
-         <h3 className='work__header-three'>Beautiful React Application With Modern Design and Layout</h3>
+         <h3 className='work__header-three'>Miksi, A Beauty Website</h3>
          <p className='work__paragraph'>Development, Web Design</p>
          <div className='work__btn-container'>
-          <a href='https://omnifood.jonathanaguilar.live/' target='__blank' className='work__btn btn buttons'>View Project</a>
+          <a href='https://miksii.com/' target='__blank' className='work__btn btn buttons'>View Project</a>
          </div>
        </div>
      </div>
