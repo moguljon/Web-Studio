@@ -64,7 +64,7 @@ const Moguljon = () => {
         <img src={miksii} alt='Miksi Website' className='work__img' width='500px'/>
        </div>
        <div className='work__content'>
-         <h3 className='work__header-three'>Newsgrid, A Sports Related Website Meant for News Articles</h3>
+         <h3 className='work__header-three'>Miksi, A Beauty Website</h3>
          <p className='work__paragraph'>Development, Web Design</p>
          <div className='work__btn-container'>
          <a href='https://miksii.com/' target='__blank' className='work__btn btn buttons'>View Project</a>
